@@ -1,0 +1,693 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2025-10-30 11:23:46",
+  "majors": [
+    {
+      "id": "cntt-cd",
+      "slug": "cong-nghe-thong-tin-cao-dang",
+      "name": "Công nghệ thông tin",
+      "level": "Cao đẳng",
+      "career_group": "Công nghệ thông tin và Công nghệ kỹ thuật",
+      "riasec": [
+        "I",
+        "R",
+        "C"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
+        "form": "Xét tuyển học bạ hoặc điểm thi; có thể phỏng vấn định hướng nghề nghiệp"
+      },
+      "duration_months": 30,
+      "description": "Đào tạo kỹ thuật viên có năng lực phân tích, thiết kế, lập trình, triển khai và bảo trì phần mềm, cơ sở dữ liệu, hệ thống mạng và ứng dụng công nghệ thông tin trong doanh nghiệp; chú trọng năng lực thực hành, an toàn thông tin và cập nhật công nghệ mới như trí tuệ nhân tạo, điện toán đám mây và phát triển web.",
+      "skills": [
+        "Phân tích yêu cầu",
+        "lập trình C, Java, Python, JavaScript",
+        "thiết kế cơ sở dữ liệu",
+        "quản trị hệ thống",
+        "làm việc nhóm",
+        "giao tiếp kỹ thuật",
+        "an toàn thông tin",
+        "tư duy giải quyết vấn đề"
+      ],
+      "core_modules": [
+        "Nhập môn công nghệ thông tin",
+        "Cấu trúc dữ liệu và giải thuật",
+        "Cơ sở dữ liệu",
+        "Lập trình hướng đối tượng",
+        "Lập trình web",
+        "Hệ điều hành",
+        "Mạng máy tính",
+        "Phát triển ứng dụng",
+        "An toàn thông tin cơ bản",
+        "Thực tập nghề nghiệp"
+      ],
+      "jobs": [
+        "Lập trình viên ứng dụng",
+        "Kỹ thuật viên phần mềm",
+        "Quản trị cơ sở dữ liệu",
+        "Kỹ thuật viên mạng",
+        "Nhân viên hỗ trợ kỹ thuật",
+        "Nhân viên phát triển website"
+      ],
+      "further_study": "Liên thông đại học ngành Công nghệ thông tin, Khoa học máy tính, Hệ thống thông tin hoặc An toàn thông tin",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Phòng máy tính",
+        "mạng không dây",
+        "phòng thí nghiệm mạng",
+        "phòng học thông minh",
+        "ký túc xá",
+        "thư viện số"
+      ],
+      "tuition_range_vnd_per_term": [
+        5500000,
+        7500000
+      ],
+      "contacts": {
+        "unit": "Phòng Tuyển sinh và Truyền thông",
+        "phone": "0963.880.889",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Công nghệ thông tin",
+        "Lập trình",
+        "Web",
+        "Cơ sở dữ liệu",
+        "Mạng máy tính"
+      ]
+    },
+    {
+      "id": "tcnnh-cd",
+      "slug": "tai-chinh-ngan-hang-cao-dang",
+      "name": "Tài chính – Ngân hàng",
+      "level": "Cao đẳng",
+      "career_group": "Kinh doanh và Quản lý",
+      "riasec": [
+        "C",
+        "E",
+        "S"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
+        "form": "Xét tuyển học bạ hoặc điểm thi; có thể phỏng vấn đánh giá năng lực"
+      },
+      "duration_months": 30,
+      "description": "Đào tạo kỹ thuật viên có khả năng thực hiện nghiệp vụ tài chính, tín dụng, kế toán và thanh toán ngân hàng; sử dụng phần mềm tài chính và ngân hàng số; lập và phân tích báo cáo tài chính; giao tiếp và phục vụ khách hàng theo chuẩn mực đạo đức nghề nghiệp.",
+      "skills": [
+        "Nghiệp vụ kế toán ngân hàng",
+        "huy động vốn",
+        "tín dụng",
+        "thanh toán",
+        "lập báo cáo tài chính",
+        "Excel tài chính",
+        "giao tiếp khách hàng",
+        "tuân thủ pháp luật tài chính và thuế"
+      ],
+      "core_modules": [
+        "Nguyên lý tài chính – tiền tệ",
+        "Kế toán căn bản",
+        "Nghiệp vụ ngân hàng thương mại",
+        "Tín dụng và thẩm định",
+        "Thanh toán trong nước và quốc tế",
+        "Phân tích báo cáo tài chính",
+        "Pháp luật tài chính – thuế",
+        "Thực tập nghề nghiệp"
+      ],
+      "jobs": [
+        "Nhân viên giao dịch ngân hàng",
+        "Nhân viên tín dụng",
+        "Kế toán ngân hàng",
+        "Nhân viên huy động vốn",
+        "Nhân viên thanh toán quốc tế",
+        "Nhân viên phòng kế hoạch – tài chính doanh nghiệp"
+      ],
+      "further_study": "Liên thông đại học ngành Tài chính, Ngân hàng, Kế toán hoặc Kinh tế",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Phòng thực hành kế toán – ngân hàng",
+        "phần mềm mô phỏng giao dịch",
+        "phòng máy tính",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        5200000,
+        7200000
+      ],
+      "contacts": {
+        "unit": "Phòng Tuyển sinh và Truyền thông",
+        "phone": "0963.880.889",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Tài chính",
+        "Ngân hàng",
+        "Kế toán",
+        "Tín dụng",
+        "Thanh toán",
+        "Fintech"
+      ]
+    },
+    {
+      "id": "kt-cd",
+      "slug": "ke-toan-cao-dang",
+      "name": "Kế toán",
+      "level": "Cao đẳng",
+      "career_group": "Kinh doanh và Quản lý",
+      "riasec": [
+        "C",
+        "E"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
+        "form": "Xét tuyển học bạ hoặc điểm thi; có thể phỏng vấn đánh giá năng lực"
+      },
+      "duration_months": 30,
+      "description": "Đào tạo kỹ thuật viên kế toán có khả năng tổ chức hạch toán, ghi sổ, tổng hợp và lập báo cáo tài chính, báo cáo thuế; sử dụng phần mềm kế toán và hóa đơn điện tử; phối hợp công tác kế toán trong doanh nghiệp, đơn vị hành chính sự nghiệp và tổ chức kinh tế.",
+      "skills": [
+        "Hạch toán kế toán",
+        "lập báo cáo tài chính",
+        "báo cáo quản trị",
+        "kê khai và quyết toán thuế",
+        "sử dụng phần mềm kế toán",
+        "kiểm soát chứng từ",
+        "giao tiếp nghề nghiệp",
+        "tuân thủ pháp luật và đạo đức nghề kế toán"
+      ],
+      "core_modules": [
+        "Nguyên lý kế toán",
+        "Kế toán tài chính",
+        "Kế toán quản trị",
+        "Thuế và kế toán thuế",
+        "Kế toán máy với phần mềm",
+        "Phân tích báo cáo tài chính",
+        "Kiểm soát nội bộ cơ bản",
+        "Thực tập nghề nghiệp"
+      ],
+      "jobs": [
+        "Kế toán tổng hợp",
+        "Kế toán công nợ",
+        "Kế toán kho",
+        "Kế toán tiền lương",
+        "Nhân viên kế toán thuế",
+        "Trợ lý kiểm toán",
+        "Thủ quỹ"
+      ],
+      "further_study": "Liên thông đại học ngành Kế toán, Kiểm toán, Tài chính – Ngân hàng",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Phòng thực hành kế toán",
+        "phần mềm kế toán",
+        "phòng máy tính",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        5000000,
+        7000000
+      ],
+      "contacts": {
+        "unit": "Phòng Tuyển sinh và Truyền thông",
+        "phone": "0963.880.889",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Kế toán",
+        "Báo cáo tài chính",
+        "Thuế",
+        "Kế toán máy"
+      ]
+    },
+    {
+      "id": "dkđt-cd",
+      "slug": "cong-nghe-ky-thuat-dien-dien-tu-cao-dang",
+      "name": "Công nghệ kỹ thuật điện, điện tử",
+      "level": "Cao đẳng",
+      "career_group": "Công nghệ kỹ thuật",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
+        "form": "Xét tuyển học bạ hoặc điểm thi; kiểm tra năng lực thực hành khi cần"
+      },
+      "duration_months": 30,
+      "description": "Đào tạo kỹ thuật viên có khả năng thiết kế, lắp đặt, vận hành, kiểm tra, bảo trì và sửa chữa hệ thống điện, điện tử công nghiệp và dân dụng; lập trình điều khiển thiết bị bằng bộ điều khiển logic khả trình và màn hình giao diện người – máy; tuân thủ quy trình an toàn và tiết kiệm năng lượng.",
+      "skills": [
+        "Đọc và triển khai bản vẽ điện",
+        "đấu nối mạch điện",
+        "lập trình PLC và HMI",
+        "sử dụng thiết bị đo",
+        "bảo trì hệ thống điện",
+        "phân tích và khắc phục sự cố",
+        "làm việc nhóm",
+        "an toàn điện"
+      ],
+      "core_modules": [
+        "Mạch điện",
+        "Điện tử cơ bản",
+        "Kỹ thuật số",
+        "Trang bị điện",
+        "Điện công nghiệp",
+        "PLC và HMI",
+        "Biến tần và động cơ",
+        "AutoCAD Electrical",
+        "An toàn điện",
+        "Thực tập nghề nghiệp"
+      ],
+      "jobs": [
+        "Kỹ thuật viên điện – điện tử",
+        "Nhân viên bảo trì hệ thống",
+        "Kỹ thuật viên PLC",
+        "Nhân viên lắp đặt và vận hành thiết bị điện",
+        "Nhân viên kỹ thuật tòa nhà"
+      ],
+      "further_study": "Liên thông đại học ngành Kỹ thuật điện, Kỹ thuật điện tử, Tự động hóa hoặc Cơ điện tử",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Xưởng điện – điện tử",
+        "bộ thí nghiệm PLC – biến tần",
+        "dụng cụ đo",
+        "phòng học thực hành",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        5400000,
+        7400000
+      ],
+      "contacts": {
+        "unit": "Phòng Tuyển sinh và Truyền thông",
+        "phone": "0963.880.889",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Điện",
+        "Điện tử",
+        "PLC",
+        "Biến tần",
+        "Bảo trì",
+        "An toàn điện"
+      ]
+    },
+    {
+      "id": "oto-cd",
+      "slug": "cong-nghe-o-to-cao-dang",
+      "name": "Công nghệ ô tô",
+      "level": "Cao đẳng",
+      "career_group": "Công nghệ kỹ thuật",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
+        "form": "Xét tuyển học bạ hoặc điểm thi; kiểm tra năng lực thực hành khi cần"
+      },
+      "duration_months": 30,
+      "description": "Đào tạo kỹ thuật viên có năng lực kiểm tra, chẩn đoán, bảo dưỡng và sửa chữa các hệ thống cơ khí, điện, điện tử và điều khiển trên ô tô; sử dụng thiết bị đo kiểm và phần mềm chẩn đoán; tổ chức và quản lý quy trình bảo dưỡng – sửa chữa theo tác phong công nghiệp và an toàn lao động.",
+      "skills": [
+        "Đọc hiểu tài liệu kỹ thuật",
+        "chẩn đoán và sửa chữa hệ thống động cơ, truyền động, phanh, lái, treo, điện – điện tử",
+        "sử dụng thiết bị chẩn đoán",
+        "giao tiếp và tư vấn kỹ thuật",
+        "quản lý xưởng"
+      ],
+      "core_modules": [
+        "Cấu tạo ô tô",
+        "Động cơ đốt trong",
+        "Hệ thống truyền lực",
+        "Hệ thống điện – điện tử ô tô",
+        "Chẩn đoán ô tô",
+        "Điều hòa không khí",
+        "An toàn và bảo dưỡng",
+        "Thực tập nghề nghiệp"
+      ],
+      "jobs": [
+        "Kỹ thuật viên bảo dưỡng – sửa chữa",
+        "Nhân viên chẩn đoán",
+        "Nhân viên kiểm định",
+        "Cố vấn dịch vụ",
+        "Quản lý xưởng",
+        "Nhân viên kinh doanh phụ tùng và thiết bị"
+      ],
+      "further_study": "Liên thông đại học ngành Công nghệ kỹ thuật ô tô, Cơ khí động lực hoặc Cơ điện tử",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Xưởng thực hành ô tô",
+        "thiết bị chẩn đoán",
+        "phòng học thực hành",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        5600000,
+        7800000
+      ],
+      "contacts": {
+        "unit": "Phòng Tuyển sinh và Truyền thông",
+        "phone": "0963.880.889",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Ô tô",
+        "Bảo dưỡng",
+        "Chẩn đoán",
+        "Điện ô tô",
+        "Dịch vụ kỹ thuật"
+      ]
+    },
+    {
+      "id": "khct-cd",
+      "slug": "khoa-hoc-cay-trong-cao-dang",
+      "name": "Khoa học cây trồng",
+      "level": "Cao đẳng",
+      "career_group": "Nông nghiệp, Lâm nghiệp và Thủy sản",
+      "riasec": [
+        "R",
+        "I"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
+        "form": "Xét tuyển học bạ hoặc điểm thi; phỏng vấn định hướng nghề nghiệp"
+      },
+      "duration_months": 30,
+      "description": "Đào tạo kỹ thuật viên có kiến thức, kỹ năng và năng lực tổ chức, điều hành sản xuất nông nghiệp; nhân giống, chăm sóc, thu hoạch, bảo quản, phân tích và đánh giá hiệu quả sản xuất cây trồng; áp dụng công nghệ sinh học, cơ giới hóa và chuyển đổi số trong sản xuất nông nghiệp bền vững.",
+      "skills": [
+        "Nhận biết sinh lý, sinh thái cây trồng",
+        "thực hiện quy trình nhân giống, trồng, chăm sóc và thu hoạch",
+        "sử dụng thiết bị đo và hệ thống tưới tự động",
+        "hướng dẫn kỹ thuật và lập kế hoạch sản xuất cây trồng"
+      ],
+      "core_modules": [
+        "Cây trồng đại cương",
+        "Thổ nhưỡng và dinh dưỡng cây trồng",
+        "Kỹ thuật nhân giống",
+        "Kỹ thuật trồng cây công nghiệp và cây lương thực",
+        "Bảo vệ thực vật",
+        "Kinh tế nông nghiệp",
+        "Công nghệ sau thu hoạch",
+        "Thực tập nghề nghiệp"
+      ],
+      "jobs": [
+        "Kỹ thuật viên trồng trọt",
+        "Nhân viên kỹ thuật nông nghiệp",
+        "Cán bộ khuyến nông",
+        "Nhân viên kỹ thuật hợp tác xã",
+        "Nhân viên doanh nghiệp phân bón, thuốc bảo vệ thực vật"
+      ],
+      "further_study": "Liên thông đại học ngành Khoa học cây trồng, Nông học hoặc Công nghệ sinh học",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Khu thực hành nông nghiệp",
+        "nhà lưới, vườn ươm",
+        "thiết bị tưới",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        4800000,
+        6500000
+      ],
+      "contacts": {
+        "unit": "Phòng Tuyển sinh và Truyền thông",
+        "phone": "0963.880.889",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Cây trồng",
+        "Nông nghiệp",
+        "Giống",
+        "Kỹ thuật trồng trọt"
+      ]
+    },
+    {
+      "id": "nncncao-cd",
+      "slug": "nong-nghiep-cong-nghe-cao-cao-dang",
+      "name": "Nông nghiệp công nghệ cao",
+      "level": "Cao đẳng",
+      "career_group": "Nông nghiệp, Lâm nghiệp và Thủy sản",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
+        "form": "Xét tuyển học bạ hoặc điểm thi; phỏng vấn định hướng nghề nghiệp"
+      },
+      "duration_months": 30,
+      "description": "Đào tạo kỹ thuật viên có khả năng ứng dụng công nghệ sinh học, công nghệ tự động hóa, công nghệ số và các tiến bộ khoa học kỹ thuật trong sản xuất nông nghiệp hiện đại; thiết kế, vận hành và quản lý hệ thống nhà kính, tưới tiêu tự động và cảm biến môi trường; quản lý dữ liệu và truy xuất nguồn gốc sản phẩm nông nghiệp.",
+      "skills": [
+        "Thiết kế và vận hành hệ thống nhà màng, nhà kính",
+        "sử dụng cảm biến, phần mềm quản lý nông trại",
+        "nuôi cấy mô, nhân giống và quản lý dinh dưỡng cây trồng",
+        "ứng dụng IoT và AI trong sản xuất nông nghiệp",
+        "phân tích dữ liệu canh tác"
+      ],
+      "core_modules": [
+        "Công nghệ sinh học nông nghiệp",
+        "Cảm biến và tự động hóa trong nông nghiệp",
+        "Hệ thống tưới tiêu tự động",
+        "Quản lý sản xuất nông nghiệp",
+        "Trồng trọt thông minh",
+        "Phân tích dữ liệu môi trường",
+        "Thực tập nghề nghiệp"
+      ],
+      "jobs": [
+        "Kỹ thuật viên nông nghiệp công nghệ cao",
+        "Nhân viên kỹ thuật nhà kính",
+        "Cán bộ kỹ thuật tại trung tâm nông nghiệp công nghệ cao",
+        "Nhân viên khởi nghiệp nông nghiệp số",
+        "Nhân viên quản lý sản xuất tại trang trại"
+      ],
+      "further_study": "Liên thông đại học ngành Nông nghiệp công nghệ cao, Công nghệ sinh học, Khoa học cây trồng hoặc Quản lý tài nguyên nông nghiệp",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Nhà kính",
+        "hệ thống cảm biến",
+        "phòng thí nghiệm mô – vi sinh",
+        "phòng học thực hành",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        5200000,
+        7000000
+      ],
+      "contacts": {
+        "unit": "Phòng Tuyển sinh và Truyền thông",
+        "phone": "0963.880.889",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Nông nghiệp",
+        "Công nghệ cao",
+        "IoT",
+        "Tự động hóa",
+        "Sinh học"
+      ]
+    },
+    {
+      "id": "cspcs-cd",
+      "slug": "cong-nghe-san-xuat-cac-san-pham-cao-su-cao-dang",
+      "name": "Công nghệ sản xuất các sản phẩm cao su",
+      "level": "Cao đẳng",
+      "career_group": "Công nghệ kỹ thuật",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
+        "form": "Xét tuyển học bạ hoặc điểm thi; kiểm tra năng lực thực hành khi cần"
+      },
+      "duration_months": 30,
+      "description": "Đào tạo kỹ thuật viên có kiến thức và kỹ năng về quy trình chế biến, phối trộn, lưu hóa, tạo hình, kiểm định và sản xuất các sản phẩm cao su kỹ thuật; có khả năng vận hành, bảo trì thiết bị, kiểm tra chất lượng và cải tiến công nghệ sản xuất trong nhà máy cao su công nghiệp.",
+      "skills": [
+        "Hiểu và thực hiện quy trình phối trộn, cán luyện, ép và lưu hóa cao su",
+        "vận hành thiết bị sản xuất",
+        "kiểm tra chất lượng",
+        "ghi chép, thống kê sản xuất",
+        "tuân thủ an toàn và 5S trong nhà máy",
+        "ứng dụng tự động hóa trong chế biến cao su"
+      ],
+      "core_modules": [
+        "Hóa học cao su",
+        "Vật liệu polyme",
+        "Quy trình sản xuất sản phẩm cao su",
+        "Thiết bị và công nghệ chế biến",
+        "Kiểm tra chất lượng sản phẩm",
+        "An toàn lao động",
+        "Quản lý sản xuất",
+        "Thực tập nghề nghiệp"
+      ],
+      "jobs": [
+        "Kỹ thuật viên sản xuất sản phẩm cao su",
+        "Nhân viên vận hành dây chuyền",
+        "Nhân viên QC/QA",
+        "Nhân viên phòng kỹ thuật, phòng vật liệu",
+        "Cán bộ tổ sản xuất"
+      ],
+      "further_study": "Liên thông đại học ngành Công nghệ vật liệu, Công nghệ kỹ thuật hóa học, Công nghệ cao su hoặc Kỹ thuật công nghiệp",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Xưởng cao su",
+        "máy cán luyện",
+        "máy ép lưu hóa",
+        "phòng kiểm định vật liệu",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        5300000,
+        7300000
+      ],
+      "contacts": {
+        "unit": "Phòng Tuyển sinh và Truyền thông",
+        "phone": "0963.880.889",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Cao su",
+        "Vật liệu",
+        "Chế biến",
+        "Sản xuất công nghiệp"
+      ]
+    },
+    {
+      "id": "hoahoc-cd",
+      "slug": "cong-nghe-ky-thuat-hoa-hoc-cao-dang",
+      "name": "Công nghệ kỹ thuật hóa học",
+      "level": "Cao đẳng",
+      "career_group": "Công nghệ kỹ thuật",
+      "riasec": [
+        "I",
+        "R"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
+        "form": "Xét tuyển học bạ hoặc điểm thi; phỏng vấn đánh giá năng lực"
+      },
+      "duration_months": 30,
+      "description": "Đào tạo kỹ thuật viên có kiến thức và kỹ năng vận hành, kiểm soát và cải tiến các quá trình công nghệ hóa học; phân tích, kiểm nghiệm và đánh giá chất lượng nguyên liệu, sản phẩm hóa chất, vật liệu; đảm bảo an toàn, bảo vệ môi trường và phát triển sản xuất xanh.",
+      "skills": [
+        "Vận hành thiết bị phản ứng",
+        "thực hiện thí nghiệm pha chế, chưng cất, tách, tinh chế",
+        "phân tích mẫu",
+        "kiểm tra chất lượng sản phẩm",
+        "áp dụng quy trình an toàn hóa chất và ISO trong sản xuất"
+      ],
+      "core_modules": [
+        "Hóa học đại cương",
+        "Hóa vô cơ – hữu cơ",
+        "Hóa phân tích",
+        "Quá trình và thiết bị công nghệ hóa học",
+        "Công nghệ hóa chất cơ bản",
+        "Phân tích vật liệu",
+        "An toàn và môi trường công nghiệp",
+        "Thực tập nghề nghiệp"
+      ],
+      "jobs": [
+        "Kỹ thuật viên hóa học",
+        "Nhân viên QC/QA",
+        "Nhân viên phòng thí nghiệm",
+        "Nhân viên kỹ thuật sản xuất vật liệu, phân bón, cao su, sơn",
+        "Cán bộ kỹ thuật môi trường"
+      ],
+      "further_study": "Liên thông đại học ngành Công nghệ kỹ thuật hóa học, Hóa học ứng dụng hoặc Kỹ thuật môi trường",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Phòng thí nghiệm hóa học",
+        "thiết bị đo hiện đại",
+        "xưởng hóa chất",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        5400000,
+        7400000
+      ],
+      "contacts": {
+        "unit": "Phòng Tuyển sinh và Truyền thông",
+        "phone": "0963.880.889",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Hóa học",
+        "Công nghệ",
+        "Phân tích",
+        "Sản xuất xanh"
+      ]
+    },
+    {
+      "id": "moitruong-cd",
+      "slug": "cong-nghe-ky-thuat-moi-truong-cao-dang",
+      "name": "Công nghệ kỹ thuật môi trường",
+      "level": "Cao đẳng",
+      "career_group": "Công nghệ kỹ thuật",
+      "riasec": [
+        "I",
+        "R",
+        "S"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
+        "form": "Xét tuyển học bạ hoặc điểm thi; phỏng vấn định hướng nghề nghiệp"
+      },
+      "duration_months": 30,
+      "description": "Đào tạo kỹ thuật viên có kiến thức và kỹ năng vận hành, kiểm soát, phân tích, thiết kế và bảo trì hệ thống xử lý nước, khí, rác thải; quan trắc và đánh giá môi trường; ứng dụng công nghệ xanh, năng lượng tái tạo và chuyển đổi số trong quản lý môi trường hiện đại.",
+      "skills": [
+        "Lấy mẫu và phân tích môi trường",
+        "vận hành hệ thống xử lý nước thải, khí thải, rác thải",
+        "thiết kế hệ thống xử lý",
+        "sử dụng thiết bị đo và phần mềm quản lý môi trường",
+        "tuân thủ an toàn và quy định pháp luật về bảo vệ môi trường"
+      ],
+      "core_modules": [
+        "Môi trường đại cương",
+        "Công nghệ xử lý nước thải",
+        "Công nghệ xử lý khí thải",
+        "Quản lý chất thải rắn",
+        "Quan trắc môi trường",
+        "Hóa sinh môi trường",
+        "Năng lượng tái tạo",
+        "Thực tập nghề nghiệp"
+      ],
+      "jobs": [
+        "Kỹ thuật viên môi trường",
+        "Nhân viên vận hành hệ thống xử lý",
+        "Nhân viên phân tích – quan trắc",
+        "Nhân viên tư vấn pháp lý môi trường",
+        "Cán bộ kỹ thuật môi trường tại doanh nghiệp, khu công nghiệp"
+      ],
+      "further_study": "Liên thông đại học ngành Công nghệ kỹ thuật môi trường, Quản lý tài nguyên và môi trường hoặc Công nghệ sinh học",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Phòng thí nghiệm môi trường",
+        "hệ thống xử lý nước thải mô phỏng",
+        "thiết bị đo và quan trắc",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        5200000,
+        7200000
+      ],
+      "contacts": {
+        "unit": "Phòng Tuyển sinh và Truyền thông",
+        "phone": "0963.880.889",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Môi trường",
+        "Xử lý nước",
+        "Năng lượng tái tạo",
+        "Quan trắc"
+      ]
+    }
+  ]
+}

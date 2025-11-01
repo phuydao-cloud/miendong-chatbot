@@ -1,0 +1,9 @@
+MIENDONG Majors Validation Report — 2025-10-30 11:23:46
+Input file: /mnt/data/069df5cb-cbe6-43d3-935f-124f2e377f56.xlsx
+Sheet: Majors
+Total rows read: 10
+JSON output: /mnt/data/majors.json
+
+✅ No critical errors found.
+
+ℹ️ No warnings.

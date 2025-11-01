@@ -6,6 +6,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import { fileURLToPath } from 'url';
 
+
 function envCheck() {
   const need = ['OPENAI_API_KEY', 'CLIENT_URL', 'ALLOWED_ORIGINS', 'GOOGLE_APPLICATION_CREDENTIALS'];
   need.forEach(k => {
@@ -30,10 +31,9 @@ envCheck();
 
 app.get('/healthz', (req, res) => res.status(200).json({ ok: true, ts: Date.now() }));
 
-const admin = require('firebase-admin');
-admin.initializeApp({
-  credential: admin.credential.applicationDefault()
-});
+import admin from 'firebase-admin';
+admin.initializeApp({ credential: admin.credential.applicationDefault() });
+
 
 
 // Node 18+ có sẵn fetch toàn cục; không cần node-fetch
