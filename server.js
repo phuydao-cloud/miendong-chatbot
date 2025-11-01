@@ -29,7 +29,6 @@ envCheck();
 //   console.log(`Server listening on port ${PORT}`);
 // });
 
-app.get('/healthz', (req, res) => res.status(200).json({ ok: true, ts: Date.now() }));
 
 import admin from 'firebase-admin';
 admin.initializeApp({ credential: admin.credential.applicationDefault() });
@@ -47,6 +46,8 @@ const PORT = parseInt(process.env.PORT || '10000', 10);
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY || '';
 const APP_SECRET = process.env.APP_SECRET || '';
 const MODEL = process.env.OPENAI_MODEL || 'gpt-4o-mini';
+
+app.get('/healthz', (req, res) => res.status(200).json({ ok: true, ts: Date.now() }));
 
 // ===== Middlewares =====
 app.use(cors());
