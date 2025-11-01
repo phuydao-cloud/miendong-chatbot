@@ -6,6 +6,36 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import { fileURLToPath } from 'url';
 
+function envCheck() {
+  const need = ['OPENAI_API_KEY', 'CLIENT_URL', 'ALLOWED_ORIGINS', 'GOOGLE_APPLICATION_CREDENTIALS'];
+  need.forEach(k => {
+    if (!process.env[k] || !String(process.env[k]).trim()) {
+      console.error(`[ENV] Missing: ${k}`);
+    }
+  });
+  console.log(
+    '[ENV CHECK]',
+    `NODE_ENV=${process.env.NODE_ENV}`,
+    `OPENAI_API_KEY.len=${(process.env.OPENAI_API_KEY || '').length}`,
+    `PROJECT=${process.env.OPENAI_PROJECT || '(empty)'}`,
+    `GAC=${process.env.GOOGLE_APPLICATION_CREDENTIALS ? 'set' : 'missing'}`
+  );
+}
+envCheck();
+
+// const PORT = parseInt(process.env.PORT || '10000', 10);
+// app.listen(PORT, '0.0.0.0', () => {
+//   console.log(`Server listening on port ${PORT}`);
+// });
+
+app.get('/healthz', (req, res) => res.status(200).json({ ok: true, ts: Date.now() }));
+
+const admin = require('firebase-admin');
+admin.initializeApp({
+  credential: admin.credential.applicationDefault()
+});
+
+
 // Node 18+ có sẵn fetch toàn cục; không cần node-fetch
 dotenv.config({ override: true });
 
@@ -13,7 +43,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
-const PORT = process.env.PORT || 8788;
+const PORT = parseInt(process.env.PORT || '10000', 10);
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY || '';
 const APP_SECRET = process.env.APP_SECRET || '';
 const MODEL = process.env.OPENAI_MODEL || 'gpt-4o-mini';
