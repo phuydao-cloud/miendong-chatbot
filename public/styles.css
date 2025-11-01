@@ -1,0 +1,731 @@
+/* =========================
+   Miendong Chatbot – styles.css
+   Khớp với index.html & app.js
+   ========================= */
+
+/* Reset & base */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+:root {
+    --brand: #2754a5;
+    /* xanh thương hiệu */
+    --accent: #00AE5A;
+    /* xanh điểm nhấn */
+    --bg: #f6f8fb;
+    --text: #1f2937;
+    --bubble: #eef3ff;
+    --border: #e5e7eb;
+    --muted: #9aa0a6;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+/* Brand bar */
+.brand-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--brand);
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 10px;
+    max-width: 1100px;
+    margin: 12px auto 8px;
+    border: 1px solid #00AE5A;
+}
+
+.brand-logo {
+    height: 36px;
+}
+
+.brand-title {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: .2px;
+}
+
+.session-id {
+    margin-left: auto;
+    opacity: .9;
+}
+
+/* Layout */
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 16px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 12px 16px;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    border-radius: 3%;
+    padding: 8px 8px;
+    box-shadow: 2px 0 2px #00AE5A;
+}
+
+.sidebar {
+    border-radius: 3%;
+    padding: 8px 8px;
+    box-shadow: 2px 0 2px #00AE5A;
+}
+
+.sidebar .card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+
+@media (max-width: 900px) {
+    .layout {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+/* Messages */
+.messages {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    max-height: 64vh;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.msg {
+    padding: 12px 14px;
+    margin: 8px 0;
+    border-radius: 12px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    box-shadow: 0 1px 0 rgba(17, 24, 39, .02);
+}
+
+.msg.user {
+    background: #e9f2ff;
+    border: 1px solid #d6e3ff;
+    align-self: flex-end;
+    font-weight: 600;
+}
+
+.msg.assistant {
+    background: var(--bubble);
+    border: 1px solid rgba(0, 0, 0, .06);
+    white-space: normal;
+    line-height: 1.45;
+}
+
+/* Markdown inside assistant messages */
+.msg.assistant h1,
+.msg.assistant h2,
+.msg.assistant h3 {
+    color: var(--brand);
+    margin: 6px 0 4px;
+    line-height: 0.5;
+    font-weight: 700;
+}
+
+.msg.assistant h1 {
+    font-size: 1.32rem;
+}
+
+.msg.assistant h2 {
+    font-size: 1.18rem;
+}
+
+.msg.assistant h3 {
+    font-size: 1.05rem;
+}
+
+.msg.assistant p {
+    margin: 4px 0px;
+    font-size: 1rem;
+}
+
+.msg.assistant ul,
+.msg.assistant ol {
+    margin: 6px 0 6px 1rem;
+}
+
+.msg.assistant li {
+    margin: 2px 0;
+}
+
+.msg.assistant hr {
+    border: 0;
+    border-top: 1px solid #dbe2f0;
+    margin: 8px 0;
+}
+
+/* Code & preformatted */
+.msg.assistant code {
+    background: #fff;
+    border: 1px solid var(--border);
+    padding: 2px 6px;
+    border-radius: 6px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.msg.assistant pre {
+    background: #0f172a;
+    color: #e5e7eb;
+    padding: 10px 12px;
+    border-radius: 10px;
+    overflow: auto;
+    border: 1px solid #0b1220;
+}
+
+.msg.assistant pre code {
+    background: transparent;
+    border: none;
+    color: inherit;
+    padding: 0;
+}
+
+/* Blockquote & tables */
+.msg.assistant blockquote {
+    margin: 8px 0;
+    padding: 6px 10px;
+    border-left: 4px solid var(--brand);
+    background: #fff;
+    border-radius: 6px;
+    color: #334155;
+}
+
+.msg.assistant table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 8px 0;
+}
+
+.msg.assistant th,
+.msg.assistant td {
+    border: 1px solid var(--border);
+    padding: 8px;
+    text-align: left;
+}
+
+.msg.assistant thead th {
+    background: #f3f4f6;
+}
+
+/* Typing indicator */
+.typing {
+    margin: 6px 0 2px;
+}
+
+.typing span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 4px;
+    border-radius: 50%;
+    background: var(--muted);
+    animation: typing 1.2s infinite ease-in-out;
+}
+
+.typing span:nth-child(2) {
+    animation-delay: .15s;
+}
+
+.typing span:nth-child(3) {
+    animation-delay: .3s;
+}
+
+@keyframes typing {
+
+    0%,
+    80%,
+    100% {
+        transform: scale(0);
+    }
+
+    40% {
+        transform: scale(1);
+    }
+}
+
+/* Composer */
+.composer {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    margin-top: 6px;
+}
+
+.composer textarea {
+    flex: 1;
+    min-height: 44px;
+    resize: vertical;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #cbd5e1;
+    background: #fff;
+}
+
+.composer button {
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid var(--brand);
+    background: #fff;
+    color: var(--brand);
+    cursor: pointer;
+    font-weight: 600;
+    transition: all .15s ease;
+}
+
+.composer button#send {
+    background: var(--brand);
+    color: #fff;
+}
+
+.composer button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(39, 84, 165, .16);
+}
+
+.composer button:disabled {
+    opacity: .6;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+/* Suggestions (quick replies) */
+.suggestions {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.suggestion-btn {
+    padding: 6px 10px;
+    border: 1px solid var(--brand);
+    border-radius: 8px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.suggestion-btn:hover {
+    background: #f5f7ff;
+}
+
+/* Footer */
+.footer {
+    max-width: 1100px;
+    margin: 8px auto 24px;
+    text-align: center;
+    opacity: .85;
+}
+
+/* Utilities */
+.hidden {
+    display: none !important;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Small screens */
+@media (max-width:640px) {
+    .messages {
+        max-height: 58vh;
+    }
+
+    .msg {
+        padding: 10px 12px;
+    }
+
+    .brand-logo {
+        height: 32px;
+    }
+
+    .brand-title {
+        font-size: 15px;
+    }
+}
+
+/* Optional: subtle scrollbar for messages (Chromium/WebKit) */
+.messages::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+
+.messages::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 8px;
+}
+
+.messages::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+
+/* ===== Polish: giao diện bản dùng thật ===== */
+
+/* 1) Header/Logo spacing & bóng nhẹ */
+.brand-bar {
+    box-shadow: 0 4px 18px rgba(39, 84, 165, .16);
+}
+
+.brand-logo {
+    padding-top: 2px;
+}
+
+/* 2) Khung chat nổi khối hơn */
+.messages {
+    padding: 6px;
+}
+
+.msg {
+    box-shadow: 0 1px 0 rgba(17, 24, 39, .02), 0 2px 10px rgba(17, 24, 39, .03);
+}
+
+/* 3) Hover subtle cho quick replies */
+.suggestion-btn {
+    transition: background .15s ease, transform .08s ease;
+}
+
+.suggestion-btn:hover {
+    background: #eef3ff;
+    transform: translateY(-1px);
+}
+
+/* 4) Textarea auto-fit + trạng thái focus rõ hơn */
+.composer textarea {
+    transition: border-color .15s ease, box-shadow .15s ease;
+    overflow: hidden;
+    /* để JS auto-resize mượt */
+}
+
+.composer textarea:focus {
+    border-color: var(--brand);
+    box-shadow: 0 0 0 3px rgba(39, 84, 165, .15);
+}
+
+/* 5) Khoảng cách, thao tác mobile an toàn hơn */
+@media (max-width: 640px) {
+    .composer {
+        gap: 10px;
+    }
+
+    .composer button {
+        padding: 10px 12px;
+    }
+}
+
+/* 6) Session ID gọn mắt hơn */
+.session-id {
+    font-size: 12px;
+    opacity: .75;
+}
+
+/* 7) Hiệu ứng fade-in cho tin nhắn bot */
+.msg.assistant.fade-in {
+    animation: fadeInUp .18s ease-out forwards;
+    opacity: 0;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(2px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===== Catalog (Danh mục ngành) ===== */
+.catalog {
+    margin-top: 14px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+@media (max-width:880px) {
+    .catalog {
+        grid-template-columns: 1fr;
+    }
+}
+
+.catalog .card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0 1px 0 rgba(17, 24, 39, .02), 0 6px 18px rgba(17, 24, 39, .03);
+}
+
+.catalog .card h4 {
+    margin: 0 0 6px;
+    font-size: 1rem;
+    color: #0f172a;
+}
+
+.catalog .meta {
+    font-size: .9rem;
+    color: #475569;
+    margin-bottom: 8px;
+}
+
+.riasec {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    letter-spacing: .5px;
+}
+
+.catalog .desc {
+    font-size: .95rem;
+    color: #334155;
+    margin: 6px 0 10px;
+    max-height: 58px;
+    overflow: hidden;
+}
+
+.catalog .actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.catalog .btn {
+    padding: 7px 10px;
+    border-radius: 8px;
+    border: 1px solid var(--brand);
+    background: #fff;
+    color: var(--brand);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: .95rem;
+}
+
+.catalog .btn.primary {
+    background: var(--brand);
+    color: #fff;
+}
+
+.catalog .btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(39, 84, 165, .16);
+}
+
+/* ======= Tinh chỉnh spacing & font ======= */
+
+/* 1. Giảm khoảng cách giữa các đoạn trong tin nhắn bot */
+.msg.assistant p,
+.msg.assistant ul,
+.msg.assistant ol,
+.msg.assistant li,
+.msg.assistant h1,
+.msg.assistant h2,
+.msg.assistant h3,
+.msg.assistant h4 {
+    margin-top: 3px !important;
+    margin-bottom: 4px !important;
+    line-height: 1.55 !important;
+}
+
+/* Giảm khoảng cách giữa các danh sách lồng nhau */
+.msg.assistant ul ul,
+.msg.assistant ol ol {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+}
+
+/* 2. Thu gọn khoảng cách tổng thể mỗi tin nhắn */
+.msg {
+    margin: 4px 0 !important;
+    padding: 10px 12px !important;
+}
+
+/* 3. Font và chiều cao trong ô nhập câu hỏi */
+.composer textarea {
+    font-size: 15px;
+    /* tăng cỡ chữ dễ đọc */
+    font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    line-height: 1.0;
+    padding: 8px 10px;
+    border: 1.5px solid #cbd5e1;
+}
+
+/* 4. Khi focus có viền nhẹ màu thương hiệu */
+.composer textarea:focus {
+    border-color: var(--brand);
+    box-shadow: 0 0 0 2px rgba(39, 84, 165, 0.15);
+    outline: none;
+}
+
+/* 5. Nút gửi & xoá canh hàng với textarea (đẹp mắt hơn) */
+.composer button {
+    padding: 8px 12px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 6. Dòng chữ trong placeholder (ô nhập) dễ nhìn hơn */
+.composer textarea::placeholder {
+    color: #94a3b8;
+    font-size: 14.5px;
+}
+
+
+/* ====== RIASEC QUIZ ====== */
+.riasec {
+    margin-top: 10px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .05);
+}
+
+.riasec h3 {
+    margin-top: 0;
+    color: var(--brand);
+}
+
+.riasec-group {
+    margin-bottom: 14px;
+}
+
+.riasec-group h4 {
+    margin: 4px 0 6px;
+    color: #1e293b;
+}
+
+.riasec-group label {
+    display: block;
+    margin: 2px 0;
+    font-size: 14.8px;
+    cursor: pointer;
+}
+
+.riasec-group input[type="checkbox"] {
+    margin-right: 6px;
+    accent-color: var(--brand);
+}
+
+.msg.assistant li,
+.msg.assistant li strong {
+    font-weight: 400 !important;
+    /* 400 là normal, có thể dùng 500 nếu muốn hơi nhấn nhẹ */
+}
+
+/* === Căn so le khung chat === */
+
+/* Container chung */
+#messages {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Tin nhắn của người dùng */
+.msg.user {
+    align-self: flex-end;
+    /* đẩy sang phải */
+    background-color: #a1fdda;
+    /* xanh nhạt */
+    color: #222;
+    max-width: 75%;
+    /* hẹp hơn */
+    border-radius: 14px 14px 0 14px;
+    /* bo lệch */
+    font-size: 0.95rem;
+    /* chữ nhỏ hơn chút */
+    padding: 10px 12px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    border: 1px solid #c6dafb;
+    font-weight: 400;
+}
+
+/* Tin nhắn của trợ lý */
+.msg.assistant {
+    align-self: flex-start;
+    /* đẩy sang trái */
+    background-color: #ffffff;
+    /* xám nhẹ (trung lập) */
+    color: #111;
+    max-width: 85%;
+    /* rộng hơn user một chút */
+    border-radius: 14px 14px 14px 0;
+    /* bo lệch ngược lại */
+    font-size: 0.96rem;
+    padding: 10px 14px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    /* border: 1px solid #c6dafb; */
+}
+
+/* Đảm bảo nội dung markdown hiển thị đẹp trong khung */
+.msg.assistant p,
+.msg.user p {
+    margin: 4px 0;
+    line-height: 1.45;
+}
+
+/* === Sidebar cards: căn giữa & màu thương hiệu === */
+
+/* Khung card chung */
+.card {
+    text-align: center;
+    /* căn giữa toàn bộ nội dung */
+    padding: 10px 14px;
+    /* giảm khoảng cách trong thẻ */
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Tiêu đề trong card (Hướng dẫn nhanh / Thông tin) */
+.card h3 {
+    color: #00AE5A;
+    /* xanh lá thương hiệu Miền Đông */
+    font-weight: 700;
+    font-size: 1.05rem;
+    margin: 6px 0 8px;
+    /* giảm khoảng cách trên dưới */
+    text-align: center;
+    /* căn giữa chữ */
+}
+
+/* Đoạn mô tả trong card */
+.card p {
+    font-size: 0.95rem;
+    line-height: 1.45;
+    color: #333;
+    margin: 4px 0 6px;
+    /* gọn hơn mặc định */
+}

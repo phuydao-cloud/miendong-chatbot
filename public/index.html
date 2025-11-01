@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chatbot Tư vấn Chọn Ngành - Miền Đông</title>
+
+  <!-- CSS chính của thầy -->
+  <link rel="stylesheet" href="./styles.css" />
+
+  <!-- Markdown renderer cho tin nhắn của bot -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <!-- Favicon (tuỳ chọn) -->
+  <link rel="icon" href="logo-miendong.png" />
+</head>
+
+<body>
+  <!-- Thanh thương hiệu -->
+  <header class="brand-bar">
+    <img src="logo-miendong.png" alt="Miền Đông" class="brand-logo" />
+    <div class="brand-title">Tư vấn viên Cao đẳng Miền Đông AI</div>
+    <small id="session" class="session-id"></small>
+    <!-- <small id="session" class="session-id" title="Session ID dùng để khôi phục hội thoại"></small> -->
+  </header>
+
+  <main class="layout">
+    <section id="chat-container" class="chat">
+      <!-- Danh mục ngành (render bởi JS) -->
+      <div id="catalog" class="catalog hidden"></div>
+
+      <!-- Trắc nghiệm RIASEC mini -->
+      <div id="riasecQuiz" class="riasec hidden">
+        <h3>🎯 Trắc nghiệm RIASEC – Khám phá nhóm nghề phù hợp</h3>
+        <p>Chọn những mô tả đúng với bạn nhất (mỗi nhóm 2–3 lựa chọn).</p>
+
+        <div id="riasecQuestions"></div>
+
+        <button id="submitRiasec" class="btn primary">Xem kết quả</button>
+        <button id="closeRiasec" class="btn">Đóng</button>
+      </div>
+
+
+      <!-- Danh sách tin nhắn -->
+      <ul id="messages" class="messages"></ul>
+
+      <!-- Typing indicator -->
+      <div id="typing" class="typing" style="display:none;">
+        <span></span><span></span><span></span>
+      </div>
+
+      <!-- Ô nhập + nút gửi + xoá -->
+      <div id="composer" class="composer">
+        <textarea id="input" rows="2"
+          placeholder="Nhập câu hỏi của bạn... (ví dụ: Em phù hợp nhóm ngành nào theo RIASEC?)"></textarea>
+        <button id="send" type="button" title="Gửi">Gửi</button>
+        <button id="clear" type="button" title="Xoá hội thoại">🗑</button>
+      </div>
+
+      <!-- Nút gợi ý nhanh (sẽ được JS tự động lấp đầy nếu trống) -->
+      <div id="suggestions" class="suggestions"></div>
+    </section>
+
+
+    <!-- Sidebar (tuỳ chọn, có thể ẩn nếu hiển thị trên mobile) -->
+    <aside id="sidebar" class="sidebar">
+      <div class="card">
+        <h3>Hướng dẫn nhanh</h3>
+        <p>Nhập từ khoá như <em>“ngành ô tô học gì”, “điều kiện tuyển sinh”, “ký túc xá”</em>... hoặc dùng nút gợi ý bên
+          dưới
+          khung chat.</p>
+      </div>
+      <div class="card">
+        <h3>Thông tin</h3>
+        <small>Demo Chatbot hỗ trợ tư vấn chọn ngành dựa trên dữ liệu nội bộ và OpenAI
+          <code>Nguyễn Huy Đào</code></small>
+      </div>
+
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <small>© Trường Cao đẳng Miền Đông — Demo nội bộ</small>
+  </footer>
+
+  <!-- JS chính (đã gửi ở bước trước) -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
