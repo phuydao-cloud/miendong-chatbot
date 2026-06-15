@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2025-10-30 11:23:46",
+  "generated_at": "2026-06-15 15:43:11",
   "majors": [
     {
       "id": "cntt-cd",
       "slug": "cong-nghe-thong-tin-cao-dang",
       "name": "Công nghệ thông tin",
       "level": "Cao đẳng",
-      "career_group": "Công nghệ thông tin và Công nghệ kỹ thuật",
+      "career_group": "Công nghệ thông tin và truyền thông",
       "riasec": [
         "I",
         "R",
@@ -15,65 +15,73 @@
       ],
       "admission": {
         "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
-        "form": "Xét tuyển học bạ hoặc điểm thi; có thể phỏng vấn định hướng nghề nghiệp"
+        "form": "Xét tuyển học bạ hoặc điểm thi theo quy định tuyển sinh của Trường"
       },
-      "duration_months": 30,
-      "description": "Đào tạo kỹ thuật viên có năng lực phân tích, thiết kế, lập trình, triển khai và bảo trì phần mềm, cơ sở dữ liệu, hệ thống mạng và ứng dụng công nghệ thông tin trong doanh nghiệp; chú trọng năng lực thực hành, an toàn thông tin và cập nhật công nghệ mới như trí tuệ nhân tạo, điện toán đám mây và phát triển web.",
+      "duration_months": 36,
+      "description": "Ngành Công nghệ thông tin, mã ngành 6480201, đào tạo người học có năng lực bảo trì máy tính, quản trị hệ thống mạng, quản trị cơ sở dữ liệu, thiết kế đồ họa, thiết kế và quản trị website, phát triển ứng dụng, triển khai hệ thống thông tin và ứng dụng trí tuệ nhân tạo ở mức cơ bản trong doanh nghiệp. Chương trình mới ban hành năm 2025, thời gian đào tạo 3 năm, khối lượng kiến thức toàn khóa 93 tín chỉ, chú trọng thực hành, xử lý sự cố, an toàn thông tin và chuyển đổi số. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
       "skills": [
-        "Phân tích yêu cầu",
-        "lập trình C, Java, Python, JavaScript",
-        "thiết kế cơ sở dữ liệu",
-        "quản trị hệ thống",
-        "làm việc nhóm",
-        "giao tiếp kỹ thuật",
-        "an toàn thông tin",
-        "tư duy giải quyết vấn đề"
+        "Lắp ráp, bảo trì và cài đặt phần mềm máy tính",
+        "Thiết kế, cấu hình và quản trị mạng",
+        "Quản trị cơ sở dữ liệu",
+        "Thiết kế giao diện và lập trình website",
+        "Lập trình ứng dụng",
+        "Thiết kế đồ họa và xử lý ảnh",
+        "Ứng dụng trí tuệ nhân tạo vào hệ thống ứng dụng"
       ],
       "core_modules": [
-        "Nhập môn công nghệ thông tin",
-        "Cấu trúc dữ liệu và giải thuật",
-        "Cơ sở dữ liệu",
-        "Lập trình hướng đối tượng",
-        "Lập trình web",
-        "Hệ điều hành",
+        "Tiếng Anh",
+        "Tin học",
+        "Giáo dục chính trị",
         "Mạng máy tính",
-        "Phát triển ứng dụng",
-        "An toàn thông tin cơ bản",
-        "Thực tập nghề nghiệp"
+        "Xử lý văn bản",
+        "Lập trình cơ bản",
+        "Cơ sở dữ liệu",
+        "Cấu trúc dữ liệu",
+        "Thiết kế đồ họa",
+        "Quản trị mạng Windows Server",
+        "Lập trình web Frontend",
+        "Phát triển ứng dụng Web Backend",
+        "Quản trị mạng máy tính",
+        "Phát triển ứng dụng Fullstack",
+        "Lập trình Mobile",
+        "Thực tập tốt nghiệp"
       ],
       "jobs": [
-        "Lập trình viên ứng dụng",
-        "Kỹ thuật viên phần mềm",
+        "Bảo trì máy tính",
+        "Khai thác dịch vụ công nghệ thông tin",
+        "Quản trị hệ thống phần mềm",
         "Quản trị cơ sở dữ liệu",
-        "Kỹ thuật viên mạng",
-        "Nhân viên hỗ trợ kỹ thuật",
-        "Nhân viên phát triển website"
+        "Dịch vụ khách hàng công nghệ thông tin",
+        "Lập trình ứng dụng",
+        "Quản trị mạng máy tính",
+        "Thiết kế đồ họa vi tính"
       ],
-      "further_study": "Liên thông đại học ngành Công nghệ thông tin, Khoa học máy tính, Hệ thống thông tin hoặc An toàn thông tin",
+      "further_study": "Liên thông đại học ngành Công nghệ thông tin, Khoa học máy tính, Hệ thống thông tin, An toàn thông tin hoặc các ngành phù hợp.",
       "campus": "Trường Cao đẳng Miền Đông",
       "facilities": [
         "Phòng máy tính",
-        "mạng không dây",
-        "phòng thí nghiệm mạng",
+        "phòng thực hành mạng",
         "phòng học thông minh",
-        "ký túc xá",
-        "thư viện số"
+        "thư viện số",
+        "ký túc xá"
       ],
       "tuition_range_vnd_per_term": [
-        5500000,
-        7500000
+        12000000,
+        12000000
       ],
       "contacts": {
-        "unit": "Phòng Tuyển sinh và Truyền thông",
-        "phone": "0963.880.889",
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
         "email": "tuyensinh@cdmd.edu.vn"
       },
       "tags": [
         "Công nghệ thông tin",
+        "6480201",
         "Lập trình",
         "Web",
+        "Mạng máy tính",
         "Cơ sở dữ liệu",
-        "Mạng máy tính"
+        "AI"
       ]
     },
     {
@@ -81,7 +89,7 @@
       "slug": "tai-chinh-ngan-hang-cao-dang",
       "name": "Tài chính – Ngân hàng",
       "level": "Cao đẳng",
-      "career_group": "Kinh doanh và Quản lý",
+      "career_group": "Kinh doanh và quản lý",
       "riasec": [
         "C",
         "E",
@@ -89,19 +97,17 @@
       ],
       "admission": {
         "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
-        "form": "Xét tuyển học bạ hoặc điểm thi; có thể phỏng vấn đánh giá năng lực"
+        "form": "Xét tuyển học bạ hoặc điểm thi theo quy định tuyển sinh của Trường"
       },
-      "duration_months": 30,
-      "description": "Đào tạo kỹ thuật viên có khả năng thực hiện nghiệp vụ tài chính, tín dụng, kế toán và thanh toán ngân hàng; sử dụng phần mềm tài chính và ngân hàng số; lập và phân tích báo cáo tài chính; giao tiếp và phục vụ khách hàng theo chuẩn mực đạo đức nghề nghiệp.",
+      "duration_months": 36,
+      "description": "Ngành Tài chính – Ngân hàng, mã ngành 6340202, đào tạo người học có kiến thức và kỹ năng thực hiện nghiệp vụ tài chính, tín dụng, kế toán, thanh toán, giao dịch ngân hàng, phân tích tài chính và chăm sóc khách hàng trong môi trường ngân hàng, doanh nghiệp và tổ chức tài chính hiện đại. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
       "skills": [
-        "Nghiệp vụ kế toán ngân hàng",
-        "huy động vốn",
-        "tín dụng",
-        "thanh toán",
-        "lập báo cáo tài chính",
-        "Excel tài chính",
-        "giao tiếp khách hàng",
-        "tuân thủ pháp luật tài chính và thuế"
+        "Thực hiện nghiệp vụ giao dịch ngân hàng",
+        "Huy động vốn và chăm sóc khách hàng",
+        "Thực hiện nghiệp vụ tín dụng cơ bản",
+        "Lập và phân tích báo cáo tài chính",
+        "Sử dụng phần mềm tài chính và bảng tính",
+        "Tuân thủ pháp luật tài chính, ngân hàng và thuế"
       ],
       "core_modules": [
         "Nguyên lý tài chính – tiền tệ",
@@ -117,83 +123,11 @@
         "Nhân viên giao dịch ngân hàng",
         "Nhân viên tín dụng",
         "Kế toán ngân hàng",
-        "Nhân viên huy động vốn",
-        "Nhân viên thanh toán quốc tế",
-        "Nhân viên phòng kế hoạch – tài chính doanh nghiệp"
+        "Nhân viên thanh toán",
+        "Nhân viên kế hoạch – tài chính doanh nghiệp",
+        "Nhân viên chăm sóc khách hàng tài chính"
       ],
-      "further_study": "Liên thông đại học ngành Tài chính, Ngân hàng, Kế toán hoặc Kinh tế",
-      "campus": "Trường Cao đẳng Miền Đông",
-      "facilities": [
-        "Phòng thực hành kế toán – ngân hàng",
-        "phần mềm mô phỏng giao dịch",
-        "phòng máy tính",
-        "thư viện",
-        "ký túc xá"
-      ],
-      "tuition_range_vnd_per_term": [
-        5200000,
-        7200000
-      ],
-      "contacts": {
-        "unit": "Phòng Tuyển sinh và Truyền thông",
-        "phone": "0963.880.889",
-        "email": "tuyensinh@cdmd.edu.vn"
-      },
-      "tags": [
-        "Tài chính",
-        "Ngân hàng",
-        "Kế toán",
-        "Tín dụng",
-        "Thanh toán",
-        "Fintech"
-      ]
-    },
-    {
-      "id": "kt-cd",
-      "slug": "ke-toan-cao-dang",
-      "name": "Kế toán",
-      "level": "Cao đẳng",
-      "career_group": "Kinh doanh và Quản lý",
-      "riasec": [
-        "C",
-        "E"
-      ],
-      "admission": {
-        "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
-        "form": "Xét tuyển học bạ hoặc điểm thi; có thể phỏng vấn đánh giá năng lực"
-      },
-      "duration_months": 30,
-      "description": "Đào tạo kỹ thuật viên kế toán có khả năng tổ chức hạch toán, ghi sổ, tổng hợp và lập báo cáo tài chính, báo cáo thuế; sử dụng phần mềm kế toán và hóa đơn điện tử; phối hợp công tác kế toán trong doanh nghiệp, đơn vị hành chính sự nghiệp và tổ chức kinh tế.",
-      "skills": [
-        "Hạch toán kế toán",
-        "lập báo cáo tài chính",
-        "báo cáo quản trị",
-        "kê khai và quyết toán thuế",
-        "sử dụng phần mềm kế toán",
-        "kiểm soát chứng từ",
-        "giao tiếp nghề nghiệp",
-        "tuân thủ pháp luật và đạo đức nghề kế toán"
-      ],
-      "core_modules": [
-        "Nguyên lý kế toán",
-        "Kế toán tài chính",
-        "Kế toán quản trị",
-        "Thuế và kế toán thuế",
-        "Kế toán máy với phần mềm",
-        "Phân tích báo cáo tài chính",
-        "Kiểm soát nội bộ cơ bản",
-        "Thực tập nghề nghiệp"
-      ],
-      "jobs": [
-        "Kế toán tổng hợp",
-        "Kế toán công nợ",
-        "Kế toán kho",
-        "Kế toán tiền lương",
-        "Nhân viên kế toán thuế",
-        "Trợ lý kiểm toán",
-        "Thủ quỹ"
-      ],
-      "further_study": "Liên thông đại học ngành Kế toán, Kiểm toán, Tài chính – Ngân hàng",
+      "further_study": "Liên thông đại học ngành Tài chính – Ngân hàng, Kế toán, Kiểm toán hoặc Kinh tế.",
       "campus": "Trường Cao đẳng Miền Đông",
       "facilities": [
         "Phòng thực hành kế toán",
@@ -203,23 +137,105 @@
         "ký túc xá"
       ],
       "tuition_range_vnd_per_term": [
-        5000000,
-        7000000
+        8000000,
+        8000000
       ],
       "contacts": {
-        "unit": "Phòng Tuyển sinh và Truyền thông",
-        "phone": "0963.880.889",
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Tài chính",
+        "Ngân hàng",
+        "6340202",
+        "Tín dụng",
+        "Thanh toán",
+        "Kế toán"
+      ]
+    },
+    {
+      "id": "kt-cd",
+      "slug": "ke-toan-cao-dang",
+      "name": "Kế toán",
+      "level": "Cao đẳng",
+      "career_group": "Kế toán – Kiểm toán",
+      "riasec": [
+        "C",
+        "E"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
+        "form": "Xét tuyển học bạ hoặc điểm thi theo quy định tuyển sinh của Trường"
+      },
+      "duration_months": 36,
+      "description": "Ngành Kế toán, mã ngành 6340301, đào tạo người học thực hiện ghi chép, đo lường và cung cấp thông tin kinh tế tài chính trong doanh nghiệp, cơ quan, đơn vị; có khả năng lập chứng từ, ghi sổ, lập báo cáo tài chính, báo cáo thuế, sử dụng phần mềm kế toán và ứng dụng công nghệ thông tin trong công tác kế toán. Chương trình Cao đẳng ban hành năm 2024, thời gian đào tạo 3 năm, khối lượng kiến thức toàn khóa 106 tín chỉ. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
+      "skills": [
+        "Lập và xử lý chứng từ kế toán",
+        "Kế toán tiền mặt, tiền gửi, hàng tồn kho, tài sản cố định, tiền lương, bán hàng, công nợ và thuế",
+        "Lập báo cáo tài chính và báo cáo thuế",
+        "Sử dụng phần mềm kế toán",
+        "Phân tích tài chính doanh nghiệp",
+        "Soạn thảo văn bản và lưu trữ hồ sơ kế toán"
+      ],
+      "core_modules": [
+        "Nguyên lý kế toán",
+        "Quản trị doanh nghiệp",
+        "Kinh tế vi mô",
+        "Luật kinh tế",
+        "Thuế",
+        "Tin học văn phòng",
+        "Kế toán vốn bằng tiền",
+        "Kế toán hàng tồn kho",
+        "Kế toán tài sản cố định",
+        "Kế toán giá thành",
+        "Kế toán thuế",
+        "Phân tích tài chính doanh nghiệp",
+        "Phần mềm kế toán Misa",
+        "Phần mềm kế toán Fast",
+        "Thực tập tốt nghiệp"
+      ],
+      "jobs": [
+        "Kế toán vốn bằng tiền",
+        "Kế toán thanh toán",
+        "Kế toán hàng tồn kho",
+        "Kế toán tài sản cố định",
+        "Kế toán tiền lương",
+        "Kế toán giá thành",
+        "Kế toán bán hàng",
+        "Kế toán thuế",
+        "Kế toán tổng hợp",
+        "Thủ quỹ",
+        "Nhân viên hành chính văn phòng"
+      ],
+      "further_study": "Liên thông đại học ngành Kế toán, Kiểm toán, Tài chính – Ngân hàng hoặc Quản trị kinh doanh.",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Phòng thực hành kế toán",
+        "phần mềm kế toán",
+        "phòng máy tính",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        8000000,
+        8000000
+      ],
+      "contacts": {
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
         "email": "tuyensinh@cdmd.edu.vn"
       },
       "tags": [
         "Kế toán",
-        "Báo cáo tài chính",
+        "6340301",
         "Thuế",
+        "Báo cáo tài chính",
         "Kế toán máy"
       ]
     },
     {
-      "id": "dkđt-cd",
+      "id": "cnktddt-cd",
       "slug": "cong-nghe-ky-thuat-dien-dien-tu-cao-dang",
       "name": "Công nghệ kỹ thuật điện, điện tử",
       "level": "Cao đẳng",
@@ -233,63 +249,63 @@
         "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
         "form": "Xét tuyển học bạ hoặc điểm thi; kiểm tra năng lực thực hành khi cần"
       },
-      "duration_months": 30,
-      "description": "Đào tạo kỹ thuật viên có khả năng thiết kế, lắp đặt, vận hành, kiểm tra, bảo trì và sửa chữa hệ thống điện, điện tử công nghiệp và dân dụng; lập trình điều khiển thiết bị bằng bộ điều khiển logic khả trình và màn hình giao diện người – máy; tuân thủ quy trình an toàn và tiết kiệm năng lượng.",
+      "duration_months": 36,
+      "description": "Ngành Công nghệ kỹ thuật điện, điện tử, mã ngành 6510303, đào tạo người học có năng lực lắp đặt, vận hành, kiểm tra, bảo trì, sửa chữa thiết bị điện, điện tử, hệ thống phân phối điện, hệ thống điều khiển tự động và các hệ thống điện dân dụng, công nghiệp; chú trọng an toàn điện, tiết kiệm năng lượng, tác phong công nghiệp và khả năng thích ứng với công nghệ mới. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
       "skills": [
-        "Đọc và triển khai bản vẽ điện",
-        "đấu nối mạch điện",
-        "lập trình PLC và HMI",
-        "sử dụng thiết bị đo",
-        "bảo trì hệ thống điện",
-        "phân tích và khắc phục sự cố",
-        "làm việc nhóm",
-        "an toàn điện"
+        "Đọc bản vẽ kỹ thuật và bản vẽ điện",
+        "Lắp đặt thiết bị điện, điện tử",
+        "Vận hành hệ thống cung cấp điện",
+        "Bảo trì, sửa chữa thiết bị điện",
+        "Lập trình và vận hành PLC",
+        "Kiểm tra, xử lý sự cố hệ thống điện dân dụng và công nghiệp",
+        "Thực hiện an toàn điện"
       ],
       "core_modules": [
         "Mạch điện",
         "Điện tử cơ bản",
         "Kỹ thuật số",
         "Trang bị điện",
-        "Điện công nghiệp",
-        "PLC và HMI",
-        "Biến tần và động cơ",
-        "AutoCAD Electrical",
-        "An toàn điện",
-        "Thực tập nghề nghiệp"
+        "PLC nâng cao",
+        "Thí nghiệm máy điện",
+        "Kĩ thuật vi điều khiển",
+        "Thực tập cơ sở",
+        "Thực tập tốt nghiệp",
+        "AutoCAD Electrical"
       ],
       "jobs": [
         "Kỹ thuật viên điện – điện tử",
-        "Nhân viên bảo trì hệ thống",
+        "Nhân viên bảo trì hệ thống điện",
+        "Nhân viên vận hành tủ điện và hệ thống phân phối điện",
         "Kỹ thuật viên PLC",
-        "Nhân viên lắp đặt và vận hành thiết bị điện",
-        "Nhân viên kỹ thuật tòa nhà"
+        "Nhân viên kỹ thuật tòa nhà",
+        "Nhân viên thi công điện công nghiệp và dân dụng"
       ],
-      "further_study": "Liên thông đại học ngành Kỹ thuật điện, Kỹ thuật điện tử, Tự động hóa hoặc Cơ điện tử",
+      "further_study": "Liên thông đại học ngành Kỹ thuật điện, Kỹ thuật điện tử, Tự động hóa, Cơ điện tử hoặc các ngành phù hợp.",
       "campus": "Trường Cao đẳng Miền Đông",
       "facilities": [
         "Xưởng điện – điện tử",
-        "bộ thí nghiệm PLC – biến tần",
-        "dụng cụ đo",
+        "bộ thực hành PLC",
+        "thiết bị đo điện",
         "phòng học thực hành",
         "thư viện",
         "ký túc xá"
       ],
       "tuition_range_vnd_per_term": [
-        5400000,
-        7400000
+        12000000,
+        12000000
       ],
       "contacts": {
-        "unit": "Phòng Tuyển sinh và Truyền thông",
-        "phone": "0963.880.889",
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
         "email": "tuyensinh@cdmd.edu.vn"
       },
       "tags": [
         "Điện",
         "Điện tử",
+        "6510303",
         "PLC",
-        "Biến tần",
-        "Bảo trì",
-        "An toàn điện"
+        "Tự động hóa",
+        "Bảo trì"
       ]
     },
     {
@@ -307,57 +323,68 @@
         "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
         "form": "Xét tuyển học bạ hoặc điểm thi; kiểm tra năng lực thực hành khi cần"
       },
-      "duration_months": 30,
-      "description": "Đào tạo kỹ thuật viên có năng lực kiểm tra, chẩn đoán, bảo dưỡng và sửa chữa các hệ thống cơ khí, điện, điện tử và điều khiển trên ô tô; sử dụng thiết bị đo kiểm và phần mềm chẩn đoán; tổ chức và quản lý quy trình bảo dưỡng – sửa chữa theo tác phong công nghiệp và an toàn lao động.",
+      "duration_months": 36,
+      "description": "Ngành Công nghệ ô tô, mã ngành 6510216, đào tạo người học có năng lực bảo dưỡng, sửa chữa, kiểm tra, chẩn đoán và khai thác kỹ thuật các hệ thống trên ô tô; kết hợp kiến thức cơ khí, điện, điện tử, điều khiển tự động và dịch vụ kỹ thuật ô tô hiện đại. Chương trình Cao đẳng ban hành năm 2024, thời gian đào tạo 3 năm, khối lượng kiến thức toàn khóa 90 tín chỉ. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
       "skills": [
-        "Đọc hiểu tài liệu kỹ thuật",
-        "chẩn đoán và sửa chữa hệ thống động cơ, truyền động, phanh, lái, treo, điện – điện tử",
-        "sử dụng thiết bị chẩn đoán",
-        "giao tiếp và tư vấn kỹ thuật",
-        "quản lý xưởng"
+        "Đọc tài liệu kỹ thuật ô tô",
+        "Bảo dưỡng và sửa chữa động cơ, gầm, điện, điện tử ô tô",
+        "Chẩn đoán hư hỏng bằng thiết bị chuyên dùng",
+        "Sửa chữa hệ thống điều hòa không khí ô tô",
+        "Tư vấn dịch vụ kỹ thuật ô tô",
+        "Quản lý vật tư, phụ tùng và quy trình xưởng"
       ],
       "core_modules": [
-        "Cấu tạo ô tô",
-        "Động cơ đốt trong",
-        "Hệ thống truyền lực",
-        "Hệ thống điện – điện tử ô tô",
-        "Chẩn đoán ô tô",
-        "Điều hòa không khí",
-        "An toàn và bảo dưỡng",
-        "Thực tập nghề nghiệp"
+        "Vẽ kỹ thuật",
+        "Cơ kỹ thuật",
+        "Kỹ thuật điện – điện tử",
+        "Vật liệu cơ khí",
+        "Dung sai lắp ghép",
+        "An toàn lao động",
+        "AutoCAD",
+        "Thực hành cơ khí",
+        "Công nghệ khí nén – thủy lực ứng dụng",
+        "Điện – điện tử cơ bản",
+        "Bảo dưỡng và sửa chữa động cơ đốt trong",
+        "Động cơ đốt trong thế hệ mới",
+        "Bảo dưỡng hệ thống truyền lực, lái, phanh, treo",
+        "Chẩn đoán trạng thái kỹ thuật xe ô tô",
+        "Thực tập tốt nghiệp"
       ],
       "jobs": [
-        "Kỹ thuật viên bảo dưỡng – sửa chữa",
-        "Nhân viên chẩn đoán",
-        "Nhân viên kiểm định",
-        "Cố vấn dịch vụ",
-        "Quản lý xưởng",
-        "Nhân viên kinh doanh phụ tùng và thiết bị"
+        "Chăm sóc, làm đẹp xe ô tô",
+        "Quản lý vật tư, phụ tùng ô tô",
+        "Sản xuất phụ tùng và lắp ráp ô tô",
+        "Kinh doanh trong lĩnh vực ô tô và phụ tùng ô tô",
+        "Sửa chữa động cơ, gầm, điện, điều hòa ô tô",
+        "Tư vấn dịch vụ ô tô",
+        "Quản lý gara ô tô, trung tâm bảo hành – sửa chữa ô tô"
       ],
-      "further_study": "Liên thông đại học ngành Công nghệ kỹ thuật ô tô, Cơ khí động lực hoặc Cơ điện tử",
+      "further_study": "Liên thông đại học ngành Công nghệ kỹ thuật ô tô, Cơ khí động lực, Cơ điện tử hoặc các ngành kỹ thuật phù hợp.",
       "campus": "Trường Cao đẳng Miền Đông",
       "facilities": [
         "Xưởng thực hành ô tô",
-        "thiết bị chẩn đoán",
+        "thiết bị chẩn đoán ô tô",
+        "mô hình động cơ",
         "phòng học thực hành",
         "thư viện",
         "ký túc xá"
       ],
       "tuition_range_vnd_per_term": [
-        5600000,
-        7800000
+        12000000,
+        12000000
       ],
       "contacts": {
-        "unit": "Phòng Tuyển sinh và Truyền thông",
-        "phone": "0963.880.889",
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
         "email": "tuyensinh@cdmd.edu.vn"
       },
       "tags": [
         "Ô tô",
+        "6510216",
         "Bảo dưỡng",
+        "Sửa chữa",
         "Chẩn đoán",
-        "Điện ô tô",
-        "Dịch vụ kỹ thuật"
+        "Dịch vụ ô tô"
       ]
     },
     {
@@ -371,57 +398,69 @@
         "I"
       ],
       "admission": {
-        "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
-        "form": "Xét tuyển học bạ hoặc điểm thi; phỏng vấn định hướng nghề nghiệp"
+        "target": "Tốt nghiệp Trung học phổ thông trở lên",
+        "form": "Xét tuyển học bạ hoặc điểm thi; phỏng vấn định hướng nghề nghiệp khi cần"
       },
-      "duration_months": 30,
-      "description": "Đào tạo kỹ thuật viên có kiến thức, kỹ năng và năng lực tổ chức, điều hành sản xuất nông nghiệp; nhân giống, chăm sóc, thu hoạch, bảo quản, phân tích và đánh giá hiệu quả sản xuất cây trồng; áp dụng công nghệ sinh học, cơ giới hóa và chuyển đổi số trong sản xuất nông nghiệp bền vững.",
+      "duration_months": 36,
+      "description": "Ngành Khoa học cây trồng, mã ngành 6620109, đào tạo người học nghiên cứu và ứng dụng quy trình kỹ thuật canh tác cây trồng; chọn, nhân giống, trồng, chăm sóc, bảo vệ, thu hoạch, sơ chế, bảo quản và chuyển giao tiến bộ kỹ thuật trong sản xuất nông nghiệp. Chương trình Cao đẳng ban hành năm 2024, thời gian đào tạo 3 năm, khối lượng kiến thức toàn khóa 88 tín chỉ. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
       "skills": [
-        "Nhận biết sinh lý, sinh thái cây trồng",
-        "thực hiện quy trình nhân giống, trồng, chăm sóc và thu hoạch",
-        "sử dụng thiết bị đo và hệ thống tưới tự động",
-        "hướng dẫn kỹ thuật và lập kế hoạch sản xuất cây trồng"
+        "Nhận biết đặc điểm sinh lý và sinh trưởng cây trồng",
+        "Lập kế hoạch sản xuất",
+        "Chọn và nhân giống cây trồng",
+        "Trồng, chăm sóc, bảo vệ và thu hoạch cây trồng",
+        "Sử dụng phân bón và thuốc bảo vệ thực vật an toàn",
+        "Tổ chức sản xuất, khuyến nông và chuyển giao kỹ thuật"
       ],
       "core_modules": [
-        "Cây trồng đại cương",
-        "Thổ nhưỡng và dinh dưỡng cây trồng",
-        "Kỹ thuật nhân giống",
-        "Kỹ thuật trồng cây công nghiệp và cây lương thực",
-        "Bảo vệ thực vật",
-        "Kinh tế nông nghiệp",
-        "Công nghệ sau thu hoạch",
-        "Thực tập nghề nghiệp"
+        "Sinh lý thực vật",
+        "Đất và dinh dưỡng cây trồng",
+        "Chọn tạo giống cây trồng",
+        "Côn trùng và bệnh cây đại cương",
+        "Công trình sinh học và phòng trừ cỏ dại",
+        "Sinh thái môi trường",
+        "Phương pháp nghiên cứu khoa học",
+        "Khuyến nông",
+        "Khí tượng nông nghiệp và biến đổi khí hậu",
+        "Cây công nghiệp dài ngày",
+        "Công nghệ sản xuất rau, hoa, cây ăn quả, nấm",
+        "Thu hoạch mủ cao su",
+        "Sử dụng thuốc bảo vệ thực vật",
+        "Thực tập tốt nghiệp"
       ],
       "jobs": [
-        "Kỹ thuật viên trồng trọt",
-        "Nhân viên kỹ thuật nông nghiệp",
-        "Cán bộ khuyến nông",
-        "Nhân viên kỹ thuật hợp tác xã",
-        "Nhân viên doanh nghiệp phân bón, thuốc bảo vệ thực vật"
+        "Sản xuất giống cây trồng",
+        "Sử dụng phân bón",
+        "Canh tác cây trồng",
+        "Bảo vệ thực vật",
+        "Thu hoạch, sơ chế, bảo quản nông sản",
+        "Chuyển giao tiến bộ khoa học kỹ thuật",
+        "Kỹ thuật viên trang trại, hợp tác xã, doanh nghiệp nông nghiệp"
       ],
-      "further_study": "Liên thông đại học ngành Khoa học cây trồng, Nông học hoặc Công nghệ sinh học",
+      "further_study": "Liên thông đại học ngành Khoa học cây trồng, Nông học, Công nghệ sinh học, Nông nghiệp công nghệ cao hoặc các ngành phù hợp.",
       "campus": "Trường Cao đẳng Miền Đông",
       "facilities": [
         "Khu thực hành nông nghiệp",
-        "nhà lưới, vườn ươm",
+        "vườn ươm",
+        "nhà lưới",
         "thiết bị tưới",
         "thư viện",
         "ký túc xá"
       ],
       "tuition_range_vnd_per_term": [
-        4800000,
-        6500000
+        8250000,
+        8250000
       ],
       "contacts": {
-        "unit": "Phòng Tuyển sinh và Truyền thông",
-        "phone": "0963.880.889",
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
         "email": "tuyensinh@cdmd.edu.vn"
       },
       "tags": [
-        "Cây trồng",
+        "Khoa học cây trồng",
+        "6620109",
         "Nông nghiệp",
-        "Giống",
-        "Kỹ thuật trồng trọt"
+        "Giống cây trồng",
+        "Trồng trọt"
       ]
     },
     {
@@ -437,21 +476,22 @@
       ],
       "admission": {
         "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
-        "form": "Xét tuyển học bạ hoặc điểm thi; phỏng vấn định hướng nghề nghiệp"
+        "form": "Xét tuyển học bạ hoặc điểm thi; phỏng vấn định hướng nghề nghiệp khi cần"
       },
-      "duration_months": 30,
-      "description": "Đào tạo kỹ thuật viên có khả năng ứng dụng công nghệ sinh học, công nghệ tự động hóa, công nghệ số và các tiến bộ khoa học kỹ thuật trong sản xuất nông nghiệp hiện đại; thiết kế, vận hành và quản lý hệ thống nhà kính, tưới tiêu tự động và cảm biến môi trường; quản lý dữ liệu và truy xuất nguồn gốc sản phẩm nông nghiệp.",
+      "duration_months": 36,
+      "description": "Ngành Nông nghiệp công nghệ cao, mã ngành 6620131 theo giấy chứng nhận hoạt động giáo dục nghề nghiệp, đào tạo người học ứng dụng công nghệ sinh học, tự động hóa, công nghệ số, nhà màng, nhà kính, hệ thống tưới, cảm biến và quản lý dữ liệu vào sản xuất nông nghiệp hiện đại, an toàn và bền vững. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
       "skills": [
-        "Thiết kế và vận hành hệ thống nhà màng, nhà kính",
-        "sử dụng cảm biến, phần mềm quản lý nông trại",
-        "nuôi cấy mô, nhân giống và quản lý dinh dưỡng cây trồng",
-        "ứng dụng IoT và AI trong sản xuất nông nghiệp",
-        "phân tích dữ liệu canh tác"
+        "Vận hành hệ thống nhà màng, nhà kính",
+        "Sử dụng hệ thống tưới và dinh dưỡng tự động",
+        "Ứng dụng công nghệ sinh học trong nhân giống",
+        "Theo dõi cảm biến môi trường và dữ liệu sản xuất",
+        "Quản lý quy trình sản xuất nông nghiệp an toàn",
+        "Truy xuất nguồn gốc nông sản"
       ],
       "core_modules": [
         "Công nghệ sinh học nông nghiệp",
-        "Cảm biến và tự động hóa trong nông nghiệp",
         "Hệ thống tưới tiêu tự động",
+        "Cảm biến và tự động hóa trong nông nghiệp",
         "Quản lý sản xuất nông nghiệp",
         "Trồng trọt thông minh",
         "Phân tích dữ liệu môi trường",
@@ -460,35 +500,37 @@
       "jobs": [
         "Kỹ thuật viên nông nghiệp công nghệ cao",
         "Nhân viên kỹ thuật nhà kính",
-        "Cán bộ kỹ thuật tại trung tâm nông nghiệp công nghệ cao",
-        "Nhân viên khởi nghiệp nông nghiệp số",
-        "Nhân viên quản lý sản xuất tại trang trại"
+        "Nhân viên quản lý sản xuất tại trang trại",
+        "Cán bộ kỹ thuật hợp tác xã",
+        "Nhân viên doanh nghiệp nông nghiệp số",
+        "Chủ trang trại ứng dụng công nghệ cao"
       ],
-      "further_study": "Liên thông đại học ngành Nông nghiệp công nghệ cao, Công nghệ sinh học, Khoa học cây trồng hoặc Quản lý tài nguyên nông nghiệp",
+      "further_study": "Liên thông đại học ngành Nông nghiệp công nghệ cao, Khoa học cây trồng, Công nghệ sinh học hoặc các ngành phù hợp.",
       "campus": "Trường Cao đẳng Miền Đông",
       "facilities": [
-        "Nhà kính",
-        "hệ thống cảm biến",
-        "phòng thí nghiệm mô – vi sinh",
-        "phòng học thực hành",
+        "Khu thực hành nông nghiệp",
+        "vườn ươm",
+        "nhà lưới",
+        "thiết bị tưới",
         "thư viện",
         "ký túc xá"
       ],
       "tuition_range_vnd_per_term": [
-        5200000,
-        7000000
+        8250000,
+        8250000
       ],
       "contacts": {
-        "unit": "Phòng Tuyển sinh và Truyền thông",
-        "phone": "0963.880.889",
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
         "email": "tuyensinh@cdmd.edu.vn"
       },
       "tags": [
-        "Nông nghiệp",
-        "Công nghệ cao",
+        "Nông nghiệp công nghệ cao",
+        "6620131",
+        "Nhà kính",
         "IoT",
         "Tự động hóa",
-        "Sinh học"
+        "Nông nghiệp số"
       ]
     },
     {
@@ -496,7 +538,7 @@
       "slug": "cong-nghe-san-xuat-cac-san-pham-cao-su-cao-dang",
       "name": "Công nghệ sản xuất các sản phẩm cao su",
       "level": "Cao đẳng",
-      "career_group": "Công nghệ kỹ thuật",
+      "career_group": "Công nghệ sản xuất",
       "riasec": [
         "R",
         "I",
@@ -506,56 +548,56 @@
         "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
         "form": "Xét tuyển học bạ hoặc điểm thi; kiểm tra năng lực thực hành khi cần"
       },
-      "duration_months": 30,
-      "description": "Đào tạo kỹ thuật viên có kiến thức và kỹ năng về quy trình chế biến, phối trộn, lưu hóa, tạo hình, kiểm định và sản xuất các sản phẩm cao su kỹ thuật; có khả năng vận hành, bảo trì thiết bị, kiểm tra chất lượng và cải tiến công nghệ sản xuất trong nhà máy cao su công nghiệp.",
+      "duration_months": 36,
+      "description": "Ngành Công nghệ sản xuất các sản phẩm cao su, mã ngành 6510503 theo giấy chứng nhận hoạt động giáo dục nghề nghiệp, đào tạo người học thực hiện quy trình phối trộn, cán luyện, ép, lưu hóa, tạo hình, kiểm tra chất lượng và sản xuất các sản phẩm cao su kỹ thuật phục vụ công nghiệp, nông nghiệp, giao thông vận tải và đời sống. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
       "skills": [
-        "Hiểu và thực hiện quy trình phối trộn, cán luyện, ép và lưu hóa cao su",
-        "vận hành thiết bị sản xuất",
-        "kiểm tra chất lượng",
-        "ghi chép, thống kê sản xuất",
-        "tuân thủ an toàn và 5S trong nhà máy",
-        "ứng dụng tự động hóa trong chế biến cao su"
+        "Phối trộn và cán luyện cao su",
+        "Vận hành thiết bị ép, lưu hóa và tạo hình",
+        "Kiểm tra chất lượng nguyên liệu và sản phẩm",
+        "Thực hiện an toàn hóa chất, an toàn máy và phòng chống cháy nổ",
+        "Quản lý sản xuất theo 5S, ISO và cải tiến quy trình"
       ],
       "core_modules": [
         "Hóa học cao su",
         "Vật liệu polyme",
-        "Quy trình sản xuất sản phẩm cao su",
-        "Thiết bị và công nghệ chế biến",
-        "Kiểm tra chất lượng sản phẩm",
+        "Công nghệ sản xuất sản phẩm cao su",
+        "Thiết bị chế biến cao su",
+        "Kiểm tra chất lượng sản phẩm cao su",
         "An toàn lao động",
         "Quản lý sản xuất",
         "Thực tập nghề nghiệp"
       ],
       "jobs": [
         "Kỹ thuật viên sản xuất sản phẩm cao su",
-        "Nhân viên vận hành dây chuyền",
-        "Nhân viên QC/QA",
+        "Nhân viên vận hành dây chuyền cao su",
+        "Nhân viên kiểm tra chất lượng",
         "Nhân viên phòng kỹ thuật, phòng vật liệu",
-        "Cán bộ tổ sản xuất"
+        "Tổ trưởng sản xuất trong nhà máy cao su"
       ],
-      "further_study": "Liên thông đại học ngành Công nghệ vật liệu, Công nghệ kỹ thuật hóa học, Công nghệ cao su hoặc Kỹ thuật công nghiệp",
+      "further_study": "Liên thông đại học ngành Công nghệ vật liệu, Công nghệ kỹ thuật hóa học, Công nghệ cao su hoặc các ngành phù hợp.",
       "campus": "Trường Cao đẳng Miền Đông",
       "facilities": [
         "Xưởng cao su",
-        "máy cán luyện",
-        "máy ép lưu hóa",
-        "phòng kiểm định vật liệu",
+        "phòng kiểm nghiệm cao su",
+        "thiết bị chế biến mủ",
+        "dụng cụ an toàn lao động",
         "ký túc xá"
       ],
       "tuition_range_vnd_per_term": [
-        5300000,
-        7300000
+        11500000,
+        11500000
       ],
       "contacts": {
-        "unit": "Phòng Tuyển sinh và Truyền thông",
-        "phone": "0963.880.889",
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
         "email": "tuyensinh@cdmd.edu.vn"
       },
       "tags": [
         "Cao su",
-        "Vật liệu",
-        "Chế biến",
-        "Sản xuất công nghiệp"
+        "6510503",
+        "Sản phẩm cao su",
+        "Lưu hóa",
+        "Vật liệu"
       ]
     },
     {
@@ -570,16 +612,16 @@
       ],
       "admission": {
         "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
-        "form": "Xét tuyển học bạ hoặc điểm thi; phỏng vấn đánh giá năng lực"
+        "form": "Xét tuyển học bạ hoặc điểm thi; phỏng vấn đánh giá năng lực khi cần"
       },
-      "duration_months": 30,
-      "description": "Đào tạo kỹ thuật viên có kiến thức và kỹ năng vận hành, kiểm soát và cải tiến các quá trình công nghệ hóa học; phân tích, kiểm nghiệm và đánh giá chất lượng nguyên liệu, sản phẩm hóa chất, vật liệu; đảm bảo an toàn, bảo vệ môi trường và phát triển sản xuất xanh.",
+      "duration_months": 36,
+      "description": "Ngành Công nghệ kỹ thuật hóa học, mã ngành 6510401 theo giấy chứng nhận hoạt động giáo dục nghề nghiệp, đào tạo người học vận hành, kiểm soát, phân tích, kiểm nghiệm và cải tiến các quá trình công nghệ hóa học trong sản xuất hóa chất, vật liệu, cao su, môi trường và các lĩnh vực công nghiệp liên quan. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
       "skills": [
-        "Vận hành thiết bị phản ứng",
-        "thực hiện thí nghiệm pha chế, chưng cất, tách, tinh chế",
-        "phân tích mẫu",
-        "kiểm tra chất lượng sản phẩm",
-        "áp dụng quy trình an toàn hóa chất và ISO trong sản xuất"
+        "Thực hiện thí nghiệm hóa học và phân tích mẫu",
+        "Vận hành thiết bị công nghệ hóa học",
+        "Kiểm tra chất lượng nguyên liệu và sản phẩm",
+        "Pha chế, chưng cất, tách, tinh chế",
+        "Tuân thủ an toàn hóa chất, an toàn môi trường và quy trình ISO"
       ],
       "core_modules": [
         "Hóa học đại cương",
@@ -593,34 +635,35 @@
       ],
       "jobs": [
         "Kỹ thuật viên hóa học",
-        "Nhân viên QC/QA",
         "Nhân viên phòng thí nghiệm",
-        "Nhân viên kỹ thuật sản xuất vật liệu, phân bón, cao su, sơn",
-        "Cán bộ kỹ thuật môi trường"
+        "Nhân viên QC/QA",
+        "Nhân viên kỹ thuật sản xuất hóa chất, cao su, sơn, phân bón",
+        "Nhân viên kỹ thuật môi trường"
       ],
-      "further_study": "Liên thông đại học ngành Công nghệ kỹ thuật hóa học, Hóa học ứng dụng hoặc Kỹ thuật môi trường",
+      "further_study": "Liên thông đại học ngành Công nghệ kỹ thuật hóa học, Hóa học ứng dụng, Kỹ thuật môi trường hoặc Công nghệ vật liệu.",
       "campus": "Trường Cao đẳng Miền Đông",
       "facilities": [
         "Phòng thí nghiệm hóa học",
-        "thiết bị đo hiện đại",
-        "xưởng hóa chất",
+        "xưởng thực hành",
+        "thiết bị đo kiểm",
         "thư viện",
         "ký túc xá"
       ],
       "tuition_range_vnd_per_term": [
-        5400000,
-        7400000
+        12000000,
+        12000000
       ],
       "contacts": {
-        "unit": "Phòng Tuyển sinh và Truyền thông",
-        "phone": "0963.880.889",
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
         "email": "tuyensinh@cdmd.edu.vn"
       },
       "tags": [
         "Hóa học",
-        "Công nghệ",
+        "6510401",
         "Phân tích",
-        "Sản xuất xanh"
+        "Thí nghiệm",
+        "Công nghệ hóa học"
       ]
     },
     {
@@ -636,16 +679,16 @@
       ],
       "admission": {
         "target": "Tốt nghiệp Trung học phổ thông hoặc tương đương trở lên",
-        "form": "Xét tuyển học bạ hoặc điểm thi; phỏng vấn định hướng nghề nghiệp"
+        "form": "Xét tuyển học bạ hoặc điểm thi; phỏng vấn định hướng nghề nghiệp khi cần"
       },
-      "duration_months": 30,
-      "description": "Đào tạo kỹ thuật viên có kiến thức và kỹ năng vận hành, kiểm soát, phân tích, thiết kế và bảo trì hệ thống xử lý nước, khí, rác thải; quan trắc và đánh giá môi trường; ứng dụng công nghệ xanh, năng lượng tái tạo và chuyển đổi số trong quản lý môi trường hiện đại.",
+      "duration_months": 36,
+      "description": "Ngành Công nghệ kỹ thuật môi trường, mã ngành 6510421 theo giấy chứng nhận hoạt động giáo dục nghề nghiệp, đào tạo người học có năng lực quan trắc, phân tích, vận hành, kiểm soát, bảo trì và cải tiến hệ thống xử lý nước, khí, chất thải rắn; tham gia quản lý môi trường, tư vấn hồ sơ môi trường và phát triển sản xuất xanh trong doanh nghiệp. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
       "skills": [
         "Lấy mẫu và phân tích môi trường",
-        "vận hành hệ thống xử lý nước thải, khí thải, rác thải",
-        "thiết kế hệ thống xử lý",
-        "sử dụng thiết bị đo và phần mềm quản lý môi trường",
-        "tuân thủ an toàn và quy định pháp luật về bảo vệ môi trường"
+        "Quan trắc và đánh giá chất lượng môi trường",
+        "Vận hành hệ thống xử lý nước thải, khí thải, chất thải rắn",
+        "Sử dụng thiết bị đo và phần mềm quản lý môi trường",
+        "Lập báo cáo kỹ thuật và tuân thủ pháp luật bảo vệ môi trường"
       ],
       "core_modules": [
         "Môi trường đại cương",
@@ -661,32 +704,1221 @@
         "Kỹ thuật viên môi trường",
         "Nhân viên vận hành hệ thống xử lý",
         "Nhân viên phân tích – quan trắc",
-        "Nhân viên tư vấn pháp lý môi trường",
+        "Nhân viên tư vấn hồ sơ môi trường",
         "Cán bộ kỹ thuật môi trường tại doanh nghiệp, khu công nghiệp"
       ],
-      "further_study": "Liên thông đại học ngành Công nghệ kỹ thuật môi trường, Quản lý tài nguyên và môi trường hoặc Công nghệ sinh học",
+      "further_study": "Liên thông đại học ngành Công nghệ kỹ thuật môi trường, Quản lý tài nguyên và môi trường, Công nghệ sinh học hoặc các ngành phù hợp.",
       "campus": "Trường Cao đẳng Miền Đông",
       "facilities": [
         "Phòng thí nghiệm môi trường",
-        "hệ thống xử lý nước thải mô phỏng",
-        "thiết bị đo và quan trắc",
+        "thiết bị quan trắc",
+        "mô hình xử lý nước thải",
         "thư viện",
         "ký túc xá"
       ],
       "tuition_range_vnd_per_term": [
-        5200000,
-        7200000
+        12000000,
+        12000000
       ],
       "contacts": {
-        "unit": "Phòng Tuyển sinh và Truyền thông",
-        "phone": "0963.880.889",
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
         "email": "tuyensinh@cdmd.edu.vn"
       },
       "tags": [
         "Môi trường",
+        "6510421",
         "Xử lý nước",
-        "Năng lượng tái tạo",
-        "Quan trắc"
+        "Quan trắc",
+        "Chất thải"
+      ]
+    },
+    {
+      "id": "cntt-cd-lt",
+      "slug": "cong-nghe-thong-tin-cao-dang-lien-thong",
+      "name": "Công nghệ thông tin",
+      "level": "Cao đẳng liên thông",
+      "career_group": "Công nghệ thông tin và truyền thông",
+      "riasec": [
+        "I",
+        "R",
+        "C"
+      ],
+      "admission": {
+        "target": "Người có bằng tốt nghiệp trung cấp cùng ngành, nghề và bằng tốt nghiệp trung học phổ thông hoặc tương đương; hoặc người có bằng tốt nghiệp trung cấp nhưng chưa có bằng tốt nghiệp trung học phổ thông thì phải bảo đảm đã học và thi đạt yêu cầu đủ khối lượng kiến thức văn hóa trung học phổ thông theo quy định; hoặc người có bằng tốt nghiệp cao đẳng, cao đẳng nghề có nhu cầu học liên thông để có bằng tốt nghiệp cao đẳng thứ hai.",
+        "form": "Xét tuyển theo quy định tuyển sinh liên thông của Trường"
+      },
+      "duration_months": 12,
+      "description": "Chương trình Công nghệ thông tin trình độ Cao đẳng liên thông, mã ngành 6480201, dành cho người đã có nền tảng trung cấp hoặc cao đẳng phù hợp, đào tạo bổ sung năng lực quản trị hệ thống, cơ sở dữ liệu, lập trình ứng dụng, phát triển web, quản trị mạng và ứng dụng trí tuệ nhân tạo. Chương trình ban hành năm 2025, thời gian đào tạo 1 năm, khối lượng kiến thức toàn khóa 39 tín chỉ đối với người học từ Trung cấp Tin học ứng dụng lên Cao đẳng Công nghệ thông tin; có chương trình học chuyển đổi cho đối tượng đã có bằng cao đẳng, đại học khác ngành. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
+      "skills": [
+        "Quản trị mạng máy tính",
+        "Quản trị cơ sở dữ liệu",
+        "Phát triển ứng dụng Fullstack",
+        "Lập trình Mobile",
+        "Thiết kế giao diện UI/UX",
+        "Ứng dụng Prompt trong phát triển ứng dụng",
+        "Triển khai hệ thống thông tin"
+      ],
+      "core_modules": [
+        "Quản trị mạng máy tính",
+        "Cơ sở dữ liệu nâng cao",
+        "Phát triển ứng dụng Fullstack",
+        "Lập trình Mobile",
+        "Đa phương tiện và thiết kế UI/UX",
+        "Ứng dụng Prompt và tự động hóa quy trình",
+        "An toàn thông tin và bảo mật",
+        "Thực tập tốt nghiệp"
+      ],
+      "jobs": [
+        "Quản trị mạng máy tính",
+        "Quản trị cơ sở dữ liệu",
+        "Lập trình ứng dụng",
+        "Dịch vụ khách hàng công nghệ thông tin",
+        "Thiết kế đồ họa vi tính",
+        "Khai thác dịch vụ công nghệ thông tin"
+      ],
+      "further_study": "Liên thông tiếp lên đại học ngành Công nghệ thông tin, Hệ thống thông tin, Khoa học máy tính hoặc An toàn thông tin.",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Phòng máy tính",
+        "phòng thực hành mạng",
+        "phòng học thông minh",
+        "thư viện số",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        12000000,
+        12000000
+      ],
+      "contacts": {
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Liên thông",
+        "Công nghệ thông tin",
+        "6480201",
+        "Fullstack",
+        "Mobile",
+        "AI"
+      ]
+    },
+    {
+      "id": "cnktddt-cd-lt",
+      "slug": "cong-nghe-ky-thuat-dien-dien-tu-cao-dang-lien-thong",
+      "name": "Công nghệ kỹ thuật điện, điện tử",
+      "level": "Cao đẳng liên thông",
+      "career_group": "Công nghệ kỹ thuật",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "admission": {
+        "target": "Người có bằng tốt nghiệp trung cấp cùng ngành, nghề và bằng tốt nghiệp trung học phổ thông hoặc tương đương; hoặc người có bằng tốt nghiệp trung cấp nhưng chưa có bằng tốt nghiệp trung học phổ thông thì phải bảo đảm đã học và thi đạt yêu cầu đủ khối lượng kiến thức văn hóa trung học phổ thông theo quy định; hoặc người có bằng tốt nghiệp cao đẳng, cao đẳng nghề có nhu cầu học liên thông để có bằng tốt nghiệp cao đẳng thứ hai.",
+        "form": "Xét tuyển theo quy định tuyển sinh liên thông của Trường"
+      },
+      "duration_months": 12,
+      "description": "Chương trình Công nghệ kỹ thuật điện, điện tử trình độ Cao đẳng liên thông, mã ngành 6510303, đào tạo bổ sung kiến thức và kỹ năng lắp đặt, vận hành, bảo trì, sửa chữa thiết bị điện, điện tử, hệ thống phân phối điện và hệ thống điều khiển tự động. Chương trình ban hành năm 2024, thời gian đào tạo 1 năm, khối lượng kiến thức 33 tín chỉ đối với chương trình không chuyển đổi. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
+      "skills": [
+        "Lập kế hoạch lắp đặt thiết bị điện",
+        "Kiểm tra, vận hành và sửa chữa thiết bị điện, điện tử",
+        "Lắp đặt tủ điện và hệ thống phân phối điện",
+        "Vận hành hệ thống điều khiển tự động",
+        "Lập trình PLC",
+        "Chẩn đoán và xử lý sự cố hệ thống điện"
+      ],
+      "core_modules": [
+        "Toán ứng dụng",
+        "Lắp đặt điện mặt trời",
+        "Kĩ thuật cảm biến",
+        "PLC nâng cao",
+        "Thí nghiệm máy điện",
+        "Kĩ thuật vi điều khiển",
+        "Trang bị điện",
+        "Thực tập cơ sở",
+        "Thực tập tốt nghiệp"
+      ],
+      "jobs": [
+        "Lắp đặt thiết bị điện",
+        "Sửa chữa thiết bị điện, điện tử",
+        "Thi công, vận hành hệ thống phân phối cung cấp điện",
+        "Thiết kế, lắp ráp mạch điện tử",
+        "Vận hành, bảo trì, sửa chữa hệ thống điều khiển tự động"
+      ],
+      "further_study": "Liên thông tiếp lên đại học ngành Kỹ thuật điện, Kỹ thuật điện tử, Tự động hóa hoặc Cơ điện tử.",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Xưởng điện – điện tử",
+        "bộ thực hành PLC",
+        "thiết bị đo điện",
+        "phòng học thực hành",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        12000000,
+        12000000
+      ],
+      "contacts": {
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Liên thông",
+        "Điện",
+        "Điện tử",
+        "6510303",
+        "PLC",
+        "Tự động hóa"
+      ]
+    },
+    {
+      "id": "oto-cd-lt",
+      "slug": "cong-nghe-o-to-cao-dang-lien-thong",
+      "name": "Công nghệ ô tô",
+      "level": "Cao đẳng liên thông",
+      "career_group": "Công nghệ kỹ thuật",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "admission": {
+        "target": "Người có bằng tốt nghiệp trung cấp cùng ngành, nghề và bằng tốt nghiệp trung học phổ thông hoặc tương đương; hoặc người có bằng tốt nghiệp trung cấp nhưng chưa có bằng tốt nghiệp trung học phổ thông thì phải bảo đảm đã học và thi đạt yêu cầu đủ khối lượng kiến thức văn hóa trung học phổ thông theo quy định; hoặc người có bằng tốt nghiệp cao đẳng, cao đẳng nghề có nhu cầu học liên thông để có bằng tốt nghiệp cao đẳng thứ hai.",
+        "form": "Xét tuyển theo quy định tuyển sinh liên thông của Trường"
+      },
+      "duration_months": 12,
+      "description": "Chương trình Công nghệ ô tô trình độ Cao đẳng liên thông, mã ngành 6510216, đào tạo bổ sung năng lực bảo dưỡng, sửa chữa, chẩn đoán các hệ thống trên ô tô hiện đại, quản lý dịch vụ ô tô và kỹ năng kinh doanh trong lĩnh vực ô tô. Chương trình ban hành năm 2024, thời gian đào tạo 1 năm, khối lượng kiến thức 34 tín chỉ đối với chương trình không chuyển đổi. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
+      "skills": [
+        "Chẩn đoán kỹ thuật ô tô",
+        "Bảo dưỡng hệ thống động cơ, điện, điều hòa, phanh, lái, treo",
+        "Kiểm tra và đánh giá tình trạng xe",
+        "Quản lý dịch vụ kỹ thuật ô tô",
+        "Tư vấn, chăm sóc khách hàng và đào tạo nhân viên"
+      ],
+      "core_modules": [
+        "Tiếng Anh",
+        "Tin học",
+        "Quản lí dụng ngành công nghệ ô tô",
+        "AutoCAD",
+        "Công nghệ khí nén – thủy lực ứng dụng",
+        "Động cơ đốt trong thế hệ mới",
+        "Bảo dưỡng và sửa chữa hộp số tự động",
+        "Ô tô điện và hybrid",
+        "Bảo dưỡng và sửa chữa hệ thống điều hòa không khí ô tô",
+        "Chẩn đoán trạng thái kỹ thuật xe ô tô",
+        "Thực tập tốt nghiệp"
+      ],
+      "jobs": [
+        "Chăm sóc, làm đẹp xe ô tô",
+        "Quản lý vật tư, phụ tùng ô tô",
+        "Sản xuất phụ tùng và lắp ráp ô tô",
+        "Kinh doanh trong lĩnh vực ô tô và phụ tùng ô tô",
+        "Sửa chữa động cơ, gầm, điện, điều hòa ô tô",
+        "Quản lý gara ô tô, trung tâm bảo hành – sửa chữa ô tô"
+      ],
+      "further_study": "Liên thông tiếp lên đại học ngành Công nghệ kỹ thuật ô tô, Cơ khí động lực, Cơ điện tử hoặc các ngành phù hợp.",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Xưởng thực hành ô tô",
+        "thiết bị chẩn đoán ô tô",
+        "mô hình động cơ",
+        "phòng học thực hành",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        12000000,
+        12000000
+      ],
+      "contacts": {
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Liên thông",
+        "Ô tô",
+        "6510216",
+        "Chẩn đoán",
+        "Bảo dưỡng"
+      ]
+    },
+    {
+      "id": "khct-cd-lt",
+      "slug": "khoa-hoc-cay-trong-cao-dang-lien-thong",
+      "name": "Khoa học cây trồng",
+      "level": "Cao đẳng liên thông",
+      "career_group": "Nông nghiệp, Lâm nghiệp và Thủy sản",
+      "riasec": [
+        "R",
+        "I"
+      ],
+      "admission": {
+        "target": "Người có bằng tốt nghiệp trung cấp cùng ngành, nghề và bằng tốt nghiệp trung học phổ thông hoặc tương đương; hoặc người có bằng tốt nghiệp trung cấp nhưng chưa có bằng tốt nghiệp trung học phổ thông thì phải bảo đảm đã học và thi đạt yêu cầu đủ khối lượng kiến thức văn hóa trung học phổ thông theo quy định; hoặc người có bằng tốt nghiệp cao đẳng, cao đẳng nghề có nhu cầu học liên thông để có bằng tốt nghiệp cao đẳng thứ hai.",
+        "form": "Xét tuyển theo quy định tuyển sinh liên thông của Trường"
+      },
+      "duration_months": 12,
+      "description": "Chương trình Khoa học cây trồng trình độ Cao đẳng liên thông, mã ngành 6620109, đào tạo bổ sung năng lực sản xuất giống, sử dụng phân bón, canh tác, bảo vệ thực vật, thu hoạch, sơ chế, bảo quản nông sản và chuyển giao tiến bộ khoa học kỹ thuật. Chương trình ban hành năm 2024, thời gian đào tạo 1 năm, khối lượng kiến thức 39 tín chỉ đối với người học từ Trung cấp lên Cao đẳng. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
+      "skills": [
+        "Lập kế hoạch sản xuất cây trồng",
+        "Sử dụng phân bón hợp lý",
+        "Sản xuất giống cây trồng",
+        "Canh tác và bảo vệ cây trồng",
+        "Thu hoạch, sơ chế, bảo quản nông sản",
+        "Tổ chức sản xuất và chuyển giao kỹ thuật"
+      ],
+      "core_modules": [
+        "Đấu tranh sinh học và phòng trừ cỏ dại",
+        "Sinh thái môi trường",
+        "Phương pháp nghiên cứu khoa học",
+        "Khí tượng nông nghiệp và biến đổi khí hậu",
+        "Cây công nghiệp dài ngày",
+        "Công nghệ sản xuất cây dược liệu",
+        "Trồng, chăm sóc cây đậu phộng",
+        "Trồng, chăm sóc cây ngô",
+        "Thực tập tốt nghiệp"
+      ],
+      "jobs": [
+        "Sản xuất giống cây trồng",
+        "Sử dụng phân bón",
+        "Canh tác cây trồng",
+        "Bảo vệ thực vật",
+        "Thu hoạch, sơ chế, bảo quản nông sản",
+        "Chuyển giao tiến bộ khoa học kỹ thuật"
+      ],
+      "further_study": "Liên thông tiếp lên đại học ngành Khoa học cây trồng, Nông học, Công nghệ sinh học hoặc Nông nghiệp công nghệ cao.",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Khu thực hành nông nghiệp",
+        "vườn ươm",
+        "nhà lưới",
+        "thiết bị tưới",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        8250000,
+        8250000
+      ],
+      "contacts": {
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Liên thông",
+        "Khoa học cây trồng",
+        "6620109",
+        "Nông nghiệp"
+      ]
+    },
+    {
+      "id": "kt-cd-lt",
+      "slug": "ke-toan-cao-dang-lien-thong",
+      "name": "Kế toán",
+      "level": "Cao đẳng liên thông",
+      "career_group": "Kế toán – Kiểm toán",
+      "riasec": [
+        "C",
+        "E"
+      ],
+      "admission": {
+        "target": "Người có bằng tốt nghiệp trung cấp cùng ngành, nghề và bằng tốt nghiệp trung học phổ thông hoặc tương đương; hoặc người có bằng tốt nghiệp trung cấp nhưng chưa có bằng tốt nghiệp trung học phổ thông thì phải bảo đảm đã học và thi đạt yêu cầu đủ khối lượng kiến thức văn hóa trung học phổ thông theo quy định; hoặc người có bằng tốt nghiệp cao đẳng, cao đẳng nghề có nhu cầu học liên thông để có bằng tốt nghiệp cao đẳng thứ hai.",
+        "form": "Xét tuyển theo quy định tuyển sinh liên thông của Trường"
+      },
+      "duration_months": 12,
+      "description": "Chương trình Kế toán trình độ Cao đẳng liên thông, mã ngành 6340301, đào tạo bổ sung năng lực tổ chức công tác kế toán, lập chứng từ, ghi sổ, lập báo cáo tài chính, báo cáo thuế, phân tích tài chính, sử dụng phần mềm kế toán và ứng dụng công nghệ hiện đại vào công việc kế toán. Chương trình ban hành năm 2024, thời gian đào tạo 1 năm, khối lượng kiến thức toàn khóa 40 tín chỉ. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
+      "skills": [
+        "Lập và tiếp nhận chứng từ kế toán",
+        "Kế toán tiền mặt, tiền gửi, hàng tồn kho, tài sản cố định, tiền lương, bán hàng, công nợ và thuế",
+        "Lập báo cáo tài chính, báo cáo thuế",
+        "Sử dụng phần mềm kế toán",
+        "Phân tích tài chính doanh nghiệp",
+        "Lập kế hoạch tài chính"
+      ],
+      "core_modules": [
+        "Quản trị doanh nghiệp",
+        "Kinh tế vi mô",
+        "Thống kê doanh nghiệp",
+        "Kế toán doanh nghiệp",
+        "Kế toán xuất nhập khẩu",
+        "Kế toán quản trị",
+        "Kế toán hành chính sự nghiệp",
+        "Phân tích tài chính doanh nghiệp",
+        "Phần mềm kế toán Fast",
+        "Thực tập tốt nghiệp"
+      ],
+      "jobs": [
+        "Kế toán vốn bằng tiền",
+        "Kế toán thanh toán",
+        "Kế toán hàng tồn kho",
+        "Kế toán tài sản cố định",
+        "Kế toán tiền lương",
+        "Kế toán giá thành",
+        "Kế toán bán hàng",
+        "Kế toán thuế",
+        "Kế toán tổng hợp",
+        "Thủ quỹ"
+      ],
+      "further_study": "Liên thông tiếp lên đại học ngành Kế toán, Kiểm toán, Tài chính – Ngân hàng hoặc Quản trị kinh doanh.",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Phòng thực hành kế toán",
+        "phần mềm kế toán",
+        "phòng máy tính",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        8000000,
+        8000000
+      ],
+      "contacts": {
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Liên thông",
+        "Kế toán",
+        "6340301",
+        "Thuế",
+        "Kế toán máy"
+      ]
+    },
+    {
+      "id": "tq-tc",
+      "slug": "tieng-trung-quoc-trung-cap",
+      "name": "Tiếng Trung Quốc",
+      "level": "Trung cấp",
+      "career_group": "Ngôn ngữ, văn học và văn hóa nước ngoài",
+      "riasec": [
+        "S",
+        "E",
+        "C"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học cơ sở hoặc tương đương trở lên",
+        "form": "Xét tuyển theo quy định tuyển sinh của Trường"
+      },
+      "duration_months": 24,
+      "description": "Ngành Tiếng Trung Quốc trình độ Trung cấp, mã ngành 5220209, đào tạo người học sử dụng tiếng Trung Quốc trong giao tiếp, học tập và công việc; rèn luyện bốn kỹ năng nghe, nói, đọc, viết; trang bị kiến thức văn hóa, giao tiếp, hành chính văn phòng, biên dịch và phiên dịch cơ bản để làm việc trong doanh nghiệp, dịch vụ, thương mại, du lịch và môi trường có yếu tố nước ngoài. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
+      "skills": [
+        "Nghe, nói, đọc, viết tiếng Trung Quốc trong tình huống thông thường và công việc",
+        "Soạn thảo email, thư tín và văn bản đơn giản bằng tiếng Trung Quốc",
+        "Biên dịch, phiên dịch cơ bản",
+        "Giao tiếp và hỗ trợ đối ngoại",
+        "Sử dụng công nghệ thông tin trong học tập và công việc"
+      ],
+      "core_modules": [
+        "Tiếng Trung tổng hợp",
+        "Nghe tiếng Trung",
+        "Nói tiếng Trung",
+        "Đọc hiểu tiếng Trung",
+        "Viết tiếng Trung",
+        "Văn hóa Trung Quốc",
+        "Tiếng Trung thương mại cơ bản",
+        "Nghiệp vụ văn phòng",
+        "Thực tập tốt nghiệp"
+      ],
+      "jobs": [
+        "Trợ lý tiếng Trung Quốc",
+        "Nhân viên hành chính văn phòng sử dụng tiếng Trung",
+        "Nhân viên biên dịch, phiên dịch cơ bản",
+        "Nhân viên chăm sóc khách hàng",
+        "Nhân viên kinh doanh, xuất nhập khẩu",
+        "Nhân viên tư vấn du học, xuất khẩu lao động"
+      ],
+      "further_study": "Liên thông lên trình độ Cao đẳng hoặc học các chương trình chuyên sâu về tiếng Trung Quốc, du lịch, thương mại, văn phòng.",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Phòng học ngoại ngữ",
+        "phòng máy tính",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        8000000,
+        8000000
+      ],
+      "contacts": {
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Tiếng Trung Quốc",
+        "5220209",
+        "Trung cấp",
+        "Ngoại ngữ"
+      ]
+    },
+    {
+      "id": "thud-tc",
+      "slug": "tin-hoc-ung-dung-trung-cap",
+      "name": "Tin học ứng dụng",
+      "level": "Trung cấp",
+      "career_group": "Công nghệ thông tin và truyền thông",
+      "riasec": [
+        "I",
+        "R",
+        "C"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học cơ sở hoặc tương đương trở lên",
+        "form": "Xét tuyển theo quy định tuyển sinh của Trường"
+      },
+      "duration_months": 24,
+      "description": "Ngành Tin học ứng dụng trình độ Trung cấp, mã ngành 5480205, đào tạo người học ứng dụng công nghệ thông tin trong quản trị máy tính, mạng máy tính, thiết kế website, quản trị cơ sở dữ liệu, thiết kế đồ họa, xử lý dữ liệu và hỗ trợ chuyển đổi số tại cơ quan, doanh nghiệp. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
+      "skills": [
+        "Lắp ráp, cài đặt và bảo trì máy tính",
+        "Thiết kế và quản trị website",
+        "Thiết kế đồ họa cơ bản",
+        "Thiết kế và quản trị cơ sở dữ liệu",
+        "Cấu hình mạng nội bộ",
+        "Hỗ trợ kỹ thuật công nghệ thông tin"
+      ],
+      "core_modules": [
+        "Tin học văn phòng",
+        "Hệ điều hành",
+        "Mạng máy tính",
+        "Lập trình cơ bản",
+        "Cơ sở dữ liệu",
+        "Thiết kế website",
+        "Quản trị website",
+        "Đồ họa vi tính",
+        "Thực tập nghề nghiệp"
+      ],
+      "jobs": [
+        "Kỹ thuật viên hỗ trợ công nghệ thông tin",
+        "Kỹ thuật viên lắp ráp, cài đặt và bảo trì máy tính",
+        "Nhân viên phát triển website",
+        "Nhân viên quản trị website",
+        "Nhân viên thiết kế đồ họa",
+        "Nhân viên nhập liệu và xử lý dữ liệu"
+      ],
+      "further_study": "Liên thông lên Cao đẳng Công nghệ thông tin hoặc các ngành công nghệ thông tin phù hợp.",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Phòng máy tính",
+        "phòng thực hành mạng",
+        "phòng học thông minh",
+        "thư viện số",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        12000000,
+        12000000
+      ],
+      "contacts": {
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Tin học ứng dụng",
+        "5480205",
+        "Trung cấp",
+        "Website",
+        "Đồ họa",
+        "Mạng máy tính"
+      ]
+    },
+    {
+      "id": "ktdn-tc",
+      "slug": "ke-toan-doanh-nghiep-trung-cap",
+      "name": "Kế toán doanh nghiệp",
+      "level": "Trung cấp",
+      "career_group": "Kế toán – Kiểm toán",
+      "riasec": [
+        "C",
+        "E"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học cơ sở hoặc tương đương trở lên",
+        "form": "Xét tuyển theo quy định tuyển sinh của Trường"
+      },
+      "duration_months": 24,
+      "description": "Ngành Kế toán doanh nghiệp trình độ Trung cấp, mã ngành 5340302, đào tạo người học thực hiện công tác kế toán trong doanh nghiệp, gồm lập chứng từ, ghi sổ, theo dõi công nợ, hàng tồn kho, tài sản cố định, tiền lương, thuế, lập báo cáo tài chính cơ bản và sử dụng phần mềm kế toán. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
+      "skills": [
+        "Thu thập, kiểm tra và xử lý chứng từ kế toán",
+        "Ghi sổ kế toán chi tiết và tổng hợp",
+        "Theo dõi tiền mặt, ngân hàng, hàng tồn kho, tài sản cố định, tiền lương và công nợ",
+        "Lập báo cáo tài chính, báo cáo thuế cơ bản",
+        "Sử dụng phần mềm kế toán"
+      ],
+      "core_modules": [
+        "Nguyên lý kế toán",
+        "Kế toán doanh nghiệp",
+        "Kế toán thuế",
+        "Kế toán máy",
+        "Tin học văn phòng",
+        "Pháp luật kinh tế",
+        "Thực tập nghề nghiệp"
+      ],
+      "jobs": [
+        "Nhân viên kế toán doanh nghiệp",
+        "Kế toán bán hàng",
+        "Kế toán kho",
+        "Kế toán công nợ",
+        "Thủ quỹ",
+        "Nhân viên hành chính – văn phòng"
+      ],
+      "further_study": "Liên thông lên Cao đẳng Kế toán hoặc các ngành tài chính – kế toán phù hợp.",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Phòng thực hành kế toán",
+        "phần mềm kế toán",
+        "phòng máy tính",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        8000000,
+        8000000
+      ],
+      "contacts": {
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Kế toán doanh nghiệp",
+        "5340302",
+        "Trung cấp",
+        "Kế toán",
+        "Thuế"
+      ]
+    },
+    {
+      "id": "kttinhoc-tc",
+      "slug": "ke-toan-tin-hoc-trung-cap",
+      "name": "Kế toán tin học",
+      "level": "Trung cấp",
+      "career_group": "Kế toán – Tài chính – Công nghệ thông tin ứng dụng",
+      "riasec": [
+        "C",
+        "E"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học cơ sở hoặc tương đương trở lên",
+        "form": "Xét tuyển theo quy định tuyển sinh của Trường"
+      },
+      "duration_months": 24,
+      "description": "Ngành Kế toán tin học trình độ Trung cấp, mã ngành 5340306, đào tạo người học thực hiện nghiệp vụ kế toán kết hợp ứng dụng công nghệ thông tin trong quản lý tài chính, kế toán và hoạt động sản xuất kinh doanh; chú trọng thực hành chứng từ, phần mềm kế toán, giao dịch điện tử và xử lý dữ liệu kế toán. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
+      "skills": [
+        "Hạch toán các nghiệp vụ kế toán cơ bản",
+        "Lập báo cáo tài chính và báo cáo thuế",
+        "Sử dụng phần mềm kế toán, phần mềm văn phòng",
+        "Thực hiện giao dịch điện tử với cơ quan thuế, ngân hàng",
+        "Quản lý dữ liệu và hồ sơ kế toán"
+      ],
+      "core_modules": [
+        "Nguyên lý kế toán",
+        "Kế toán tài chính",
+        "Kế toán thuế",
+        "Kế toán máy",
+        "Tin học văn phòng",
+        "Phần mềm kế toán",
+        "Thực tập nghề nghiệp"
+      ],
+      "jobs": [
+        "Kế toán tiền mặt",
+        "Kế toán ngân hàng",
+        "Kế toán kho",
+        "Kế toán tiền lương",
+        "Kế toán bán hàng",
+        "Kế toán công nợ",
+        "Kế toán thuế",
+        "Nhân viên hành chính văn phòng"
+      ],
+      "further_study": "Liên thông lên Cao đẳng Kế toán, Tài chính – Ngân hàng hoặc các ngành phù hợp.",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Phòng thực hành kế toán",
+        "phần mềm kế toán",
+        "phòng máy tính",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        8000000,
+        8000000
+      ],
+      "contacts": {
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Kế toán tin học",
+        "5340306",
+        "Trung cấp",
+        "Kế toán máy",
+        "MISA"
+      ]
+    },
+    {
+      "id": "oto-tc",
+      "slug": "cong-nghe-o-to-trung-cap",
+      "name": "Công nghệ ô tô",
+      "level": "Trung cấp",
+      "career_group": "Cơ khí – Động lực – Ô tô",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học cơ sở hoặc tương đương trở lên",
+        "form": "Xét tuyển theo quy định tuyển sinh của Trường"
+      },
+      "duration_months": 24,
+      "description": "Ngành Công nghệ ô tô trình độ Trung cấp, mã ngành 5510216, đào tạo người học kiểm tra, bảo dưỡng, sửa chữa, chẩn đoán kỹ thuật và khai thác các hệ thống trên ô tô; kết hợp kiến thức cơ khí, điện, điện tử, điều khiển và dịch vụ kỹ thuật ô tô. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
+      "skills": [
+        "Bảo dưỡng định kỳ ô tô",
+        "Sửa chữa động cơ, truyền lực, phanh, lái, treo",
+        "Sửa chữa điện, điện tử và điều hòa ô tô",
+        "Sử dụng thiết bị chẩn đoán",
+        "Tư vấn và bàn giao xe cho khách hàng"
+      ],
+      "core_modules": [
+        "Cấu tạo ô tô",
+        "Động cơ ô tô",
+        "Điện – điện tử ô tô",
+        "Hệ thống truyền lực",
+        "Hệ thống phanh, lái, treo",
+        "Chẩn đoán ô tô",
+        "Điều hòa ô tô",
+        "Thực tập nghề nghiệp"
+      ],
+      "jobs": [
+        "Kỹ thuật viên bảo dưỡng ô tô",
+        "Kỹ thuật viên sửa chữa ô tô",
+        "Nhân viên chẩn đoán kỹ thuật ô tô",
+        "Nhân viên dịch vụ gara",
+        "Nhân viên bảo hành đại lý ô tô",
+        "Chủ cơ sở sửa chữa ô tô"
+      ],
+      "further_study": "Liên thông lên Cao đẳng Công nghệ ô tô.",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Xưởng thực hành ô tô",
+        "thiết bị chẩn đoán ô tô",
+        "mô hình động cơ",
+        "phòng học thực hành",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        12000000,
+        12000000
+      ],
+      "contacts": {
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Công nghệ ô tô",
+        "5510216",
+        "Trung cấp",
+        "Sửa chữa ô tô"
+      ]
+    },
+    {
+      "id": "ml-dhkk-tc",
+      "slug": "ky-thuat-may-lanh-va-dieu-hoa-khong-khi-trung-cap",
+      "name": "Kỹ thuật máy lạnh và điều hòa không khí",
+      "level": "Trung cấp",
+      "career_group": "Kỹ thuật điện, điện tử và viễn thông",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học cơ sở hoặc tương đương trở lên",
+        "form": "Xét tuyển theo quy định tuyển sinh của Trường"
+      },
+      "duration_months": 24,
+      "description": "Ngành Kỹ thuật máy lạnh và điều hòa không khí trình độ Trung cấp, mã ngành 5520205, đào tạo người học lắp đặt, vận hành, bảo trì, bảo dưỡng và sửa chữa máy lạnh dân dụng, điều hòa không khí, kho lạnh, hệ thống lạnh công nghiệp và thiết bị điện lạnh. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
+      "skills": [
+        "Lắp đặt máy lạnh dân dụng và điều hòa không khí",
+        "Vận hành hệ thống lạnh công nghiệp",
+        "Bảo trì, bảo dưỡng thiết bị điện lạnh",
+        "Chẩn đoán và sửa chữa sự cố cơ khí, điện, điện lạnh",
+        "Thực hiện an toàn và tiết kiệm năng lượng"
+      ],
+      "core_modules": [
+        "Kỹ thuật điện",
+        "Kỹ thuật lạnh",
+        "Vật liệu điện lạnh",
+        "Máy lạnh dân dụng",
+        "Điều hòa không khí",
+        "Hệ thống lạnh công nghiệp",
+        "Đo lường và điều khiển điện lạnh",
+        "Thực tập nghề nghiệp"
+      ],
+      "jobs": [
+        "Kỹ thuật viên lắp đặt máy lạnh",
+        "Kỹ thuật viên bảo trì điện lạnh",
+        "Kỹ thuật viên sửa chữa máy lạnh và điều hòa không khí",
+        "Nhân viên kỹ thuật tòa nhà, trung tâm thương mại, khách sạn",
+        "Chủ cơ sở dịch vụ điện lạnh"
+      ],
+      "further_study": "Liên thông lên Cao đẳng Kỹ thuật máy lạnh và điều hòa không khí hoặc các ngành kỹ thuật phù hợp.",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Xưởng điện lạnh",
+        "thiết bị đo kiểm điện lạnh",
+        "mô hình máy lạnh và điều hòa",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        12000000,
+        12000000
+      ],
+      "contacts": {
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Máy lạnh",
+        "Điều hòa không khí",
+        "5520205",
+        "Trung cấp",
+        "Điện lạnh"
+      ]
+    },
+    {
+      "id": "diencndd-tc",
+      "slug": "dien-cong-nghiep-va-dan-dung-trung-cap",
+      "name": "Điện công nghiệp và dân dụng",
+      "level": "Trung cấp",
+      "career_group": "Kỹ thuật điện, điện tử và viễn thông",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học cơ sở hoặc tương đương trở lên",
+        "form": "Xét tuyển theo quy định tuyển sinh của Trường"
+      },
+      "duration_months": 24,
+      "description": "Ngành Điện công nghiệp và dân dụng trình độ Trung cấp, mã ngành 5520223, đào tạo người học lắp đặt, vận hành, kiểm tra, bảo trì và sửa chữa hệ thống điện, thiết bị điện trong công nghiệp, dân dụng và công trình xây dựng; đáp ứng nhu cầu nhân lực kỹ thuật điện tại nhà máy, khu công nghiệp, tòa nhà và hộ gia đình. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
+      "skills": [
+        "Đọc bản vẽ điện",
+        "Lắp đặt hệ thống điện dân dụng",
+        "Lắp đặt và vận hành hệ thống điện công nghiệp",
+        "Đấu nối tủ điện và thiết bị điều khiển",
+        "Bảo trì động cơ, máy điện và thiết bị điện",
+        "Xử lý sự cố điện và thực hiện an toàn điện"
+      ],
+      "core_modules": [
+        "Kỹ thuật điện",
+        "Khí cụ điện",
+        "Máy điện",
+        "Cung cấp điện",
+        "Lắp đặt điện dân dụng",
+        "Lắp đặt điện công nghiệp",
+        "PLC cơ bản",
+        "An toàn điện",
+        "Thực tập nghề nghiệp"
+      ],
+      "jobs": [
+        "Kỹ thuật viên điện dân dụng",
+        "Kỹ thuật viên điện công nghiệp",
+        "Nhân viên vận hành và bảo trì hệ thống điện nhà máy",
+        "Nhân viên thi công điện công trình",
+        "Nhân viên kỹ thuật cơ điện tòa nhà",
+        "Chủ cơ sở dịch vụ điện"
+      ],
+      "further_study": "Liên thông lên Cao đẳng Công nghệ kỹ thuật điện, điện tử hoặc các ngành kỹ thuật liên quan.",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Xưởng điện – điện tử",
+        "bộ thực hành PLC",
+        "thiết bị đo điện",
+        "phòng học thực hành",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        12000000,
+        12000000
+      ],
+      "contacts": {
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Điện công nghiệp và dân dụng",
+        "5520223",
+        "Trung cấp",
+        "Điện",
+        "Bảo trì"
+      ]
+    },
+    {
+      "id": "cbmcs-tc",
+      "slug": "cong-nghe-ky-thuat-che-bien-mu-cao-su-trung-cap",
+      "name": "Công nghệ kỹ thuật chế biến mủ cao su",
+      "level": "Trung cấp",
+      "career_group": "Sản xuất và chế biến khác",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học cơ sở hoặc tương đương trở lên",
+        "form": "Xét tuyển theo quy định tuyển sinh của Trường"
+      },
+      "duration_months": 24,
+      "description": "Ngành Công nghệ kỹ thuật chế biến mủ cao su trình độ Trung cấp, mã ngành 5549003 theo giấy chứng nhận hoạt động giáo dục nghề nghiệp, đào tạo người học tiếp nhận, xử lý, pha chế hóa chất, vận hành thiết bị và thực hiện các công đoạn chế biến mủ cao su thiên nhiên như SVR, RSS và latex cô đặc; chú trọng an toàn lao động, quản lý chất lượng và thực hành tại nhà máy cao su. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
+      "skills": [
+        "Pha chế và kiểm tra hóa chất trong chế biến mủ cao su",
+        "Tiếp nhận, lấy mẫu và kiểm tra nguyên liệu mủ",
+        "Vận hành dây chuyền chế biến SVR, RSS, latex cô đặc",
+        "Sấy, ép bành, bao gói và lưu kho sản phẩm",
+        "Kiểm soát chất lượng theo tiêu chuẩn kỹ thuật",
+        "Thực hiện an toàn lao động và phòng chống cháy nổ"
+      ],
+      "core_modules": [
+        "Pha chế và kiểm tra hóa chất trong chế biến",
+        "An toàn lao động",
+        "Chế biến SVR L, SVR 3L, SVR 5",
+        "Chế biến SVR 10, SVR 20",
+        "Chế biến SVR CV60, SVR CV50",
+        "Chế biến RSS",
+        "Chế biến Latex cô đặc HA, LA",
+        "Thực tập tại cơ sở",
+        "Quản lý chất lượng và ISO"
+      ],
+      "jobs": [
+        "Công nhân kỹ thuật chế biến mủ cao su",
+        "Nhân viên vận hành dây chuyền chế biến",
+        "Nhân viên kiểm tra chất lượng sản phẩm cao su",
+        "Nhân viên phòng kỹ thuật nhà máy",
+        "Nhân viên kho thành phẩm cao su"
+      ],
+      "further_study": "Liên thông lên các ngành Cao đẳng thuộc lĩnh vực công nghệ sản xuất cao su, công nghệ kỹ thuật hóa học hoặc công nghệ vật liệu phù hợp.",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Xưởng cao su",
+        "phòng kiểm nghiệm cao su",
+        "thiết bị chế biến mủ",
+        "dụng cụ an toàn lao động",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        11500000,
+        11500000
+      ],
+      "contacts": {
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Chế biến mủ cao su",
+        "5549003",
+        "Trung cấp",
+        "SVR",
+        "RSS",
+        "Latex"
+      ]
+    },
+    {
+      "id": "trongtrot-tc",
+      "slug": "trong-trot-trung-cap",
+      "name": "Trồng trọt",
+      "level": "Trung cấp",
+      "career_group": "Nông nghiệp",
+      "riasec": [
+        "R",
+        "I"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học cơ sở hoặc tương đương trở lên",
+        "form": "Xét tuyển theo quy định tuyển sinh của Trường"
+      },
+      "duration_months": 24,
+      "description": "Ngành Trồng trọt trình độ Trung cấp, mã ngành 5620110 theo giấy chứng nhận hoạt động giáo dục nghề nghiệp, đào tạo người học kiến thức và kỹ năng về giống cây trồng, đất và phân bón, bảo vệ thực vật, khí tượng nông nghiệp, kỹ thuật nhân giống, trồng, chăm sóc, thu hoạch và bảo quản các loại cây trồng theo hướng an toàn, hiệu quả và bền vững. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
+      "skills": [
+        "Nhận biết và phân loại giống cây trồng",
+        "Nhân giống cây trồng",
+        "Làm đất, thiết kế vườn và trồng cây",
+        "Sử dụng phân bón hợp lý",
+        "Phòng trừ sâu bệnh hại cây trồng",
+        "Trồng, chăm sóc và thu hoạch cây công nghiệp, cây ăn quả, rau màu"
+      ],
+      "core_modules": [
+        "Sinh lý thực vật",
+        "Đất – phân bón",
+        "Giống cây trồng",
+        "Bảo vệ thực vật đại cương",
+        "Trồng, chăm sóc cây điều",
+        "Trồng, chăm sóc cây rau",
+        "Trồng, chăm sóc cây ăn quả",
+        "Trồng, chăm sóc cây tiêu",
+        "Trồng, chăm sóc cây cao su",
+        "Thu hoạch mủ cây cao su",
+        "Thực tập tốt nghiệp"
+      ],
+      "jobs": [
+        "Kỹ thuật viên trồng trọt",
+        "Nhân viên kỹ thuật trang trại",
+        "Nhân viên trung tâm giống cây trồng",
+        "Nhân viên khuyến nông",
+        "Nhân viên kinh doanh vật tư nông nghiệp",
+        "Chủ trang trại hoặc hộ sản xuất nông nghiệp"
+      ],
+      "further_study": "Liên thông lên Cao đẳng Khoa học cây trồng, Nông nghiệp công nghệ cao hoặc các ngành nông nghiệp phù hợp.",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Khu thực hành nông nghiệp",
+        "vườn ươm",
+        "nhà lưới",
+        "thiết bị tưới",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        8250000,
+        8250000
+      ],
+      "contacts": {
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Trồng trọt",
+        "5620110",
+        "Trung cấp",
+        "Cây trồng",
+        "Nông nghiệp"
+      ]
+    },
+    {
+      "id": "tt-bvtv-tc",
+      "slug": "trong-trot-va-bao-ve-thuc-vat-trung-cap",
+      "name": "Trồng trọt và bảo vệ thực vật",
+      "level": "Trung cấp",
+      "career_group": "Nông nghiệp",
+      "riasec": [
+        "R",
+        "I"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học cơ sở hoặc tương đương trở lên",
+        "form": "Xét tuyển theo quy định tuyển sinh của Trường"
+      },
+      "duration_months": 24,
+      "description": "Ngành Trồng trọt và bảo vệ thực vật trình độ Trung cấp, mã ngành 5620111, đào tạo người học sản xuất cây trồng, chăm sóc, bảo vệ, thu hoạch, sơ chế, bảo quản nông sản và phòng trừ dịch hại cây trồng theo hướng nông nghiệp hiện đại, an toàn và bền vững. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
+      "skills": [
+        "Sản xuất và nhân giống cây trồng",
+        "Lựa chọn đất, phân bón và kỹ thuật canh tác",
+        "Trồng, chăm sóc cây ăn quả, cây công nghiệp, rau màu, hoa và nấm",
+        "Nhận biết, chẩn đoán và phòng trừ sâu bệnh hại cây trồng",
+        "Sử dụng thuốc bảo vệ thực vật an toàn",
+        "Tổ chức sản xuất nông nghiệp"
+      ],
+      "core_modules": [
+        "Sinh lý thực vật",
+        "Đất – phân bón",
+        "Giống cây trồng",
+        "Bảo vệ thực vật đại cương",
+        "Sản xuất giống",
+        "Cây ăn quả",
+        "Cây công nghiệp",
+        "Rau, hoa, cây cảnh",
+        "Quản lý dịch hại tổng hợp",
+        "Thu hoạch và bảo quản nông sản",
+        "Thực tập tốt nghiệp"
+      ],
+      "jobs": [
+        "Kỹ thuật viên trồng trọt",
+        "Kỹ thuật viên bảo vệ thực vật",
+        "Nhân viên sản xuất giống cây trồng",
+        "Nhân viên kỹ thuật trang trại, hợp tác xã",
+        "Nhân viên kinh doanh phân bón và thuốc bảo vệ thực vật",
+        "Nhân viên khuyến nông"
+      ],
+      "further_study": "Liên thông lên Cao đẳng Khoa học cây trồng, Nông nghiệp công nghệ cao hoặc các ngành phù hợp.",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Khu thực hành nông nghiệp",
+        "vườn ươm",
+        "nhà lưới",
+        "thiết bị tưới",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        8250000,
+        8250000
+      ],
+      "contacts": {
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Trồng trọt và bảo vệ thực vật",
+        "5620111",
+        "Trung cấp",
+        "Bảo vệ thực vật",
+        "Nông nghiệp"
+      ]
+    },
+    {
+      "id": "bvtv-tc",
+      "slug": "bao-ve-thuc-vat-trung-cap",
+      "name": "Bảo vệ thực vật",
+      "level": "Trung cấp",
+      "career_group": "Nông nghiệp",
+      "riasec": [
+        "R",
+        "I"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học cơ sở hoặc tương đương trở lên",
+        "form": "Xét tuyển theo quy định tuyển sinh của Trường"
+      },
+      "duration_months": 24,
+      "description": "Ngành Bảo vệ thực vật trình độ Trung cấp, mã ngành 5620116 theo giấy chứng nhận hoạt động giáo dục nghề nghiệp, đào tạo người học nhận biết, điều tra, dự tính, dự báo và phòng trừ sâu bệnh, cỏ dại và các đối tượng dịch hại cây trồng; sử dụng thuốc bảo vệ thực vật an toàn, hiệu quả và bảo vệ môi trường. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
+      "skills": [
+        "Nhận biết sâu bệnh hại cây trồng",
+        "Điều tra và đánh giá mức độ dịch hại",
+        "Lựa chọn biện pháp phòng trừ tổng hợp",
+        "Sử dụng thuốc bảo vệ thực vật an toàn",
+        "Tư vấn kỹ thuật bảo vệ thực vật cho nông dân, trang trại, hợp tác xã",
+        "Ghi chép và theo dõi dịch hại trên đồng ruộng"
+      ],
+      "core_modules": [
+        "Sinh lý thực vật",
+        "Đất – phân bón",
+        "Bảo vệ thực vật đại cương",
+        "Côn trùng hại cây trồng",
+        "Bệnh cây trồng",
+        "Quản lý dịch hại tổng hợp",
+        "Thuốc bảo vệ thực vật",
+        "An toàn lao động và môi trường",
+        "Thực tập tốt nghiệp"
+      ],
+      "jobs": [
+        "Kỹ thuật viên bảo vệ thực vật",
+        "Nhân viên kỹ thuật trang trại",
+        "Nhân viên kinh doanh thuốc bảo vệ thực vật và phân bón",
+        "Nhân viên khuyến nông",
+        "Cán bộ kỹ thuật hợp tác xã, doanh nghiệp nông nghiệp"
+      ],
+      "further_study": "Liên thông lên Cao đẳng Khoa học cây trồng, Nông nghiệp công nghệ cao hoặc các ngành nông nghiệp phù hợp.",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Khu thực hành nông nghiệp",
+        "vườn ươm",
+        "nhà lưới",
+        "thiết bị tưới",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        8250000,
+        8250000
+      ],
+      "contacts": {
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Bảo vệ thực vật",
+        "5620116",
+        "Trung cấp",
+        "Sâu bệnh",
+        "Dịch hại"
+      ]
+    },
+    {
+      "id": "ktccs-tc",
+      "slug": "ky-thuat-cay-cao-su-trung-cap",
+      "name": "Kỹ thuật cây cao su",
+      "level": "Trung cấp",
+      "career_group": "Lâm nghiệp",
+      "riasec": [
+        "R",
+        "I"
+      ],
+      "admission": {
+        "target": "Tốt nghiệp Trung học cơ sở hoặc tương đương trở lên",
+        "form": "Xét tuyển theo quy định tuyển sinh của Trường"
+      },
+      "duration_months": 24,
+      "description": "Ngành Kỹ thuật cây cao su trình độ Trung cấp, mã ngành 5620204, đào tạo người học thực hiện kỹ thuật chọn giống, trồng, chăm sóc, bảo vệ thực vật, khai thác mủ và sơ chế cơ bản mủ cao su; đáp ứng nhu cầu nhân lực cho các công ty, nông trường, đội sản xuất cao su và các đơn vị dịch vụ kỹ thuật nông nghiệp. Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản hướng dẫn hiện hành. Người học ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí chuyên môn theo danh mục và quy định hiện hành. Học sinh tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.",
+      "skills": [
+        "Trồng, chăm sóc cây cao su",
+        "Chọn và nhân giống cây cao su",
+        "Phòng trừ sâu bệnh hại cây cao su",
+        "Khai thác mủ cao su",
+        "Thực hiện thao tác sơ chế mủ cơ bản",
+        "Đảm bảo an toàn lao động trong vườn cây cao su"
+      ],
+      "core_modules": [
+        "Sinh lý thực vật",
+        "Bảo vệ thực vật đại cương",
+        "Đất – phân bón",
+        "Trồng, chăm sóc cây cao su",
+        "Chọn, nhân giống cây cao su",
+        "Bảo vệ thực vật cây cao su",
+        "Thu hoạch mủ cây cao su",
+        "Công nghệ sơ chế cao su",
+        "Khuyến nông",
+        "Thực tập tốt nghiệp"
+      ],
+      "jobs": [
+        "Kỹ thuật viên vườn cây cao su",
+        "Nhân viên kỹ thuật khai thác mủ",
+        "Tổ trưởng sản xuất nông trường cao su",
+        "Nhân viên khuyến nông",
+        "Nhân viên kỹ thuật tại công ty cao su, trang trại, đơn vị sản xuất cao su"
+      ],
+      "further_study": "Liên thông lên Cao đẳng Khoa học cây trồng, Nông nghiệp công nghệ cao hoặc các ngành nông nghiệp phù hợp.",
+      "campus": "Trường Cao đẳng Miền Đông",
+      "facilities": [
+        "Khu thực hành nông nghiệp",
+        "vườn ươm",
+        "nhà lưới",
+        "thiết bị tưới",
+        "thư viện",
+        "ký túc xá"
+      ],
+      "tuition_range_vnd_per_term": [
+        8250000,
+        8250000
+      ],
+      "contacts": {
+        "unit": "Trung tâm Truyền thông, Tuyển sinh và QHDN",
+        "phone": "02713.880.343 - 0965.880.343",
+        "email": "tuyensinh@cdmd.edu.vn"
+      },
+      "tags": [
+        "Kỹ thuật cây cao su",
+        "5620204",
+        "Trung cấp",
+        "Cao su",
+        "Khai thác mủ"
       ]
     }
   ]

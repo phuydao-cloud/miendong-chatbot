@@ -180,7 +180,7 @@
   if (clearBtn) {
     clearBtn.addEventListener('click', () => {
       clearHistory(); if (suggestionsEl) suggestionsEl.classList.remove('hidden'); if (catalogEl) catalogEl.classList.add('hidden');
-      addMessage('assistant', 'Xin chào! Tôi là **Tư vấn viên Cao đẳng Miền Đông AI**. Các bạn muốn xem *Danh mục ngành*, *Trắc nghiệm chọn nghề phù hợp*, *Học phí*, *Ký túc xá* hay *Cơ hội việc làm*?', true);
+      addMessage('assistant', 'Xin chào! Tôi là **Tư vấn viên AI, Trường Cao đẳng Miền Đông**. Các bạn muốn xem *Danh mục ngành*, *Trắc nghiệm chọn nghề phù hợp*, *Học phí*, *Ký túc xá* hay *Cơ hội việc làm*?', true);
     });
   }
 

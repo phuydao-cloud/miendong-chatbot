@@ -1,0 +1,441 @@
+TRƯỜNG CAO ĐẲNG MIỀN ĐÔNG - CÂU HỎI THƯỜNG GẶP CHO CHATBOT TUYỂN SINH
+
+MỤC ĐÍCH SỬ DỤNG
+File này dùng để chatbot tra cứu và trả lời nhanh các câu hỏi thường gặp của học sinh, phụ huynh, người lao động và người có nhu cầu học nghề tại Trường Cao đẳng Miền Đông. Khi trả lời, chatbot cần ưu tiên thông tin trong file này, kết hợp với dữ liệu ngành nghề trong majors.json, dữ liệu sơ cấp và ngắn hạn trong short_courses.json, thông tin giới thiệu trong gioithieu.txt và thông tin tuyển sinh theo năm trong admissions_2026.txt.
+
+NGUYÊN TẮC TRẢ LỜI
+- Trả lời ngắn gọn, rõ ràng, thân thiện, dễ hiểu.
+- Không tự ý cam kết những nội dung chưa có trong dữ liệu.
+- Với học phí, miễn giảm học phí, hỗ trợ học phí, hồ sơ chính sách, cần nhắc người học liên hệ Nhà trường để được hướng dẫn cụ thể theo quy định hiện hành.
+- Chính sách miễn, giảm, hỗ trợ học phí thực hiện theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản liên quan.
+- Nếu người hỏi cần thông tin chi tiết theo từng ngành, chatbot tra cứu thêm trong majors.json.
+- Nếu người hỏi về nghề sơ cấp, đào tạo ngắn hạn, đào tạo lái xe, chatbot tra cứu thêm trong short_courses.json.
+
+==================================================
+I. THÔNG TIN CHUNG VỀ TRƯỜNG
+==================================================
+
+CÂU HỎI: Trường Cao đẳng Miền Đông là trường công lập hay tư thục?
+TRẢ LỜI:
+Trường Cao đẳng Miền Đông là cơ sở giáo dục nghề nghiệp công lập trực thuộc Tập đoàn Công nghiệp Cao su Việt Nam, có truyền thống đào tạo từ năm 1978.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường Cao đẳng Miền Đông tiền thân là trường nào?
+TRẢ LỜI:
+Trường Cao đẳng Miền Đông tiền thân là Trường Công nhân Cơ khí Cao su, được thành lập năm 1978. Trước đây Trường có tên là Trường Cao đẳng Công nghiệp Cao su và được đổi tên thành Trường Cao đẳng Miền Đông.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường Cao đẳng Miền Đông ở đâu?
+TRẢ LỜI:
+Trường tọa lạc tại địa chỉ 1428 Phú Riềng Đỏ, phường Bình Phước, tỉnh Đồng Nai.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có diện tích bao nhiêu?
+TRẢ LỜI:
+Trường có khuôn viên rộng khoảng 63,3 hecta, có phòng học, xưởng thực hành, khu thực nghiệm, ký túc xá, sân thể thao, nhà thi đấu và các điều kiện phục vụ học tập, rèn luyện.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có những khoa, trung tâm nào?
+TRẢ LỜI:
+Nhà trường có các khoa chuyên môn như Khoa Kinh tế, Khoa Kỹ thuật công nghiệp, Khoa Điện - Điện tử, Khoa Nông học, Khoa Sư phạm giáo dục nghề nghiệp; đồng thời có Trung tâm Đào tạo và Sát hạch lái xe, Trung tâm Giống cây trồng.
+
+--------------------------------------------------
+
+CÂU HỎI: Vì sao nên chọn học tại Trường Cao đẳng Miền Đông?
+TRẢ LỜI:
+Nhà trường có truyền thống hơn 45 năm đào tạo, cơ sở vật chất rộng và hiện đại, chương trình học chú trọng thực hành, đội ngũ giảng viên có kinh nghiệm, nhiều ngành nghề gắn với nhu cầu doanh nghiệp, có ký túc xá, hỗ trợ thực tập và giới thiệu việc làm cho học sinh, sinh viên.
+
+==================================================
+II. HỆ ĐÀO TẠO VÀ ĐỐI TƯỢNG TUYỂN SINH
+==================================================
+
+CÂU HỎI: Trường tuyển sinh những hệ đào tạo nào?
+TRẢ LỜI:
+Nhà trường tuyển sinh các hệ: Cao đẳng chính quy, Cao đẳng liên thông, Trung cấp, Sơ cấp, đào tạo lái xe và các khóa đào tạo, bồi dưỡng ngắn hạn.
+
+--------------------------------------------------
+
+CÂU HỎI: Điều kiện học Cao đẳng là gì?
+TRẢ LỜI:
+Người học đã tốt nghiệp Trung học phổ thông hoặc tương đương trở lên được đăng ký xét tuyển vào trình độ Cao đẳng.
+
+--------------------------------------------------
+
+CÂU HỎI: Điều kiện học Trung cấp là gì?
+TRẢ LỜI:
+Người học đã tốt nghiệp Trung học cơ sở hoặc tương đương trở lên được đăng ký xét tuyển vào trình độ Trung cấp.
+
+--------------------------------------------------
+
+CÂU HỎI: Học sinh tốt nghiệp lớp 9 có học được không?
+TRẢ LỜI:
+Có. Học sinh tốt nghiệp Trung học cơ sở có thể đăng ký học trình độ Trung cấp tại Trường Cao đẳng Miền Đông.
+
+--------------------------------------------------
+
+CÂU HỎI: Học sinh tốt nghiệp Trung học cơ sở học Trung cấp có học văn hóa không?
+TRẢ LỜI:
+Học sinh tốt nghiệp Trung học cơ sở học Trung cấp có thể học chương trình văn hóa theo quy định và theo kế hoạch đào tạo của Nhà trường. Người học cần liên hệ Phòng Quản lý đào tạo hoặc bộ phận tuyển sinh để được tư vấn lộ trình phù hợp.
+
+--------------------------------------------------
+
+CÂU HỎI: Điều kiện học Cao đẳng liên thông là gì?
+TRẢ LỜI:
+Người học đã tốt nghiệp Trung cấp cùng ngành, nghề hoặc đáp ứng điều kiện liên thông theo chương trình đào tạo hiện hành có thể đăng ký học Cao đẳng liên thông.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có đào tạo sơ cấp và ngắn hạn không?
+TRẢ LỜI:
+Có. Nhà trường có các nghề sơ cấp và các khóa đào tạo ngắn hạn, bồi dưỡng kỹ năng nghề nghiệp theo nhu cầu của người học, người lao động và doanh nghiệp.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có đào tạo lái xe không?
+TRẢ LỜI:
+Có. Trường có Trung tâm Đào tạo và Sát hạch lái xe, tổ chức đào tạo lái xe mô tô, lái xe ô tô các hạng và các khóa nâng hạng giấy phép lái xe theo quy định hiện hành.
+
+==================================================
+III. PHƯƠNG THỨC XÉT TUYỂN VÀ HỒ SƠ
+==================================================
+
+CÂU HỎI: Trường có thi tuyển đầu vào không?
+TRẢ LỜI:
+Nhà trường thực hiện xét tuyển theo học bạ hoặc hồ sơ đăng ký; không tổ chức thi tuyển đầu vào đối với các ngành, nghề đang xét tuyển.
+
+--------------------------------------------------
+
+CÂU HỎI: Xét tuyển bằng hình thức nào?
+TRẢ LỜI:
+Nhà trường xét tuyển theo học bạ hoặc hồ sơ đăng ký phù hợp với từng trình độ đào tạo. Người học có thể đăng ký trực tiếp tại Trường hoặc qua kênh tư vấn tuyển sinh của Nhà trường.
+
+--------------------------------------------------
+
+CÂU HỎI: Hồ sơ xét tuyển gồm những gì?
+TRẢ LỜI:
+Hồ sơ xét tuyển thường gồm: Phiếu đăng ký xét tuyển theo mẫu của Trường, bản sao học bạ phù hợp với trình độ đăng ký, bản sao bằng tốt nghiệp hoặc giấy chứng nhận tốt nghiệp tạm thời, bản sao căn cước công dân, bản sao giấy khai sinh, ảnh 3x4 và giấy tờ ưu tiên nếu có.
+
+--------------------------------------------------
+
+CÂU HỎI: Có thể đăng ký online không?
+TRẢ LỜI:
+Có. Người học có thể đăng ký trực tuyến qua website, fanpage hoặc Zalo tuyển sinh của Trường. Sau khi đăng ký, bộ phận tuyển sinh sẽ hướng dẫn hoàn thiện hồ sơ.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường nhận hồ sơ vào thời gian nào?
+TRẢ LỜI:
+Nhà trường nhận hồ sơ tuyển sinh nhiều đợt trong năm theo thông báo tuyển sinh. Người học nên liên hệ Hotline/Zalo 0965 880 343 để được tư vấn thời gian nhập học gần nhất.
+
+--------------------------------------------------
+
+CÂU HỎI: Nộp hồ sơ ở đâu?
+TRẢ LỜI:
+Người học có thể nộp hồ sơ trực tiếp tại Trường Cao đẳng Miền Đông, địa chỉ 1428 Phú Riềng Đỏ, phường Bình Phước, tỉnh Đồng Nai; hoặc đăng ký tư vấn qua Hotline/Zalo 0965 880 343.
+
+==================================================
+IV. NGÀNH NGHỀ ĐÀO TẠO
+==================================================
+
+CÂU HỎI: Trường có bao nhiêu ngành Cao đẳng?
+TRẢ LỜI:
+Trường đào tạo 10 ngành trình độ Cao đẳng. Thông tin chi tiết từng ngành được lưu trong dữ liệu ngành nghề của chatbot.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có những ngành Cao đẳng nào?
+TRẢ LỜI:
+Các ngành Cao đẳng gồm: Kế toán, Tài chính - Ngân hàng, Công nghệ thông tin, Công nghệ ô tô, Công nghệ kỹ thuật điện, điện tử, Công nghệ kỹ thuật môi trường, Công nghệ kỹ thuật hóa học, Công nghệ sản xuất các sản phẩm từ cao su, Khoa học cây trồng, Nông nghiệp công nghệ cao.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có những ngành Cao đẳng liên thông nào?
+TRẢ LỜI:
+Các ngành Cao đẳng liên thông gồm: Công nghệ thông tin, Công nghệ ô tô, Công nghệ kỹ thuật điện, điện tử, Khoa học cây trồng và Kế toán.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có những ngành Trung cấp nào?
+TRẢ LỜI:
+Các ngành Trung cấp gồm: Tiếng Trung Quốc, Kế toán doanh nghiệp, Kế toán tin học, Tin học ứng dụng, Công nghệ ô tô, Kỹ thuật máy lạnh và điều hòa không khí, Điện công nghiệp và dân dụng, Công nghệ kỹ thuật chế biến mủ cao su, Trồng trọt, Bảo vệ thực vật, Trồng trọt và bảo vệ thực vật, Kỹ thuật cây cao su.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có nhóm ngành cao su không?
+TRẢ LỜI:
+Có. Nhà trường có thế mạnh truyền thống trong lĩnh vực cao su, với các ngành như Công nghệ sản xuất các sản phẩm từ cao su, Công nghệ kỹ thuật chế biến mủ cao su, Kỹ thuật cây cao su và các khóa sơ cấp, ngắn hạn liên quan đến cao su.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có ngành Công nghệ ô tô không?
+TRẢ LỜI:
+Có. Trường đào tạo ngành Công nghệ ô tô ở trình độ Cao đẳng, Cao đẳng liên thông và Trung cấp.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có ngành Công nghệ thông tin không?
+TRẢ LỜI:
+Có. Trường đào tạo ngành Công nghệ thông tin trình độ Cao đẳng và Cao đẳng liên thông; đồng thời có ngành Tin học ứng dụng trình độ Trung cấp.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có ngành Kế toán không?
+TRẢ LỜI:
+Có. Trường đào tạo Kế toán trình độ Cao đẳng và Cao đẳng liên thông; đồng thời có Kế toán doanh nghiệp, Kế toán tin học trình độ Trung cấp.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có ngành Tiếng Trung Quốc không?
+TRẢ LỜI:
+Có. Trường đào tạo ngành Tiếng Trung Quốc trình độ Trung cấp, phù hợp với người học muốn làm việc trong môi trường doanh nghiệp, thương mại, dịch vụ, hành chính văn phòng có sử dụng tiếng Trung Quốc.
+
+--------------------------------------------------
+CÂU HỎI: Em học yếu có học được không?
+TRẢ LỜI:
+Có. Nhà trường đào tạo theo hướng thực hành, chú trọng kỹ năng nghề nghiệp. Người học chỉ cần có ý thức học tập, rèn luyện và quyết tâm theo đuổi ngành nghề đã chọn.
+
+--------------------------------------------------
+CÂU HỎI: Học xong có việc làm không?
+TRẢ LỜI:
+Nhà trường thường xuyên kết nối doanh nghiệp, tổ chức thực tập và giới thiệu việc làm. Nhiều ngành kỹ thuật có nhu cầu tuyển dụng cao.
+
+--------------------------------------------------
+CÂU HỎI: Có được học liên thông không?
+TRẢ LỜI:
+Có. Sau khi tốt nghiệp Trung cấp có thể học liên thông lên Cao đẳng; sau khi tốt nghiệp Cao đẳng có thể tiếp tục học lên Đại học theo quy định.
+
+--------------------------------------------------
+CÂU HỎI: Nhà trường có nhận hồ sơ ngoài tỉnh không?
+TRẢ LỜI:
+Có. Nhà trường tuyển sinh trên phạm vi toàn quốc.
+
+--------------------------------------------------
+CÂU HỎI: Có thể vừa học vừa làm không?
+TRẢ LỜI:
+Tùy chương trình đào tạo và thời gian học. Người học nên liên hệ Nhà trường để được tư vấn phù hợp.
+
+==================================================
+V. HỌC PHÍ VÀ CHÍNH SÁCH HỌC PHÍ
+==================================================
+
+CÂU HỎI: Học phí của Trường như thế nào?
+TRẢ LỜI:
+Học phí được thực hiện theo quy định thu học phí của Trường Cao đẳng Miền Đông từng năm học. Mức học phí chi tiết theo từng ngành đã được cập nhật trong dữ liệu ngành nghề của chatbot.
+
+--------------------------------------------------
+
+CÂU HỎI: Học phí năm học 2026-2027 là bao nhiêu?
+TRẢ LỜI:
+Học phí năm học 2026-2027 được chia theo nhóm ngành. Một số mức chính gồm: nhóm Kế toán, Tài chính - Ngân hàng, Tiếng Trung Quốc, Kế toán doanh nghiệp, Kế toán tin học là 1.600.000 đồng/tháng; nhóm Công nghệ thông tin, Công nghệ ô tô, Công nghệ kỹ thuật điện, điện tử, Công nghệ kỹ thuật hóa học, Công nghệ kỹ thuật môi trường và một số ngành kỹ thuật là 2.400.000 đồng/tháng; nhóm Công nghệ sản xuất các sản phẩm từ cao su, Công nghệ kỹ thuật chế biến mủ cao su là 2.300.000 đồng/tháng; nhóm nông nghiệp là 1.650.000 đồng/tháng. Học phí cụ thể từng ngành cần xem trong dữ liệu ngành nghề hoặc liên hệ Nhà trường.
+
+--------------------------------------------------
+
+CÂU HỎI: Học phí đã bao gồm Giáo dục quốc phòng và an ninh chưa?
+TRẢ LỜI:
+Chưa. Học phí công bố chưa bao gồm học phí Giáo dục quốc phòng và an ninh.
+
+--------------------------------------------------
+
+CÂU HỎI: Học sinh tốt nghiệp Trung học cơ sở học Trung cấp có được hỗ trợ học phí không?
+TRẢ LỜI:
+Người tốt nghiệp Trung học cơ sở học tiếp lên trình độ Trung cấp được xem xét hỗ trợ học phí theo Nghị định số 238/2025/NĐ-CP ngày 03 tháng 9 năm 2025 của Chính phủ và các văn bản liên quan.
+
+--------------------------------------------------
+
+CÂU HỎI: Ngành nghề nặng nhọc, độc hại, nguy hiểm có được giảm học phí không?
+TRẢ LỜI:
+Người học các ngành, nghề nặng nhọc, độc hại, nguy hiểm được xem xét hỗ trợ 70% học phí theo danh mục và quy định hiện hành.
+
+--------------------------------------------------
+
+CÂU HỎI: Đối tượng chính sách có được miễn, giảm học phí không?
+TRẢ LỜI:
+Người học thuộc đối tượng chính sách, hộ nghèo, hộ cận nghèo, người dân tộc thiểu số, vùng có điều kiện kinh tế - xã hội khó khăn hoặc các đối tượng khác được thực hiện miễn, giảm, hỗ trợ học phí theo quy định của Nhà nước và hướng dẫn của địa phương.
+
+--------------------------------------------------
+
+CÂU HỎI: Muốn làm hồ sơ miễn, giảm, hỗ trợ học phí thì liên hệ ai?
+TRẢ LỜI:
+Người học liên hệ Nhà trường, bộ phận tuyển sinh hoặc Phòng Công tác học sinh, sinh viên để được hướng dẫn hồ sơ, thủ tục theo từng đối tượng cụ thể.
+
+==================================================
+VI. HỌC BỔNG, KÝ TÚC XÁ VÀ HỖ TRỢ NGƯỜI HỌC
+==================================================
+
+CÂU HỎI: Trường có ký túc xá không?
+TRẢ LỜI:
+Có. Trường có khu ký túc xá dành cho học sinh, sinh viên ở xa.
+
+--------------------------------------------------
+
+CÂU HỎI: Ký túc xá của Trường có bao nhiêu phòng?
+TRẢ LỜI:
+Ký túc xá có 84 phòng ở, phục vụ trên 500 học sinh, sinh viên lưu trú.
+
+--------------------------------------------------
+
+CÂU HỎI: Ký túc xá có an toàn không?
+TRẢ LỜI:
+Ký túc xá được quản lý theo quy định của Nhà trường, bảo đảm an ninh trật tự, có các điều kiện sinh hoạt cơ bản phục vụ học tập và rèn luyện.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có học bổng không?
+TRẢ LỜI:
+Có. Người học có cơ hội nhận học bổng khuyến khích học tập, học bổng doanh nghiệp, học bổng của Tập đoàn Công nghiệp Cao su Việt Nam và các nguồn học bổng khác theo từng năm học.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có hỗ trợ vay vốn học tập không?
+TRẢ LỜI:
+Có. Người học được hướng dẫn thực hiện thủ tục vay vốn học tập theo chính sách hiện hành của Nhà nước.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có hoạt động câu lạc bộ không?
+TRẢ LỜI:
+Có. Học sinh, sinh viên được tham gia các câu lạc bộ học thuật, công nghệ, khởi nghiệp, văn hóa, văn nghệ, thể thao và các hoạt động trải nghiệm.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có hoạt động thể thao không?
+TRẢ LỜI:
+Có. Nhà trường có sân thể thao, sân bóng đá cỏ nhân tạo, nhà thi đấu đa năng và thường xuyên tổ chức các hoạt động thể dục thể thao cho học sinh, sinh viên.
+
+==================================================
+VII. THỰC TẬP, VIỆC LÀM VÀ LIÊN THÔNG
+==================================================
+
+CÂU HỎI: Sinh viên có được đi thực tập tại doanh nghiệp không?
+TRẢ LỜI:
+Có. Người học được tham gia trải nghiệm thực tế, thực tập nghề nghiệp, thực tập tốt nghiệp tại doanh nghiệp theo chương trình đào tạo.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có giới thiệu việc làm sau tốt nghiệp không?
+TRẢ LỜI:
+Có. Nhà trường thường xuyên tổ chức ngày hội việc làm, kết nối doanh nghiệp, tư vấn và giới thiệu việc làm cho học sinh, sinh viên sau tốt nghiệp.
+
+--------------------------------------------------
+
+CÂU HỎI: Tỷ lệ có việc làm sau tốt nghiệp của Trường như thế nào?
+TRẢ LỜI:
+Tỷ lệ học sinh, sinh viên có việc làm sau tốt nghiệp đạt trên 85%; nhiều ngành kỹ thuật đạt gần 100%.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có hợp tác với doanh nghiệp không?
+TRẢ LỜI:
+Có. Nhà trường hợp tác với nhiều doanh nghiệp trong và ngoài ngành cao su, tổ chức thực tập, trải nghiệm doanh nghiệp, ngày hội việc làm và giới thiệu việc làm cho người học.
+
+--------------------------------------------------
+
+CÂU HỎI: Sau khi học Trung cấp có thể học tiếp Cao đẳng không?
+TRẢ LỜI:
+Có. Sau khi tốt nghiệp Trung cấp, người học có thể học liên thông lên Cao đẳng nếu đáp ứng điều kiện theo quy định và theo chương trình đào tạo hiện hành.
+
+--------------------------------------------------
+
+CÂU HỎI: Sau khi học Cao đẳng có thể học tiếp Đại học không?
+TRẢ LỜI:
+Có. Sau khi tốt nghiệp Cao đẳng, người học có thể học liên thông hoặc tham gia các chương trình liên kết đào tạo đại học theo quy định.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có liên kết đào tạo đại học không?
+TRẢ LỜI:
+Có. Nhà trường có liên kết đào tạo trình độ đại học tại cơ sở theo nhu cầu người học và theo quy định hiện hành.
+
+==================================================
+VIII. ĐÀO TẠO SƠ CẤP, NGẮN HẠN VÀ LÁI XE
+==================================================
+
+CÂU HỎI: Trường có đào tạo nghề sơ cấp không?
+TRẢ LỜI:
+Có. Nhà trường có nhiều nghề sơ cấp thuộc các nhóm kế toán, quản trị, văn phòng, công nghệ thông tin, máy tính, cao su, điện - điện tử, xây dựng, nông nghiệp, mỹ thuật ứng dụng, may công nghiệp và các nhóm nghề khác.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có lớp học ngắn hạn không?
+TRẢ LỜI:
+Có. Nhà trường tổ chức các lớp đào tạo ngắn hạn, bồi dưỡng kỹ năng nghề nghiệp theo nhu cầu người học, người lao động và doanh nghiệp.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có đào tạo lái xe mô tô không?
+TRẢ LỜI:
+Có. Trung tâm Đào tạo và Sát hạch lái xe của Trường có tổ chức đào tạo lái xe mô tô theo quy định hiện hành.
+
+--------------------------------------------------
+
+CÂU HỎI: Trường có đào tạo lái xe ô tô không?
+TRẢ LỜI:
+Có. Trung tâm Đào tạo và Sát hạch lái xe của Trường có tổ chức đào tạo lái xe ô tô các hạng và các khóa nâng hạng giấy phép lái xe theo quy định hiện hành.
+
+--------------------------------------------------
+
+CÂU HỎI: Muốn học lái xe thì liên hệ ở đâu?
+TRẢ LỜI:
+Người học liên hệ Trung tâm Đào tạo và Sát hạch lái xe của Trường Cao đẳng Miền Đông hoặc Hotline/Zalo tuyển sinh 0965 880 343 để được tư vấn khóa học phù hợp.
+
+==================================================
+IX. THÔNG TIN LIÊN HỆ
+==================================================
+
+CÂU HỎI: Hotline tuyển sinh của Trường là số nào?
+TRẢ LỜI:
+Hotline/Zalo tuyển sinh: 0965.880.343
+
+--------------------------------------------------
+
+CÂU HỎI: Số điện thoại của Trường là gì?
+TRẢ LỜI:
+Điện thoại: (0271)3880.343
+
+--------------------------------------------------
+
+CÂU HỎI: Website của Trường là gì?
+TRẢ LỜI:
+Website: www.cdmd.edu.vn.
+
+--------------------------------------------------
+
+CÂU HỎI: Fanpage của Trường là gì?
+TRẢ LỜI:
+Fanpage: facebook.com/caodangmiendong.
+
+--------------------------------------------------
+
+CÂU HỎI: Email của Trường là gì?
+TRẢ LỜI:
+Email: ec@cdmd.edu.vn.
+
+--------------------------------------------------
+
+CÂU HỎI: Có thể liên hệ trực tiếp ai để được tư vấn?
+TRẢ LỜI:
+Người học có thể liên hệ Phòng Quản lý đào tạo hoặc bộ phận tuyển sinh của Trường. Các thầy cô hỗ trợ tư vấn gồm Thầy Lê Song Hào, Cô Trần Thị Hồng và Cô Lê Thị Hồng Vân.
+
+==================================================
+X. CÁCH CHATBOT NÊN XỬ LÝ KHI KHÔNG CHẮC THÔNG TIN
+==================================================
+
+CÂU HỎI: Nếu người học hỏi thông tin chưa có trong dữ liệu thì trả lời thế nào?
+TRẢ LỜI:
+Chatbot nên trả lời: Thông tin này có thể thay đổi theo từng năm học hoặc từng đợt tuyển sinh. Bạn vui lòng liên hệ Hotline/Zalo 0965 880 343 hoặc Phòng Quản lý đào tạo Trường Cao đẳng Miền Đông để được tư vấn chính xác nhất.
+
+--------------------------------------------------
+
+CÂU HỎI: Nếu người học hỏi học phí chính xác của từng ngành thì trả lời thế nào?
+TRẢ LỜI:
+Chatbot cần tra cứu trong dữ liệu ngành nghề của majors.json. Nếu chưa có thông tin hoặc thông tin có thể thay đổi, cần hướng dẫn người học liên hệ Nhà trường để được xác nhận.
+
+--------------------------------------------------
+
+CÂU HỎI: Nếu người học hỏi nghề sơ cấp hoặc khóa lái xe thì trả lời thế nào?
+TRẢ LỜI:
+Chatbot cần tra cứu trong short_courses.json. Nếu chưa có đủ thông tin, cần hướng dẫn người học liên hệ Trung tâm Đào tạo và Sát hạch lái xe hoặc Hotline/Zalo 0965 880 343.

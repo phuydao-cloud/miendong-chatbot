@@ -101,21 +101,24 @@ const DATA_DIR = path.join(__dirname, 'data');
 function readFileSafe(fullPath) {
   try {
     if (!fs.existsSync(fullPath)) return '';
+
+    const filename = path.basename(fullPath);
     const ext = path.extname(fullPath).toLowerCase();
     const raw = fs.readFileSync(fullPath, 'utf8');
 
     if (ext === '.json') {
-      // JSON: lấy gọn 1 số trường phổ biến, tránh đẩy cả file dài
       const obj = JSON.parse(raw);
-      const sample =
-        Array.isArray(obj) ? obj.slice(0, 5) : (obj.items || obj.majors || []);
-      return `JSON(${path.basename(fullPath)}):\n` +
-        JSON.stringify(sample, null, 2).slice(0, 4000);
+
+      if (filename === 'short_courses.json') {
+        return `${filename}:\n` + JSON.stringify(obj, null, 2).slice(0, 12000);
+      }
+
+      return `${filename}:\n` + JSON.stringify(obj, null, 2).slice(0, 6000);
     }
 
-    // txt/md: trả nguyên văn nhưng giới hạn độ dài mỗi file
-    return `${path.basename(fullPath)}:\n` + raw.slice(0, 8000);
-  } catch {
+    return `${filename}:\n` + raw.slice(0, 12000);
+  } catch (e) {
+    console.error(`[data] Cannot read ${fullPath}:`, e.message);
     return '';
   }
 }
@@ -127,16 +130,23 @@ function readFileSafe(fullPath) {
 function loadInternalNotes() {
   try {
     if (!fs.existsSync(DATA_DIR)) return '';
-    const files = fs.readdirSync(DATA_DIR)
-      .filter(f => /\.(txt|md|json)$/i.test(f) && f !== 'majors.json');
 
-    const parts = files.map(f => readFileSafe(path.join(DATA_DIR, f)))
+    const priorityFiles = [
+      'gioithieu.txt',
+      'school_info.txt',
+      'faq.txt',
+      'admissions_2026.txt',
+      'short_courses.json'
+    ];
+
+    const parts = priorityFiles
+      .map(f => readFileSafe(path.join(DATA_DIR, f)))
       .filter(Boolean);
 
-    // Giới hạn tổng dung lượng đưa lên prompt (tránh quá dài)
     const joined = parts.join('\n\n---\n\n');
-    return joined.slice(0, 20000); // ~20k ký tự
-  } catch {
+    return joined.slice(0, 50000);
+  } catch (e) {
+    console.error('[data] loadInternalNotes error:', e.message);
     return '';
   }
 }
@@ -208,15 +218,24 @@ app.post('/api/message', requireSecret, async (req, res) => {
 
     // Ưu tiên dữ liệu nội bộ (tóm tắt danh mục)
     const majorsBrief = (majorsDB.items || [])
-      .slice(0, 20)
-      .map(m => `- ${m.name} (${m.level || ''}) | nhóm: ${m.career_group || ''}`)
+      .map(m => {
+        const tuition = Array.isArray(m.tuition_range_vnd_per_term)
+          ? ` | học phí: ${m.tuition_range_vnd_per_term.join(' - ')} đồng`
+          : '';
+        return `- ${m.name} (${m.level || ''}) | nhóm: ${m.career_group || ''}${tuition}`;
+      })
       .join('\n');
 
     const systemPrompt = [
-      'Bạn là Tư vấn viên Miền Đông AI.',
-      'Luôn ưu tiên trả lời dựa trên dữ liệu nội bộ của nhà trường (ngành học, học phí, KTX, việc làm...).',
-      'Nếu chưa chắc chắn, hãy nói sẽ kiểm tra lại thay vì suy đoán.',
-      '',
+      'Bạn là Tư vấn viên tuyển sinh AI của Trường Cao đẳng Miền Đông.',
+      'Bạn có nhiệm vụ tư vấn ngành nghề, tuyển sinh, học phí, chính sách hỗ trợ người học, ký túc xá, học bổng, việc làm và các thông tin liên quan đến Nhà trường.',
+      'Chỉ sử dụng thông tin từ dữ liệu nội bộ được cung cấp.',
+      'Ưu tiên thông tin trong faq.txt, admissions_2026.txt, school_info.txt và majors.json.',
+      'Không suy đoán hoặc bịa thông tin.',
+      'Nếu dữ liệu đã có câu trả lời rõ ràng thì trả lời dứt khoát, không dùng các từ như "có thể", "thường", "nói chung".',
+      'Nếu chưa có dữ liệu thì trả lời rằng cần liên hệ Nhà trường để được xác nhận.',
+      'Khi tư vấn ngành học, cần giới thiệu ngắn gọn về ngành, đối tượng phù hợp, cơ hội việc làm và học phí nếu có dữ liệu.',
+      'Luôn xưng hô thân thiện, lịch sự, dễ hiểu với học sinh, phụ huynh và người học.',
       internalNotes || '(chưa có thông tin của trường)',
       'Danh mục ngành (rút gọn):',
       majorsBrief || '(chưa có dữ liệu ngành)'

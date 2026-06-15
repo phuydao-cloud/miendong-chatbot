@@ -1,0 +1,669 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-15",
+  "note": "Danh mục nghề sơ cấp và đào tạo ngắn hạn dùng cho chatbot tuyển sinh Trường Cao đẳng Miền Đông. Thông tin học phí, thời gian khai giảng và lớp mở thực tế cần đối chiếu thông báo tuyển sinh từng đợt. Đã bổ sung nhóm đào tạo lái xe mô tô, ô tô các hạng và nâng hạng B lên D1 theo chương trình đào tạo ban hành năm 2025; thông tin cụ thể về học phí, lịch học và điều kiện hồ sơ cần đối chiếu thông báo tuyển sinh từng khóa.",
+  "admission": {
+    "target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+    "form": "Đăng ký trực tiếp tại Trường Cao đẳng Miền Đông hoặc qua hotline/Zalo tuyển sinh."
+  },
+  "contacts": {
+    "unit": "Phòng Tuyển sinh và Truyền thông",
+    "phone": "0965.880.343",
+    "email": "tuyensinh@cdmd.edu.vn"
+  },
+  "short_courses": [
+    {
+      "id": "ke-toan-sc",
+      "slug": "ke-toan",
+      "name": "Kế toán",
+      "level": "Sơ cấp",
+      "career_group": "Kế toán - Kiểm toán",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ năng ghi chép chứng từ, theo dõi thu chi, lập sổ sách kế toán đơn giản và hỗ trợ công tác kế toán tại doanh nghiệp nhỏ, hộ kinh doanh, hợp tác xã.",
+      "jobs": [
+        "Nhân viên hỗ trợ kế toán",
+        "thủ quỹ",
+        "nhân viên hành chính có nghiệp vụ kế toán",
+        "phụ trách sổ sách hộ kinh doanh"
+      ],
+      "quota_per_year": 105,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Kế toán",
+        "Kế toán - Kiểm toán",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "quan-tri-doanh-nghiep-nho-sc",
+      "slug": "quan-tri-doanh-nghiep-nho",
+      "name": "Quản trị doanh nghiệp nhỏ",
+      "level": "Sơ cấp",
+      "career_group": "Quản trị - Quản lý",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Trang bị kiến thức cơ bản về tổ chức, điều hành, quản lý nhân sự, tài chính, bán hàng và vận hành doanh nghiệp nhỏ.",
+      "jobs": [
+        "Chủ cơ sở kinh doanh nhỏ",
+        "nhân viên quản lý cửa hàng",
+        "tổ trưởng sản xuất",
+        "nhân viên điều hành kinh doanh"
+      ],
+      "quota_per_year": 150,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Quản trị doanh nghiệp nhỏ",
+        "Quản trị - Quản lý",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "giam-doc-hop-tac-xa-sc",
+      "slug": "giam-doc-hop-tac-xa",
+      "name": "Giám đốc hợp tác xã",
+      "level": "Sơ cấp",
+      "career_group": "Quản trị - Quản lý",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Bồi dưỡng kỹ năng quản trị, lập kế hoạch, tổ chức sản xuất, quản lý tài chính và điều hành hoạt động hợp tác xã.",
+      "jobs": [
+        "Cán bộ quản lý hợp tác xã",
+        "giám đốc hợp tác xã",
+        "tổ trưởng tổ hợp tác",
+        "nhân viên điều phối sản xuất"
+      ],
+      "quota_per_year": 75,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Giám đốc hợp tác xã",
+        "Quản trị - Quản lý",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "thu-ky-van-phong-sc",
+      "slug": "thu-ky-van-phong",
+      "name": "Thư ký văn phòng",
+      "level": "Sơ cấp",
+      "career_group": "Văn thư - Lưu trữ - Bảo tàng",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ năng hành chính văn phòng, soạn thảo văn bản, lưu trữ hồ sơ, tổ chức lịch làm việc, tiếp nhận và xử lý thông tin.",
+      "jobs": [
+        "Thư ký văn phòng",
+        "nhân viên hành chính",
+        "nhân viên văn thư",
+        "trợ lý bộ phận"
+      ],
+      "quota_per_year": 150,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Thư ký văn phòng",
+        "Văn thư - Lưu trữ - Bảo tàng",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "vi-tinh-van-phong-sc",
+      "slug": "vi-tinh-van-phong",
+      "name": "Vi tính văn phòng",
+      "level": "Sơ cấp",
+      "career_group": "Công nghệ thông tin",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ năng sử dụng máy tính, soạn thảo văn bản, bảng tính, trình chiếu, Internet và các công cụ phục vụ công việc văn phòng.",
+      "jobs": [
+        "Nhân viên văn phòng",
+        "nhân viên nhập liệu",
+        "nhân viên hành chính",
+        "hỗ trợ nghiệp vụ văn phòng"
+      ],
+      "quota_per_year": 150,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Vi tính văn phòng",
+        "Công nghệ thông tin",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "sua-chua-may-tinh-phan-cung-sc",
+      "slug": "sua-chua-may-tinh-phan-cung",
+      "name": "Sửa chữa máy tính phần cứng",
+      "level": "Sơ cấp",
+      "career_group": "Máy tính",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ năng nhận biết linh kiện, lắp ráp, cài đặt, kiểm tra, bảo trì và sửa chữa các lỗi phần cứng máy tính thông dụng.",
+      "jobs": [
+        "Kỹ thuật viên sửa chữa máy tính",
+        "nhân viên bảo trì thiết bị",
+        "nhân viên hỗ trợ kỹ thuật"
+      ],
+      "quota_per_year": 150,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Sửa chữa máy tính phần cứng",
+        "Máy tính",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "che-bien-mu-cao-su-sc",
+      "slug": "che-bien-mu-cao-su",
+      "name": "Chế biến mủ cao su",
+      "level": "Sơ cấp",
+      "career_group": "Công nghệ sản xuất",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo quy trình tiếp nhận, xử lý, sơ chế và chế biến mủ cao su thiên nhiên; bảo đảm an toàn, chất lượng và vệ sinh công nghiệp.",
+      "jobs": [
+        "Công nhân kỹ thuật chế biến mủ",
+        "nhân viên vận hành dây chuyền",
+        "nhân viên kiểm tra chất lượng cơ bản"
+      ],
+      "quota_per_year": 100,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Chế biến mủ cao su",
+        "Công nghệ sản xuất",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "san-xuat-san-pham-tu-cao-su-sc",
+      "slug": "san-xuat-san-pham-tu-cao-su",
+      "name": "Sản xuất sản phẩm từ cao su",
+      "level": "Sơ cấp",
+      "career_group": "Công nghệ sản xuất",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo các thao tác cơ bản trong sản xuất sản phẩm cao su, phối trộn, tạo hình, lưu hóa, hoàn thiện và kiểm tra sản phẩm.",
+      "jobs": [
+        "Công nhân kỹ thuật sản xuất cao su",
+        "nhân viên vận hành thiết bị",
+        "nhân viên đóng gói, hoàn thiện sản phẩm"
+      ],
+      "quota_per_year": 150,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Sản xuất sản phẩm từ cao su",
+        "Công nghệ sản xuất",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "kiem-pham-cao-su-svr-va-latex-co-dac-sc",
+      "slug": "kiem-pham-cao-su-svr-va-latex-co-dac",
+      "name": "Kiểm phẩm cao su SVR và latex cô đặc",
+      "level": "Sơ cấp",
+      "career_group": "Công nghệ sản xuất",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ năng lấy mẫu, kiểm tra chỉ tiêu chất lượng và phân loại sản phẩm cao su SVR, latex cô đặc theo quy trình kỹ thuật.",
+      "jobs": [
+        "Nhân viên kiểm phẩm cao su",
+        "nhân viên kiểm tra chất lượng",
+        "nhân viên phòng kỹ thuật nhà máy cao su"
+      ],
+      "quota_per_year": 150,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Kiểm phẩm cao su SVR và latex cô đặc",
+        "Công nghệ sản xuất",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "han-dien-sc",
+      "slug": "han-dien",
+      "name": "Hàn điện",
+      "level": "Sơ cấp",
+      "career_group": "Kỹ thuật điện, điện tử và viễn thông",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ năng hàn điện cơ bản, chuẩn bị vật liệu, thiết bị hàn, thực hiện mối hàn và bảo đảm an toàn lao động.",
+      "jobs": [
+        "Thợ hàn điện",
+        "công nhân cơ khí",
+        "nhân viên sửa chữa, gia công kết cấu kim loại"
+      ],
+      "quota_per_year": 180,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Hàn điện",
+        "Kỹ thuật điện, điện tử và viễn thông",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "lap-dat-dien-cho-co-so-san-xuat-nho-sc",
+      "slug": "lap-dat-dien-cho-co-so-san-xuat-nho",
+      "name": "Lắp đặt điện cho cơ sở sản xuất nhỏ",
+      "level": "Sơ cấp",
+      "career_group": "Kỹ thuật điện, điện tử và viễn thông",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ năng lắp đặt, kiểm tra, vận hành hệ thống điện cơ bản trong cơ sở sản xuất nhỏ, bảo đảm an toàn và hiệu quả.",
+      "jobs": [
+        "Thợ điện cơ sở sản xuất",
+        "nhân viên bảo trì điện",
+        "nhân viên kỹ thuật điện dân dụng"
+      ],
+      "quota_per_year": 80,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Lắp đặt điện cho cơ sở sản xuất nhỏ",
+        "Kỹ thuật điện, điện tử và viễn thông",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "sua-chua-bao-tri-tu-lanh-va-dieu-hoa-nhiet-do-sc",
+      "slug": "sua-chua-bao-tri-tu-lanh-va-dieu-hoa-nhiet-do",
+      "name": "Sửa chữa bảo trì tủ lạnh và điều hòa nhiệt độ",
+      "level": "Sơ cấp",
+      "career_group": "Kỹ thuật điện, điện tử và viễn thông",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ năng kiểm tra, bảo trì, vệ sinh, sửa chữa các lỗi thông dụng của tủ lạnh, máy lạnh và điều hòa nhiệt độ.",
+      "jobs": [
+        "Thợ điện lạnh dân dụng",
+        "nhân viên bảo trì thiết bị lạnh",
+        "chủ dịch vụ sửa chữa điện lạnh"
+      ],
+      "quota_per_year": 80,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Sửa chữa bảo trì tủ lạnh và điều hòa nhiệt độ",
+        "Kỹ thuật điện, điện tử và viễn thông",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "sua-chua-quat-dong-co-dien-va-on-ap-sc",
+      "slug": "sua-chua-quat-dong-co-dien-va-on-ap",
+      "name": "Sửa chữa quạt động cơ điện và ổn áp",
+      "level": "Sơ cấp",
+      "career_group": "Kỹ thuật điện, điện tử và viễn thông",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ năng kiểm tra, tháo lắp, bảo trì và sửa chữa quạt điện, động cơ điện nhỏ, ổn áp và thiết bị điện gia dụng thông dụng.",
+      "jobs": [
+        "Thợ sửa chữa điện gia dụng",
+        "nhân viên bảo trì thiết bị điện",
+        "chủ cơ sở dịch vụ điện dân dụng"
+      ],
+      "quota_per_year": 100,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Sửa chữa quạt động cơ điện và ổn áp",
+        "Kỹ thuật điện, điện tử và viễn thông",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "ky-thuat-xay-dung-sc",
+      "slug": "ky-thuat-xay-dung",
+      "name": "Kỹ thuật xây dựng",
+      "level": "Sơ cấp",
+      "career_group": "Xây dựng",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ năng cơ bản về đọc bản vẽ, đo đạc, vật liệu xây dựng, thi công, giám sát công việc xây dựng dân dụng quy mô nhỏ.",
+      "jobs": [
+        "Thợ xây dựng",
+        "nhân viên phụ trách công trình nhỏ",
+        "tổ trưởng thi công cơ bản"
+      ],
+      "quota_per_year": 300,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Kỹ thuật xây dựng",
+        "Xây dựng",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "lap-dat-dien-noi-that-sc",
+      "slug": "lap-dat-dien-noi-that",
+      "name": "Lắp đặt điện nội thất",
+      "level": "Sơ cấp",
+      "career_group": "Xây dựng",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ năng lắp đặt hệ thống điện trong nhà ở, công trình dân dụng, bố trí thiết bị điện, chiếu sáng và bảo đảm an toàn điện.",
+      "jobs": [
+        "Thợ điện nội thất",
+        "nhân viên thi công điện công trình",
+        "nhân viên bảo trì điện tòa nhà"
+      ],
+      "quota_per_year": 105,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Lắp đặt điện nội thất",
+        "Xây dựng",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "san-xuat-do-moc-dan-dung-sc",
+      "slug": "san-xuat-do-moc-dan-dung",
+      "name": "Sản xuất đồ mộc dân dụng",
+      "level": "Sơ cấp",
+      "career_group": "Xây dựng",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ năng sử dụng dụng cụ, máy móc mộc cơ bản, gia công, lắp ráp và hoàn thiện sản phẩm mộc dân dụng.",
+      "jobs": [
+        "Thợ mộc dân dụng",
+        "nhân viên xưởng gỗ",
+        "chủ cơ sở sản xuất đồ mộc nhỏ"
+      ],
+      "quota_per_year": 150,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Sản xuất đồ mộc dân dụng",
+        "Xây dựng",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "trong-cham-soc-va-khai-thac-cay-cao-su-sc",
+      "slug": "trong-cham-soc-va-khai-thac-cay-cao-su",
+      "name": "Trồng, chăm sóc và khai thác cây cao su",
+      "level": "Sơ cấp",
+      "career_group": "Nông nghiệp",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ thuật trồng, chăm sóc, phòng trừ sâu bệnh và khai thác mủ cao su đúng quy trình, bảo đảm năng suất và an toàn lao động.",
+      "jobs": [
+        "Công nhân khai thác mủ",
+        "kỹ thuật viên vườn cây",
+        "nhân viên nông trường cao su"
+      ],
+      "quota_per_year": 100,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Trồng, chăm sóc và khai thác cây cao su",
+        "Nông nghiệp",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "san-xuat-cay-giong-cao-su-ca-phe-ho-tieu-sc",
+      "slug": "san-xuat-cay-giong-cao-su-ca-phe-ho-tieu",
+      "name": "Sản xuất cây giống cao su, cà phê, hồ tiêu",
+      "level": "Sơ cấp",
+      "career_group": "Nông nghiệp",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ thuật chọn giống, nhân giống, chăm sóc cây giống cao su, cà phê, hồ tiêu và quản lý vườn ươm.",
+      "jobs": [
+        "Nhân viên vườn ươm",
+        "kỹ thuật viên sản xuất cây giống",
+        "chủ cơ sở cây giống"
+      ],
+      "quota_per_year": 100,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Sản xuất cây giống cao su, cà phê, hồ tiêu",
+        "Nông nghiệp",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "trong-ho-tieu-sc",
+      "slug": "trong-ho-tieu",
+      "name": "Trồng hồ tiêu",
+      "level": "Sơ cấp",
+      "career_group": "Nông nghiệp",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ thuật thiết kế vườn, trồng, chăm sóc, phòng trừ sâu bệnh, thu hoạch và bảo quản hồ tiêu.",
+      "jobs": [
+        "Kỹ thuật viên trồng tiêu",
+        "chủ vườn tiêu",
+        "nhân viên trang trại nông nghiệp"
+      ],
+      "quota_per_year": 100,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Trồng hồ tiêu",
+        "Nông nghiệp",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "trong-rau-an-toan-sc",
+      "slug": "trong-rau-an-toan",
+      "name": "Trồng rau an toàn",
+      "level": "Sơ cấp",
+      "career_group": "Nông nghiệp",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ thuật sản xuất rau an toàn, sử dụng phân bón và thuốc bảo vệ thực vật đúng quy định, thu hoạch và sơ chế sản phẩm.",
+      "jobs": [
+        "Người sản xuất rau an toàn",
+        "nhân viên trang trại rau",
+        "chủ mô hình rau sạch"
+      ],
+      "quota_per_year": 100,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Trồng rau an toàn",
+        "Nông nghiệp",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "trong-mai-vang-mai-chieu-thuy-sc",
+      "slug": "trong-mai-vang-mai-chieu-thuy",
+      "name": "Trồng mai vàng, mai chiếu thủy",
+      "level": "Sơ cấp",
+      "career_group": "Nông nghiệp",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ thuật nhân giống, tạo dáng, chăm sóc, xử lý ra hoa và kinh doanh cây mai vàng, mai chiếu thủy.",
+      "jobs": [
+        "Người trồng cây cảnh",
+        "nhân viên vườn kiểng",
+        "chủ cơ sở cây cảnh"
+      ],
+      "quota_per_year": 100,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Trồng mai vàng, mai chiếu thủy",
+        "Nông nghiệp",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "trong-dieu-sc",
+      "slug": "trong-dieu",
+      "name": "Trồng điều",
+      "level": "Sơ cấp",
+      "career_group": "Nông nghiệp",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ thuật trồng, chăm sóc, phòng trừ sâu bệnh, thu hoạch và bảo quản hạt điều phù hợp điều kiện sản xuất địa phương.",
+      "jobs": [
+        "Kỹ thuật viên trồng điều",
+        "chủ vườn điều",
+        "nhân viên trang trại nông nghiệp"
+      ],
+      "quota_per_year": 100,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Trồng điều",
+        "Nông nghiệp",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "trong-cay-ca-phe-sc",
+      "slug": "trong-cay-ca-phe",
+      "name": "Trồng cây cà phê",
+      "level": "Sơ cấp",
+      "career_group": "Nông nghiệp",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ thuật trồng, chăm sóc, bón phân, phòng trừ sâu bệnh, thu hoạch và sơ chế cà phê.",
+      "jobs": [
+        "Kỹ thuật viên trồng cà phê",
+        "chủ vườn cà phê",
+        "nhân viên trang trại"
+      ],
+      "quota_per_year": 35,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Trồng cây cà phê",
+        "Nông nghiệp",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "dan-lat-thu-cong-sc",
+      "slug": "dan-lat-thu-cong",
+      "name": "Đan lát thủ công",
+      "level": "Sơ cấp",
+      "career_group": "Mỹ thuật ứng dụng",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ năng đan lát thủ công, lựa chọn vật liệu, tạo mẫu, hoàn thiện sản phẩm phục vụ tiêu dùng, trang trí và kinh doanh nhỏ.",
+      "jobs": [
+        "Thợ đan lát",
+        "người sản xuất hàng thủ công",
+        "chủ hộ kinh doanh sản phẩm thủ công"
+      ],
+      "quota_per_year": 180,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "Đan lát thủ công",
+        "Mỹ thuật ứng dụng",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "may-cong-nghiep-sc",
+      "slug": "may-cong-nghiep",
+      "name": "May công nghiệp",
+      "level": "Sơ cấp",
+      "career_group": "Sản xuất, chế biến sợi, vải, giày, da",
+      "duration": "Theo thông báo tuyển sinh từng lớp; thường là khóa ngắn hạn, linh hoạt theo nhu cầu người học và doanh nghiệp.",
+      "admission_target": "Người lao động, học sinh, sinh viên hoặc người có nhu cầu học nghề, chuyển đổi nghề, bồi dưỡng kỹ năng.",
+      "description": "Đào tạo kỹ năng sử dụng máy may công nghiệp, cắt may cơ bản, hoàn thiện sản phẩm may mặc và làm việc theo chuyền sản xuất.",
+      "jobs": [
+        "Công nhân may",
+        "nhân viên xưởng may",
+        "thợ sửa, hoàn thiện sản phẩm may"
+      ],
+      "quota_per_year": 200,
+      "tuition_note": "Học phí thực hiện theo thông báo tuyển sinh từng lớp, từng thời điểm và quy định tài chính hiện hành của Nhà trường.",
+      "tags": [
+        "May công nghiệp",
+        "Sản xuất, chế biến sợi, vải, giày, da",
+        "Sơ cấp",
+        "Ngắn hạn"
+      ]
+    },
+    {
+      "id": "lai-xe-mo-to",
+      "slug": "dao-tao-lai-xe-mo-to",
+      "name": "Đào tạo lái xe mô tô",
+      "level": "Đào tạo thường xuyên",
+      "career_group": "Đào tạo lái xe",
+      "duration": "Theo chương trình đào tạo lái xe hiện hành và thông báo tuyển sinh từng khóa; thời gian học linh hoạt theo kế hoạch của Trung tâm Đào tạo và Sát hạch lái xe.",
+      "admission_target": "Công dân Việt Nam hoặc người nước ngoài được phép cư trú, học tập, làm việc tại Việt Nam; đủ tuổi, đủ sức khỏe và đáp ứng điều kiện theo quy định hiện hành về đào tạo, sát hạch, cấp giấy phép lái xe.",
+      "description": "Khóa đào tạo lái xe mô tô trang bị kiến thức pháp luật về trật tự, an toàn giao thông đường bộ, hệ thống báo hiệu đường bộ, văn hóa giao thông, kỹ năng điều khiển mô tô an toàn và kỹ năng xử lý các tình huống giao thông thường gặp. Người học được hướng dẫn lý thuyết, thực hành lái xe và chuẩn bị tham gia sát hạch theo quy định.",
+      "jobs": [
+        "Sử dụng phương tiện mô tô tham gia giao thông an toàn, đúng quy định",
+        "Nâng cao kỹ năng đi lại phục vụ học tập, làm việc và đời sống",
+        "Đáp ứng điều kiện tham gia sát hạch cấp giấy phép lái xe mô tô theo quy định"
+      ],
+      "quota_per_year": "Theo chỉ tiêu, kế hoạch tuyển sinh và năng lực đào tạo từng khóa của Trung tâm Đào tạo và Sát hạch lái xe.",
+      "tuition_note": "Học phí, lệ phí sát hạch và các khoản thu liên quan thực hiện theo thông báo của Nhà trường, Trung tâm Đào tạo và Sát hạch lái xe và quy định hiện hành.",
+      "tags": [
+        "Lái xe",
+        "Mô tô",
+        "Giấy phép lái xe",
+        "An toàn giao thông",
+        "Đào tạo thường xuyên"
+      ]
+    },
+    {
+      "id": "lai-xe-o-to-cac-hang",
+      "slug": "dao-tao-lai-xe-o-to-cac-hang",
+      "name": "Đào tạo lái xe ô tô các hạng",
+      "level": "Đào tạo thường xuyên",
+      "career_group": "Đào tạo lái xe",
+      "duration": "Theo chương trình đào tạo từng hạng giấy phép lái xe và thông báo tuyển sinh từng khóa; áp dụng theo chương trình đào tạo lái xe mô tô, ô tô các hạng ban hành năm 2025.",
+      "admission_target": "Người học có nhu cầu học lái xe ô tô, nâng hạng giấy phép lái xe; đáp ứng điều kiện về độ tuổi, sức khỏe, hồ sơ và các điều kiện khác theo quy định hiện hành.",
+      "description": "Chương trình đào tạo lái xe ô tô các hạng giúp người học nắm vững pháp luật về giao thông đường bộ, đạo đức và văn hóa giao thông, kỹ thuật lái xe an toàn, cấu tạo và sửa chữa thông thường, kỹ năng xử lý tình huống và thực hành điều khiển xe trên hình, trên đường giao thông. Chương trình được tổ chức theo từng hạng giấy phép lái xe và theo quy định của cơ quan quản lý nhà nước.",
+      "jobs": [
+        "Lái xe phục vụ nhu cầu cá nhân, gia đình và công việc",
+        "Lái xe cho doanh nghiệp, cơ quan, đơn vị khi đáp ứng đủ điều kiện theo hạng giấy phép",
+        "Nâng hạng giấy phép lái xe để mở rộng cơ hội nghề nghiệp trong lĩnh vực vận tải"
+      ],
+      "quota_per_year": "Theo kế hoạch tuyển sinh từng khóa và năng lực đào tạo được cấp phép của Trung tâm Đào tạo và Sát hạch lái xe.",
+      "tuition_note": "Học phí và lệ phí liên quan tùy theo hạng giấy phép lái xe, thời điểm tuyển sinh và quy định hiện hành; người học liên hệ Trung tâm Đào tạo và Sát hạch lái xe để được tư vấn chính xác.",
+      "tags": [
+        "Lái xe ô tô",
+        "Giấy phép lái xe",
+        "Đào tạo lái xe",
+        "Sát hạch lái xe",
+        "An toàn giao thông"
+      ]
+    },
+    {
+      "id": "lai-xe-o-to-nang-hang-b-len-d1",
+      "slug": "lai-xe-o-to-nang-hang-b-len-d1",
+      "name": "Lái xe ô tô nâng hạng B lên D1",
+      "level": "Đào tạo thường xuyên",
+      "career_group": "Đào tạo lái xe",
+      "duration": "30 ngày; tổng thời lượng 75 giờ, gồm 21 giờ lý thuyết, 50 giờ thực hành và 4 giờ kiểm tra; 3 tín chỉ.",
+      "admission_target": "Người học là công dân Việt Nam hoặc người nước ngoài được phép cư trú, học tập, làm việc tại Việt Nam; nam, nữ đủ 24 tuổi trở lên; có trình độ văn hóa biết đọc, biết viết; đủ sức khỏe theo quy định và có giấy phép lái xe hạng B đủ điều kiện nâng hạng theo quy định.",
+      "description": "Khóa học đào tạo người có giấy phép lái xe hạng B nâng lên hạng D1, trang bị kiến thức pháp luật về trật tự, an toàn giao thông đường bộ, đạo đức và văn hóa giao thông, phòng chống tác hại của rượu bia khi tham gia giao thông, kỹ năng phòng cháy, chữa cháy, cứu nạn, cứu hộ, kỹ thuật lái xe an toàn, kỹ năng điều khiển xe chở người và xử lý tình huống giao thông. Hạng D1 áp dụng cho người lái xe ô tô chở người trên 08 chỗ đến 16 chỗ, không kể chỗ của người lái xe, và các loại xe theo quy định của giấy phép lái xe hạng D1.",
+      "jobs": [
+        "Lái xe ô tô chở người theo hạng D1 khi được cấp giấy phép lái xe phù hợp",
+        "Lái xe phục vụ doanh nghiệp, cơ quan, đơn vị, hợp tác xã vận tải hoặc dịch vụ đưa đón",
+        "Tiếp tục học nâng cao trình độ, nâng hạng giấy phép lái xe lên các hạng cao hơn khi đủ điều kiện"
+      ],
+      "quota_per_year": "Tuyển sinh theo kế hoạch từng khóa của Trung tâm Đào tạo và Sát hạch lái xe; áp dụng từ khóa tuyển sinh ngày 01/9/2025 theo quyết định ban hành chương trình.",
+      "tuition_note": "Học phí, lệ phí sát hạch và các chi phí liên quan thực hiện theo thông báo tuyển sinh từng khóa và quy định hiện hành; người học cần liên hệ trực tiếp Trung tâm Đào tạo và Sát hạch lái xe để được tư vấn hồ sơ, điều kiện và lịch học.",
+      "tags": [
+        "Lái xe D1",
+        "Nâng hạng B lên D1",
+        "Lái xe ô tô",
+        "Xe chở người",
+        "Đào tạo thường xuyên",
+        "An toàn giao thông"
+      ]
+    }
+  ]
+}
