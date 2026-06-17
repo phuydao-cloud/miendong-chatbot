@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Chatbot Tư vấn Chọn Ngành - Miền Đông</title>
+  <title>Chatbot Tuyển sinh EC</title>
 
   <!-- CSS chính của thầy -->
   <link rel="stylesheet" href="./styles.css" />
@@ -20,8 +20,8 @@
   <!-- Thanh thương hiệu -->
   <header class="brand-bar">
     <img src="logo-miendong.png" alt="Miền Đông" class="brand-logo" />
-    <div class="brand-title">Tư vấn viên tuyển sinh AI, Trường Cao đẳng Miền Đông.</div>
-    <small id="session" class="session-id"></small>
+    <div class="brand-title">Chatbot Tuyển sinh, Trường Cao đẳng Miền Đông.</div>
+    <!-- <small id="session" class="session-id"></small> -->
     <!-- <small id="session" class="session-id" title="Session ID dùng để khôi phục hội thoại"></small> -->
   </header>
 
@@ -52,10 +52,10 @@
 
       <!-- Ô nhập + nút gửi + xoá -->
       <div id="composer" class="composer">
-        <textarea id="input" rows="2"
-          placeholder="Nhập câu hỏi của bạn... (Ví dụ: Em phù hợp với nhóm ngành nào theo RIASEC?)"></textarea>
+        <!-- <textarea id="input" rows="2" placeholder="Hãy hỏi bất kỳ điều gì về tuyển sinh..."></textarea> -->
+        <input id="input" type="text" placeholder="Hãy hỏi bất kỳ điều gì về tuyển sinh..." />
         <button id="send" type="button" title="Gửi">Gửi</button>
-        <button id="clear" type="button" title="Xoá hội thoại">🗑</button>
+        <button id="clear" type="button" title="Cuộc trò chuyện mới">🔄</button>
       </div>
 
       <!-- Nút gợi ý nhanh (sẽ được JS tự động lấp đầy nếu trống) -->
@@ -66,24 +66,44 @@
     <!-- Sidebar (tuỳ chọn, có thể ẩn nếu hiển thị trên mobile) -->
     <aside id="sidebar" class="sidebar">
       <div class="card">
-        <h3>Hướng dẫn nhanh</h3>
-        <p>Nhập từ khoá như <em>“ngành ô tô học gì”, “điều kiện tuyển sinh”, “ký túc xá”</em>... hoặc dùng nút gợi ý bên
-          dưới
-          khung chat.</p>
+        <h3>Hướng dẫn đặt câu hỏi</h3>
+        <p>Hãy nhập từ khóa, đặt câu hỏi theo cách tự nhiên như:<em>"Ngành trồng trọt học gì?", "Thích môn toán chọn
+            ngành gì", "Học phí bao nhiêu?", "Có
+            ký túc xá không?", "Học xong có dễ xin việc không?"</em>... hoặc chọn các nút gợi ý bên dưới khung chat để
+          được tư vấn nhanh.
+        </p>
       </div>
-      <div class="card">
+      <!-- <div class="card">
         <h3>Thông tin</h3>
         <small>Chatbot hỗ trợ tư vấn chọn ngành, nghề phù hợp dựa trên dữ liệu nội bộ và OpenAI
           <code>|V.01 ©Huy Đào|</code></small>
+      </div> -->
+
+      <div class="card info-card">
+        <h3>Thông tin tuyển sinh</h3>
+
+        <ul class="info-list">
+          <li>🎓Có 27 ngành trình độ CĐ, TC</li>
+          <li>💰 Hỗ trợ học phí tới 100%</li>
+          <li>🏠K ý túc xá trên 500 chỗ</li>
+          <li>💼 Kết nối doanh nghiệp, việc làm</li>
+          <li>🤝 Học tập - phát triển toàn diện</li>
+        </ul>
+
+        <a class="register-btn" href="https://tuyensinh.cdmd.edu.vn/" target="_blank" rel="noopener">
+          📝Đăng ký ngay
+        </a>
       </div>
 
     </aside>
   </main>
 
   <footer class="footer">
-    <small>Trường Cao đẳng Miền Đông - 2025</small>
+    <small><b>@2026 Trường Cao đẳng Miền Đông</b> - <b><i>Nâng tầm kỹ năng, kiến tạo giá trị</i></b></small>
   </footer>
-
+  <button id="backToTop" title="Lên đầu trang">
+    ⬆️
+  </button>
   <!-- JS chính (đã gửi ở bước trước) -->
   <script src="./app.js"></script>
 </body>

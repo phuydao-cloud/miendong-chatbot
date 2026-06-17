@@ -32,7 +32,8 @@
   };
 
   // ===== UI helpers =====
-  const autosize = (el) => { if (el) { el.style.height = 'auto'; el.style.height = Math.min(el.scrollHeight, 220) + 'px'; } };
+  // const autosize = (el) => { if (el) { el.style.height = 'auto'; el.style.height = Math.min(el.scrollHeight, 220) + 'px'; } };
+  const autosize = (_el) => { };
   const setTyping = (on) => { if (typingEl) typingEl.style.display = on ? 'inline-block' : 'none'; };
   function addMessage(role, content, save = true) {
     const li = document.createElement('li');
@@ -48,14 +49,13 @@
 
   // ===== Quick replies =====
   const defaultSuggestions = [
-    '📚 Danh mục ngành',
-    'Ngành học',
-    'Học phí',
-    'Ký túc xá',
-    'Cơ hội việc làm',
-    'Điều kiện tuyển sinh',
-    'Ngành công nghệ thông tin học gì?',
-    'Em phù hợp ngành ô tô không?'
+    '📚Danh mục ngành',
+    '💰Học phí',
+    '🏠Ký túc xá',
+    '💼Việc làm',
+    // '🚗 Lái xe',
+    '🛠️ Ngắn hạn',
+    '📞Liên hệ'
   ];
   function ensureSuggestions() {
     if (!suggestionsEl || suggestionsEl.children.length > 0) return;
@@ -180,12 +180,37 @@
   if (clearBtn) {
     clearBtn.addEventListener('click', () => {
       clearHistory(); if (suggestionsEl) suggestionsEl.classList.remove('hidden'); if (catalogEl) catalogEl.classList.add('hidden');
-      addMessage('assistant', 'Xin chào! Tôi là **Tư vấn viên AI, Trường Cao đẳng Miền Đông**. Các bạn muốn xem *Danh mục ngành*, *Trắc nghiệm chọn nghề phù hợp*, *Học phí*, *Ký túc xá* hay *Cơ hội việc làm*?', true);
+      addMessage('assistant', 'Xin chào! Tôi là **Tư vấn viên AI, Trường Cao đẳng Miền Đông**. Bạn cần tư vấn về *ngành học*, *học phí*, *ký túc xá*, *điều kiện học tập* hay *cơ hội việc làm*?', true);
     });
   }
 
   // ===== Init =====
   ensureSuggestions();
   renderLocalHistory();
+  if (readLocalHistory().length === 0) {
+    addMessage(
+      'assistant',
+      'Xin chào! Tôi là **Tư vấn viên AI của Trường Cao đẳng Miền Đông**. Bạn cần tư vấn về *ngành học*, *học phí*, *ký túc xá*, *điều kiện học tập* hay *cơ hội việc làm*?',
+      true
+    );
+  }
   loadHistoryFromBackend();
+  // ===== Nút lên đầu trang =====
+
+  const backToTopBtn = document.getElementById("backToTop");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      backToTopBtn.style.display = "block";
+    } else {
+      backToTopBtn.style.display = "none";
+    }
+  });
+
+  backToTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
 })();

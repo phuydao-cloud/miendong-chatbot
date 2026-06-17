@@ -536,7 +536,7 @@
     {
       "id": "cspcs-cd",
       "slug": "cong-nghe-san-xuat-cac-san-pham-cao-su-cao-dang",
-      "name": "Công nghệ sản xuất các sản phẩm cao su",
+      "name": "Công nghệ sản xuất sản phẩm từ cao su",
       "level": "Cao đẳng",
       "career_group": "Công nghệ sản xuất",
       "riasec": [
@@ -902,7 +902,7 @@
       "core_modules": [
         "Tiếng Anh",
         "Tin học",
-        "Quản lí dụng ngành công nghệ ô tô",
+        "Quản lý ứng dụng ngành công nghệ ô tô",
         "AutoCAD",
         "Công nghệ khí nén – thủy lực ứng dụng",
         "Động cơ đốt trong thế hệ mới",

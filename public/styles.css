@@ -115,6 +115,8 @@ body {
     max-height: 64vh;
     overflow: auto;
     scroll-behavior: smooth;
+    /* mới thêm 17.6.2026 */
+    padding-top: 12px;
 }
 
 .msg {
@@ -288,6 +290,7 @@ body {
     background: #fff;
 }
 
+
 .composer button {
     padding: 10px 12px;
     border-radius: 10px;
@@ -342,7 +345,8 @@ body {
     max-width: 1100px;
     margin: 8px auto 24px;
     text-align: center;
-    opacity: .85;
+    opacity: .75;
+    color: #2754a5;
 }
 
 /* Utilities */
@@ -357,7 +361,9 @@ body {
 /* Small screens */
 @media (max-width:640px) {
     .messages {
-        max-height: 58vh;
+        max-height: calc(100vh - 260px);
+        overflow-y: auto;
+        padding-top: 12px;
     }
 
     .msg {
@@ -373,10 +379,39 @@ body {
     }
 }
 
-/* Optional: subtle scrollbar for messages (Chromium/WebKit) */
+/* ===== Scrollbar khung chat ===== */
+
+.messages {
+    scrollbar-width: thin;
+    scrollbar-color: #94a3b8 transparent;
+}
+
 .messages::-webkit-scrollbar {
+    width: 3px;
+}
+
+.messages::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.messages::-webkit-scrollbar-thumb {
+    background: #94a3b8;
+    border-radius: 999px;
+}
+
+.messages::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
+
+/* Optional: subtle scrollbar for messages (Chromium/WebKit) */
+/* .messages::-webkit-scrollbar {
     height: 10px;
     width: 10px;
+} */
+
+#clear {
+    font-size: 18px;
+    line-height: 1;
 }
 
 .messages::-webkit-scrollbar-thumb {
@@ -728,4 +763,134 @@ body {
     color: #333;
     margin: 4px 0 6px;
     /* gọn hơn mặc định */
+}
+
+/* ===== Scrollbar toàn trang ===== */
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #c7d2fe transparent;
+}
+
+html::-webkit-scrollbar {
+    width: 5px;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #c7d2fe;
+    border-radius: 999px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* Fix input sau khi đổi từ textarea sang input */
+.composer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.composer input#input {
+    flex: 1;
+    width: 100%;
+    height: 46px;
+    min-height: 46px;
+    padding: 0 14px;
+    border-radius: 10px;
+    border: 1.5px solid #cbd5e1;
+    background: #fff;
+    font-size: 15px;
+    font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    line-height: 46px;
+    outline: none;
+}
+
+.composer input#input:focus {
+    border-color: var(--brand);
+    box-shadow: 0 0 0 2px rgba(39, 84, 165, 0.15);
+}
+
+.composer input#input::placeholder {
+    color: #94a3b8;
+    font-size: 14.5px;
+}
+
+/* Phần thông tin bổ sung */
+.info-card {
+    text-align: left;
+}
+
+.info-card h3 {
+    text-align: center;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 12px;
+}
+
+.info-list li {
+    font-size: 0.93rem;
+    line-height: 1.45;
+    margin: 7px 0;
+}
+
+.register-btn {
+    display: block;
+    text-align: center;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background: var(--brand);
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all .15s ease;
+}
+
+.register-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px rgba(39, 84, 165, .2);
+}
+
+.sidebar {
+    position: sticky;
+    top: 16px;
+    align-self: start;
+}
+
+/* Nút lên đầu trang */
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    width: 46px;
+    height: 46px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #2754a5;
+    color: #fff;
+
+    font-size: 20px;
+    cursor: pointer;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .15);
+
+    display: none;
+
+    z-index: 999;
+    transition: all .2s ease;
+}
+
+#backToTop:hover {
+    transform: translateY(-2px);
 }
