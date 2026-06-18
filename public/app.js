@@ -97,7 +97,12 @@
   const fmtVND = (n) => (typeof n === 'number' ? n.toLocaleString('vi-VN') : n);
   function formatMajorBrief(m) {
     const fee = Array.isArray(m.tuition_range_vnd_per_term) && m.tuition_range_vnd_per_term.length === 2
-      ? `${fmtVND(m.tuition_range_vnd_per_term[0])}–${fmtVND(m.tuition_range_vnd_per_term[1])}` : 'Cập nhật sau';
+      ? (
+        m.tuition_range_vnd_per_term[0] === m.tuition_range_vnd_per_term[1]
+          ? fmtVND(m.tuition_range_vnd_per_term[0])
+          : `${fmtVND(m.tuition_range_vnd_per_term[0])}–${fmtVND(m.tuition_range_vnd_per_term[1])}`
+      )
+      : 'Cập nhật sau';
     return `**${m.name} – ${m.level}**
 - Nhóm nghề: ${m.career_group || '—'}
 - Mô tả: ${m.description || '—'}
@@ -106,7 +111,7 @@
 - Cơ hội việc làm: ${(m.jobs || []).join(', ') || '—'}
 - Thời gian: ~${m.duration_months || '—'} tháng
 - Tuyển sinh: ${(m.admission?.target) || '—'}
-- Học phí/kỳ (ước tính): ${fee}
+- Học phí/kỳ: ${fee}
 - Liên hệ: ${(m.contacts?.unit) || '—'} — ${(m.contacts?.phone) || ''}`.trim();
   }
   function injectMajorToChat(m) { addMessage('assistant', formatMajorBrief(m)); messagesEl.scrollTop = messagesEl.scrollHeight; inputEl.focus(); }
@@ -174,7 +179,13 @@
     suggestionsEl.addEventListener('click', (e) => {
       const q = e.target?.dataset?.q; if (!q) return;
       if (q.includes('Danh mục ngành')) { toggleCatalog(); return; }
-      inputEl.value = q; autosize(inputEl); sendMessage();
+      // inputEl.value = q;
+      let query = q;
+      if (q.includes('Ngắn hạn')) {
+        query = 'Hãy giới thiệu các khóa đào tạo sơ cấp, nghề ngắn hạn và đào tạo lái xe của Trường Cao đẳng Miền Đông';
+      }
+      inputEl.value = query;
+      autosize(inputEl); sendMessage();
     });
   }
   if (clearBtn) {
@@ -213,4 +224,17 @@
       behavior: "smooth"
     });
   });
+
+  // Ẩn/hiện thanh brand-bar khi cuộn trên mobile
+  const brandBar = document.querySelector('.brand-bar');
+
+  if (brandBar) {
+    window.addEventListener('scroll', () => {
+      if (window.innerWidth <= 640 && window.scrollY > 80) {
+        brandBar.classList.add('brand-hide');
+      } else {
+        brandBar.classList.remove('brand-hide');
+      }
+    });
+  }
 })();

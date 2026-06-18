@@ -894,3 +894,78 @@ html::-webkit-scrollbar-thumb:hover {
 #backToTop:hover {
     transform: translateY(-2px);
 }
+
+/* Phiên bản V.1.01 */
+@media (max-width: 640px) {
+    .brand-title {
+        font-size: 18px;
+        line-height: 1.25;
+    }
+
+    .brand-title::before {
+        content: "Trường Cao đẳng Miền Đông";
+    }
+
+    .brand-title {
+        font-size: 0;
+    }
+
+    .brand-title::before {
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 640px) {
+    .footer-text {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .footer-text::before {
+        content: "-Nâng tầm kỹ năng, kiến tạo giá trị-";
+    }
+
+    .footer-text {
+        font-size: 0;
+    }
+
+    .footer-text::before {
+        font-size: 14px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 640px) {
+    .brand-bar {
+        transition: transform .2s ease, opacity .2s ease;
+    }
+
+    .brand-bar.brand-hide {
+        transform: translateY(-120%);
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+/* Giảm thụt dòng danh sách trong câu trả lời bot */
+.msg.assistant ol,
+.msg.assistant ul {
+    padding-left: 1.1rem !important;
+    margin-left: 0 !important;
+}
+
+.msg.assistant li {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
+
+/* Đổi nút tròn trắng thành nút tròn đen */
+.msg.assistant ul {
+    list-style-type: disc !important;
+}
+
+.msg.assistant ul li::marker {
+    color: #111;
+    font-size: 0.85em;
+}
