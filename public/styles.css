@@ -916,6 +916,7 @@ html::-webkit-scrollbar-thumb:hover {
     }
 }
 
+/* 
 @media (max-width: 640px) {
     .footer-text {
         font-size: 14px;
@@ -923,7 +924,7 @@ html::-webkit-scrollbar-thumb:hover {
     }
 
     .footer-text::before {
-        content: "-Nâng tầm kỹ năng, kiến tạo giá trị-";
+        content: "Nâng tầm kỹ năng, kiến tạo giá trị";
     }
 
     .footer-text {
@@ -934,7 +935,7 @@ html::-webkit-scrollbar-thumb:hover {
         font-size: 14px;
         font-weight: 700;
     }
-}
+} */
 
 @media (max-width: 640px) {
     .brand-bar {
@@ -968,4 +969,225 @@ html::-webkit-scrollbar-thumb:hover {
 .msg.assistant ul li::marker {
     color: #111;
     font-size: 0.85em;
+}
+
+/* Thêm hotline */
+.header-hotline {
+    margin-left: auto;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.header-hotline:hover {
+    text-decoration: underline;
+}
+
+/* @media (max-width: 640px) {
+    .header-hotline {
+        display: none;
+    }
+
+    .footer-text {
+        font-size: 0;
+    }
+
+    .footer-text::before {
+        content: "Hotline: 0965.880.343";
+        font-size: 14px;
+        font-weight: 700;
+    }
+} */
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.footer-text {
+    color: #5b7fb8;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Mobile: footer gọn hơn */
+@media (max-width: 640px) {
+    .footer-text {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
+
+/* Nút gọi nổi góc trái */
+.call-float {
+    position: fixed;
+    left: 18px;
+    bottom: 22px;
+
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+
+    background: #00AE5A;
+    color: #fff;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 26px;
+    z-index: 9999;
+
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .22);
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.call-float:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .28);
+}
+
+/* Mobile: nâng nút gọi lên một chút, tránh sát đáy */
+@media (max-width: 640px) {
+    .call-float {
+        left: 16px;
+        bottom: 72px;
+        width: 54px;
+        height: 54px;
+        font-size: 27px;
+    }
+}
+
+/* Mobile: ẩn slogan footer */
+/* @media (max-width: 640px) {
+    .footer {
+        display: none;
+    }
+} */
+
+@media (max-width: 640px) {
+
+    .footer {
+        display: block;
+        margin-bottom: 70px;
+        /* chừa chỗ cho nút Call và Top */
+        text-align: center;
+        opacity: 1;
+        color: #5b7fb8;
+        font-size: 0;
+    }
+
+    .footer small {
+        display: none;
+    }
+
+    .footer::after {
+        content: "Nâng tầm kỹ năng, kiến tạo giá trị";
+        font-size: 14px;
+        font-weight: 700;
+        font-style: italic;
+        color: #5b7fb8;
+    }
+}
+
+
+/* Mobile ẩn hotline trên header */
+@media (max-width: 640px) {
+    .header-hotline {
+        display: none !important;
+    }
+}
+
+/* Footer: đẩy xa mép dưới hơn */
+.footer {
+    margin-top: 20px;
+    margin-bottom: 42px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* Cân 2 nút nổi hai bên */
+.call-float {
+    position: fixed;
+    left: 18px;
+    bottom: 24px;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #fff;
+    color: #e53935;
+    border: 2px solid #e53935;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    z-index: 9999;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .22);
+}
+
+#backToTop {
+    right: 18px;
+    bottom: 24px;
+}
+
+/* Mobile: nâng cả 2 nút lên đều nhau */
+@media (max-width: 640px) {
+    .footer {
+        margin-bottom: 70px;
+    }
+
+    .call-float {
+        left: 16px;
+        bottom: 72px;
+        width: 54px;
+        height: 54px;
+        font-size: 28px;
+    }
+
+    #backToTop {
+        right: 16px;
+        bottom: 72px;
+        width: 54px;
+        height: 54px;
+    }
+}
+
+@media (max-width: 640px) {
+    .call-float {
+        animation: phoneShake 1.8s infinite;
+    }
+}
+
+@keyframes phoneShake {
+
+    0%,
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    5% {
+        transform: rotate(-12deg) scale(1.05);
+    }
+
+    10% {
+        transform: rotate(12deg) scale(1.05);
+    }
+
+    15% {
+        transform: rotate(-10deg) scale(1.05);
+    }
+
+    20% {
+        transform: rotate(10deg) scale(1.05);
+    }
+
+    25% {
+        transform: rotate(0deg) scale(1);
+    }
 }
