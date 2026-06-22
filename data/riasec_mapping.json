@@ -1,0 +1,764 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-18",
+  "source_files": [
+    "majors.json",
+    "short_courses.json"
+  ],
+  "note": "Mapping RIASEC dùng cho chatbot tuyển sinh Trường Cao đẳng Miền Đông. Với chương trình dài hạn, dùng major_id khớp id trong majors.json. Với nghề ngắn hạn/lái xe, dùng course_id khớp id trong short_courses.json.",
+  "scoring_note": "Khi so khớp kết quả RIASEC của người học, ưu tiên đúng thứ tự 3 nhóm đầu. Có thể chấm điểm theo số nhóm trùng và cộng điểm nếu trùng vị trí ưu tiên.",
+  "items": [
+    {
+      "type": "major",
+      "id": "cntt-cd",
+      "name": "Công nghệ thông tin",
+      "level": "Cao đẳng",
+      "career_group": "Công nghệ thông tin và truyền thông",
+      "riasec": [
+        "I",
+        "R",
+        "C"
+      ],
+      "priority": 1,
+      "reason": "Phù hợp với người học thích công nghệ, phân tích vấn đề, lập trình, quản trị hệ thống, dữ liệu và làm việc có quy trình kỹ thuật."
+    },
+    {
+      "type": "major",
+      "id": "tcnnh-cd",
+      "name": "Tài chính – Ngân hàng",
+      "level": "Cao đẳng",
+      "career_group": "Kinh doanh và quản lý",
+      "riasec": [
+        "C",
+        "E",
+        "S"
+      ],
+      "priority": 1,
+      "reason": "Phù hợp với người học cẩn thận, thích số liệu, giao dịch, tài chính, chăm sóc khách hàng và môi trường kinh doanh."
+    },
+    {
+      "type": "major",
+      "id": "kt-cd",
+      "name": "Kế toán",
+      "level": "Cao đẳng",
+      "career_group": "Kế toán – Kiểm toán",
+      "riasec": [
+        "C",
+        "E"
+      ],
+      "priority": 1,
+      "reason": "Phù hợp với người học cẩn thận, chính xác, thích chứng từ, số liệu, phần mềm kế toán và quy trình tài chính."
+    },
+    {
+      "type": "major",
+      "id": "cnktddt-cd",
+      "name": "Công nghệ kỹ thuật điện, điện tử",
+      "level": "Cao đẳng",
+      "career_group": "Công nghệ kỹ thuật",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "priority": 1,
+      "reason": "Phù hợp với người học thích thực hành kỹ thuật, lắp đặt, vận hành, kiểm tra, sửa chữa thiết bị điện, điện tử và hệ thống tự động."
+    },
+    {
+      "type": "major",
+      "id": "oto-cd",
+      "name": "Công nghệ ô tô",
+      "level": "Cao đẳng",
+      "career_group": "Công nghệ kỹ thuật",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "priority": 1,
+      "reason": "Phù hợp với người học thích máy móc, động cơ, thực hành bảo dưỡng, sửa chữa, chẩn đoán và dịch vụ kỹ thuật ô tô."
+    },
+    {
+      "type": "major",
+      "id": "khct-cd",
+      "name": "Khoa học cây trồng",
+      "level": "Cao đẳng",
+      "career_group": "Nông nghiệp, Lâm nghiệp và Thủy sản",
+      "riasec": [
+        "R",
+        "I"
+      ],
+      "priority": 1,
+      "reason": "Phù hợp với người học thích cây trồng, sản xuất nông nghiệp, quan sát thực tế, nghiên cứu kỹ thuật canh tác và chuyển giao kỹ thuật."
+    },
+    {
+      "type": "major",
+      "id": "nncncao-cd",
+      "name": "Nông nghiệp công nghệ cao",
+      "level": "Cao đẳng",
+      "career_group": "Nông nghiệp, Lâm nghiệp và Thủy sản",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "priority": 1,
+      "reason": "Phù hợp với người học thích nông nghiệp hiện đại, nhà màng, cảm biến, tự động hóa, dữ liệu sản xuất và quy trình kỹ thuật."
+    },
+    {
+      "type": "major",
+      "id": "cspcs-cd",
+      "name": "Công nghệ sản xuất sản phẩm từ cao su",
+      "level": "Cao đẳng",
+      "career_group": "Công nghệ sản xuất",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "priority": 1,
+      "reason": "Phù hợp với người học thích vận hành thiết bị, quy trình sản xuất, vật liệu cao su, kiểm tra chất lượng và làm việc trong nhà máy."
+    },
+    {
+      "type": "major",
+      "id": "hoahoc-cd",
+      "name": "Công nghệ kỹ thuật hóa học",
+      "level": "Cao đẳng",
+      "career_group": "Công nghệ kỹ thuật",
+      "riasec": [
+        "I",
+        "R"
+      ],
+      "priority": 1,
+      "reason": "Phù hợp với người học thích thí nghiệm, phân tích mẫu, kiểm nghiệm, quy trình hóa học và an toàn công nghiệp."
+    },
+    {
+      "type": "major",
+      "id": "moitruong-cd",
+      "name": "Công nghệ kỹ thuật môi trường",
+      "level": "Cao đẳng",
+      "career_group": "Công nghệ kỹ thuật",
+      "riasec": [
+        "I",
+        "R",
+        "S"
+      ],
+      "priority": 1,
+      "reason": "Phù hợp với người học thích phân tích, quan trắc, xử lý môi trường, làm việc thực tế và đóng góp cho cộng đồng."
+    },
+    {
+      "type": "major",
+      "id": "cntt-cd-lt",
+      "name": "Công nghệ thông tin",
+      "level": "Cao đẳng liên thông",
+      "career_group": "Công nghệ thông tin và truyền thông",
+      "riasec": [
+        "I",
+        "R",
+        "C"
+      ],
+      "priority": 3,
+      "reason": "Phù hợp với người học đã có nền tảng CNTT, muốn nâng cao năng lực quản trị mạng, cơ sở dữ liệu, lập trình và ứng dụng AI."
+    },
+    {
+      "type": "major",
+      "id": "cnktddt-cd-lt",
+      "name": "Công nghệ kỹ thuật điện, điện tử",
+      "level": "Cao đẳng liên thông",
+      "career_group": "Công nghệ kỹ thuật",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "priority": 3,
+      "reason": "Phù hợp với người học đã có nền tảng điện, điện tử, muốn nâng cao kỹ năng PLC, tự động hóa, lắp đặt và xử lý sự cố hệ thống điện."
+    },
+    {
+      "type": "major",
+      "id": "oto-cd-lt",
+      "name": "Công nghệ ô tô",
+      "level": "Cao đẳng liên thông",
+      "career_group": "Công nghệ kỹ thuật",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "priority": 3,
+      "reason": "Phù hợp với người học đã có nền tảng ô tô, muốn nâng cao kỹ năng chẩn đoán, bảo dưỡng xe hiện đại và quản lý dịch vụ ô tô."
+    },
+    {
+      "type": "major",
+      "id": "khct-cd-lt",
+      "name": "Khoa học cây trồng",
+      "level": "Cao đẳng liên thông",
+      "career_group": "Nông nghiệp, Lâm nghiệp và Thủy sản",
+      "riasec": [
+        "R",
+        "I"
+      ],
+      "priority": 3,
+      "reason": "Phù hợp với người học đã có nền tảng nông nghiệp, muốn nâng cao năng lực sản xuất giống, canh tác, bảo vệ thực vật và chuyển giao kỹ thuật."
+    },
+    {
+      "type": "major",
+      "id": "kt-cd-lt",
+      "name": "Kế toán",
+      "level": "Cao đẳng liên thông",
+      "career_group": "Kế toán – Kiểm toán",
+      "riasec": [
+        "C",
+        "E"
+      ],
+      "priority": 3,
+      "reason": "Phù hợp với người học đã có nền tảng kế toán, muốn nâng cao năng lực kế toán tổng hợp, thuế, phần mềm và phân tích tài chính."
+    },
+    {
+      "type": "major",
+      "id": "tq-tc",
+      "name": "Tiếng Trung Quốc",
+      "level": "Trung cấp",
+      "career_group": "Ngôn ngữ, văn học và văn hóa nước ngoài",
+      "riasec": [
+        "S",
+        "E",
+        "C"
+      ],
+      "priority": 2,
+      "reason": "Phù hợp với người học thích giao tiếp, ngôn ngữ, môi trường doanh nghiệp, hành chính, dịch thuật cơ bản và chăm sóc khách hàng."
+    },
+    {
+      "type": "major",
+      "id": "thud-tc",
+      "name": "Tin học ứng dụng",
+      "level": "Trung cấp",
+      "career_group": "Công nghệ thông tin và truyền thông",
+      "riasec": [
+        "I",
+        "R",
+        "C"
+      ],
+      "priority": 2,
+      "reason": "Phù hợp với người học thích máy tính, website, đồ họa, mạng máy tính, hỗ trợ kỹ thuật và ứng dụng CNTT trong công việc."
+    },
+    {
+      "type": "major",
+      "id": "ktdn-tc",
+      "name": "Kế toán doanh nghiệp",
+      "level": "Trung cấp",
+      "career_group": "Kế toán – Kiểm toán",
+      "riasec": [
+        "C",
+        "E"
+      ],
+      "priority": 2,
+      "reason": "Phù hợp với người học cẩn thận, thích chứng từ, sổ sách, số liệu, thuế, phần mềm kế toán và công việc văn phòng."
+    },
+    {
+      "type": "major",
+      "id": "kttinhoc-tc",
+      "name": "Kế toán tin học",
+      "level": "Trung cấp",
+      "career_group": "Kế toán – Tài chính – Công nghệ thông tin ứng dụng",
+      "riasec": [
+        "C",
+        "E"
+      ],
+      "priority": 2,
+      "reason": "Phù hợp với người học thích kế toán kết hợp công nghệ, xử lý dữ liệu, phần mềm kế toán và giao dịch điện tử."
+    },
+    {
+      "type": "major",
+      "id": "oto-tc",
+      "name": "Công nghệ ô tô",
+      "level": "Trung cấp",
+      "career_group": "Cơ khí – Động lực – Ô tô",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "priority": 2,
+      "reason": "Phù hợp với người học thích thực hành kỹ thuật, bảo dưỡng, sửa chữa, chẩn đoán ô tô và làm việc tại gara, đại lý dịch vụ."
+    },
+    {
+      "type": "major",
+      "id": "ml-dhkk-tc",
+      "name": "Kỹ thuật máy lạnh và điều hòa không khí",
+      "level": "Trung cấp",
+      "career_group": "Kỹ thuật điện, điện tử và viễn thông",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "priority": 2,
+      "reason": "Phù hợp với người học thích lắp đặt, bảo trì, sửa chữa thiết bị lạnh, điều hòa và xử lý sự cố kỹ thuật thực tế."
+    },
+    {
+      "type": "major",
+      "id": "diencndd-tc",
+      "name": "Điện công nghiệp và dân dụng",
+      "level": "Trung cấp",
+      "career_group": "Kỹ thuật điện, điện tử và viễn thông",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "priority": 2,
+      "reason": "Phù hợp với người học thích lắp đặt điện, bảo trì hệ thống điện, đấu nối tủ điện và làm việc theo quy trình an toàn."
+    },
+    {
+      "type": "major",
+      "id": "cbmcs-tc",
+      "name": "Công nghệ kỹ thuật chế biến mủ cao su",
+      "level": "Trung cấp",
+      "career_group": "Sản xuất và chế biến khác",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "priority": 2,
+      "reason": "Phù hợp với người học thích quy trình chế biến mủ cao su, vận hành thiết bị, kiểm tra chất lượng và an toàn nhà máy."
+    },
+    {
+      "type": "major",
+      "id": "trongtrot-tc",
+      "name": "Trồng trọt",
+      "level": "Trung cấp",
+      "career_group": "Nông nghiệp",
+      "riasec": [
+        "R",
+        "I"
+      ],
+      "priority": 2,
+      "reason": "Phù hợp với người học thích cây trồng, làm vườn, chăm sóc nông sản, quan sát thực tế và sản xuất nông nghiệp."
+    },
+    {
+      "type": "major",
+      "id": "tt-bvtv-tc",
+      "name": "Trồng trọt và bảo vệ thực vật",
+      "level": "Trung cấp",
+      "career_group": "Nông nghiệp",
+      "riasec": [
+        "R",
+        "I"
+      ],
+      "priority": 2,
+      "reason": "Phù hợp với người học thích trồng trọt, nhận biết sâu bệnh, bảo vệ cây trồng và tư vấn kỹ thuật nông nghiệp."
+    },
+    {
+      "type": "major",
+      "id": "bvtv-tc",
+      "name": "Bảo vệ thực vật",
+      "level": "Trung cấp",
+      "career_group": "Nông nghiệp",
+      "riasec": [
+        "R",
+        "I"
+      ],
+      "priority": 2,
+      "reason": "Phù hợp với người học thích điều tra sâu bệnh, dự báo dịch hại, sử dụng thuốc bảo vệ thực vật an toàn và hỗ trợ nông dân."
+    },
+    {
+      "type": "major",
+      "id": "ktccs-tc",
+      "name": "Kỹ thuật cây cao su",
+      "level": "Trung cấp",
+      "career_group": "Lâm nghiệp",
+      "riasec": [
+        "R",
+        "I"
+      ],
+      "priority": 2,
+      "reason": "Phù hợp với người học thích cây cao su, trồng, chăm sóc, khai thác mủ, làm việc thực tế tại nông trường hoặc trang trại."
+    },
+    {
+      "type": "short_course",
+      "id": "ke-toan-sc",
+      "name": "Kế toán",
+      "level": "Sơ cấp",
+      "career_group": "Kế toán - Kiểm toán",
+      "riasec": [
+        "C",
+        "E"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học cẩn thận, thích số liệu, chứng từ, thu chi và hỗ trợ công tác kế toán tại cơ sở nhỏ."
+    },
+    {
+      "type": "short_course",
+      "id": "quan-tri-doanh-nghiep-nho-sc",
+      "name": "Quản trị doanh nghiệp nhỏ",
+      "level": "Sơ cấp",
+      "career_group": "Quản trị - Quản lý",
+      "riasec": [
+        "E",
+        "S",
+        "C"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích kinh doanh, quản lý cửa hàng, tổ chức công việc, giao tiếp và điều hành nhóm nhỏ."
+    },
+    {
+      "type": "short_course",
+      "id": "giam-doc-hop-tac-xa-sc",
+      "name": "Giám đốc hợp tác xã",
+      "level": "Sơ cấp",
+      "career_group": "Quản trị - Quản lý",
+      "riasec": [
+        "E",
+        "S",
+        "C"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích quản lý, điều phối sản xuất, lập kế hoạch, làm việc với thành viên hợp tác xã và cộng đồng."
+    },
+    {
+      "type": "short_course",
+      "id": "thu-ky-van-phong-sc",
+      "name": "Thư ký văn phòng",
+      "level": "Sơ cấp",
+      "career_group": "Văn thư - Lưu trữ - Bảo tàng",
+      "riasec": [
+        "C",
+        "S",
+        "E"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích công việc văn phòng, hồ sơ, lịch làm việc, giao tiếp và xử lý thông tin có trật tự."
+    },
+    {
+      "type": "short_course",
+      "id": "vi-tinh-van-phong-sc",
+      "name": "Vi tính văn phòng",
+      "level": "Sơ cấp",
+      "career_group": "Công nghệ thông tin",
+      "riasec": [
+        "C",
+        "I",
+        "S"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích máy tính, văn bản, bảng tính, dữ liệu, công cụ văn phòng và hỗ trợ công việc hành chính."
+    },
+    {
+      "type": "short_course",
+      "id": "sua-chua-may-tinh-phan-cung-sc",
+      "name": "Sửa chữa máy tính phần cứng",
+      "level": "Sơ cấp",
+      "career_group": "Máy tính",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích tháo lắp, kiểm tra, sửa chữa máy tính, xử lý lỗi phần cứng và hỗ trợ kỹ thuật."
+    },
+    {
+      "type": "short_course",
+      "id": "che-bien-mu-cao-su-sc",
+      "name": "Chế biến mủ cao su",
+      "level": "Sơ cấp",
+      "career_group": "Công nghệ sản xuất",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích thực hành, quy trình chế biến mủ, vận hành thiết bị, kiểm tra chất lượng và an toàn lao động."
+    },
+    {
+      "type": "short_course",
+      "id": "san-xuat-san-pham-tu-cao-su-sc",
+      "name": "Sản xuất sản phẩm từ cao su",
+      "level": "Sơ cấp",
+      "career_group": "Công nghệ sản xuất",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích sản xuất, phối trộn, tạo hình, lưu hóa, hoàn thiện sản phẩm và làm việc theo quy trình."
+    },
+    {
+      "type": "short_course",
+      "id": "kiem-pham-cao-su-svr-va-latex-co-dac-sc",
+      "name": "Kiểm phẩm cao su SVR và latex cô đặc",
+      "level": "Sơ cấp",
+      "career_group": "Công nghệ sản xuất",
+      "riasec": [
+        "I",
+        "C",
+        "R"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học cẩn thận, thích lấy mẫu, kiểm tra chất lượng, phân loại sản phẩm và ghi nhận kết quả chính xác."
+    },
+    {
+      "type": "short_course",
+      "id": "han-dien-sc",
+      "name": "Hàn điện",
+      "level": "Sơ cấp",
+      "career_group": "Kỹ thuật điện, điện tử và viễn thông",
+      "riasec": [
+        "R",
+        "C"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích thực hành cơ khí, thao tác hàn, gia công kim loại và tuân thủ an toàn lao động."
+    },
+    {
+      "type": "short_course",
+      "id": "lap-dat-dien-cho-co-so-san-xuat-nho-sc",
+      "name": "Lắp đặt điện cho cơ sở sản xuất nhỏ",
+      "level": "Sơ cấp",
+      "career_group": "Kỹ thuật điện, điện tử và viễn thông",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích lắp đặt, kiểm tra, vận hành hệ thống điện và xử lý sự cố tại cơ sở sản xuất."
+    },
+    {
+      "type": "short_course",
+      "id": "sua-chua-bao-tri-tu-lanh-va-dieu-hoa-nhiet-do-sc",
+      "name": "Sửa chữa bảo trì tủ lạnh và điều hòa nhiệt độ",
+      "level": "Sơ cấp",
+      "career_group": "Kỹ thuật điện, điện tử và viễn thông",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích sửa chữa điện lạnh, bảo trì thiết bị, chẩn đoán lỗi và làm dịch vụ kỹ thuật."
+    },
+    {
+      "type": "short_course",
+      "id": "sua-chua-quat-dong-co-dien-va-on-ap-sc",
+      "name": "Sửa chữa quạt động cơ điện và ổn áp",
+      "level": "Sơ cấp",
+      "career_group": "Kỹ thuật điện, điện tử và viễn thông",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích sửa chữa thiết bị điện dân dụng, động cơ nhỏ, ổn áp và làm việc thực hành."
+    },
+    {
+      "type": "short_course",
+      "id": "ky-thuat-xay-dung-sc",
+      "name": "Kỹ thuật xây dựng",
+      "level": "Sơ cấp",
+      "career_group": "Xây dựng",
+      "riasec": [
+        "R",
+        "C",
+        "I"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích thi công, đọc bản vẽ, vật liệu xây dựng, đo đạc và công việc công trình thực tế."
+    },
+    {
+      "type": "short_course",
+      "id": "lap-dat-dien-noi-that-sc",
+      "name": "Lắp đặt điện nội thất",
+      "level": "Sơ cấp",
+      "career_group": "Xây dựng",
+      "riasec": [
+        "R",
+        "C",
+        "A"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích lắp đặt điện trong nhà, bố trí thiết bị, ánh sáng, làm việc an toàn và có tính thẩm mỹ."
+    },
+    {
+      "type": "short_course",
+      "id": "san-xuat-do-moc-dan-dung-sc",
+      "name": "Sản xuất đồ mộc dân dụng",
+      "level": "Sơ cấp",
+      "career_group": "Xây dựng",
+      "riasec": [
+        "R",
+        "A",
+        "C"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học khéo tay, thích gia công gỗ, tạo sản phẩm, hoàn thiện đồ mộc và làm việc thủ công kỹ thuật."
+    },
+    {
+      "type": "short_course",
+      "id": "trong-cham-soc-va-khai-thac-cay-cao-su-sc",
+      "name": "Trồng, chăm sóc và khai thác cây cao su",
+      "level": "Sơ cấp",
+      "career_group": "Nông nghiệp",
+      "riasec": [
+        "R",
+        "I"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích làm việc với cây cao su, chăm sóc vườn cây, khai thác mủ và thực hành ngoài hiện trường."
+    },
+    {
+      "type": "short_course",
+      "id": "san-xuat-cay-giong-cao-su-ca-phe-ho-tieu-sc",
+      "name": "Sản xuất cây giống cao su, cà phê, hồ tiêu",
+      "level": "Sơ cấp",
+      "career_group": "Nông nghiệp",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích cây giống, vườn ươm, nhân giống, chăm sóc cây và quy trình kỹ thuật nông nghiệp."
+    },
+    {
+      "type": "short_course",
+      "id": "trong-ho-tieu-sc",
+      "name": "Trồng hồ tiêu",
+      "level": "Sơ cấp",
+      "career_group": "Nông nghiệp",
+      "riasec": [
+        "R",
+        "I"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích trồng trọt, chăm sóc hồ tiêu, phòng trừ sâu bệnh và quản lý vườn cây."
+    },
+    {
+      "type": "short_course",
+      "id": "trong-rau-an-toan-sc",
+      "name": "Trồng rau an toàn",
+      "level": "Sơ cấp",
+      "career_group": "Nông nghiệp",
+      "riasec": [
+        "R",
+        "I",
+        "C"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích sản xuất rau, quy trình an toàn, chăm sóc cây trồng và tạo sản phẩm nông nghiệp sạch."
+    },
+    {
+      "type": "short_course",
+      "id": "trong-mai-vang-mai-chieu-thuy-sc",
+      "name": "Trồng mai vàng, mai chiếu thủy",
+      "level": "Sơ cấp",
+      "career_group": "Nông nghiệp",
+      "riasec": [
+        "A",
+        "R",
+        "I"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích cây cảnh, tạo dáng, chăm sóc, xử lý ra hoa và kinh doanh sản phẩm có tính thẩm mỹ."
+    },
+    {
+      "type": "short_course",
+      "id": "trong-dieu-sc",
+      "name": "Trồng điều",
+      "level": "Sơ cấp",
+      "career_group": "Nông nghiệp",
+      "riasec": [
+        "R",
+        "I"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích trồng, chăm sóc, phòng trừ sâu bệnh, thu hoạch điều và sản xuất nông nghiệp địa phương."
+    },
+    {
+      "type": "short_course",
+      "id": "trong-cay-ca-phe-sc",
+      "name": "Trồng cây cà phê",
+      "level": "Sơ cấp",
+      "career_group": "Nông nghiệp",
+      "riasec": [
+        "R",
+        "I"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích trồng, chăm sóc, bón phân, thu hoạch, sơ chế cà phê và làm việc nông nghiệp thực tế."
+    },
+    {
+      "type": "short_course",
+      "id": "dan-lat-thu-cong-sc",
+      "name": "Đan lát thủ công",
+      "level": "Sơ cấp",
+      "career_group": "Mỹ thuật ứng dụng",
+      "riasec": [
+        "A",
+        "R",
+        "E"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học khéo tay, thích sản phẩm thủ công, tạo mẫu, hoàn thiện sản phẩm và kinh doanh nhỏ."
+    },
+    {
+      "type": "short_course",
+      "id": "may-cong-nghiep-sc",
+      "name": "May công nghiệp",
+      "level": "Sơ cấp",
+      "career_group": "Sản xuất, chế biến sợi, vải, giày, da",
+      "riasec": [
+        "R",
+        "C",
+        "A"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích may mặc, thao tác máy, làm việc theo chuyền, cẩn thận và hoàn thiện sản phẩm."
+    },
+    {
+      "type": "short_course",
+      "id": "lai-xe-mo-to",
+      "name": "Đào tạo lái xe mô tô",
+      "level": "Đào tạo thường xuyên",
+      "career_group": "Đào tạo lái xe",
+      "riasec": [
+        "R",
+        "C"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học cần kỹ năng điều khiển phương tiện an toàn, tuân thủ luật giao thông và xử lý tình huống thực tế."
+    },
+    {
+      "type": "short_course",
+      "id": "lai-xe-o-to-cac-hang",
+      "name": "Đào tạo lái xe ô tô các hạng",
+      "level": "Đào tạo thường xuyên",
+      "career_group": "Đào tạo lái xe",
+      "riasec": [
+        "R",
+        "C",
+        "S"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học thích lái xe, vận hành phương tiện, tuân thủ quy định an toàn và phục vụ nhu cầu công việc, đời sống."
+    },
+    {
+      "type": "short_course",
+      "id": "lai-xe-o-to-nang-hang-b-len-d1",
+      "name": "Lái xe ô tô nâng hạng B lên D1",
+      "level": "Đào tạo thường xuyên",
+      "career_group": "Đào tạo lái xe",
+      "riasec": [
+        "R",
+        "C",
+        "S"
+      ],
+      "priority": 4,
+      "reason": "Phù hợp với người học đã có nền tảng lái xe, muốn nâng hạng để lái xe chở người, làm việc chuyên nghiệp và an toàn."
+    }
+  ]
+}

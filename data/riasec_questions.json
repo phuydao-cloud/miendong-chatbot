@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "group": "R",
+    "text": "Bạn thích sửa chữa các thiết bị điện, điện tử hoặc máy móc."
+  },
+  {
+    "id": 2,
+    "group": "R",
+    "text": "Bạn thích lắp ráp, vận hành hoặc điều khiển máy móc, thiết bị."
+  },
+  {
+    "id": 3,
+    "group": "R",
+    "text": "Bạn thích học bằng cách thực hành hơn là chỉ nghe giảng lý thuyết."
+  },
+  {
+    "id": 4,
+    "group": "R",
+    "text": "Bạn thích tìm hiểu cách máy móc, thiết bị và các quy trình sản xuất hoạt động trong thực tế."
+  },
+  {
+    "id": 5,
+    "group": "I",
+    "text": "Bạn thích tìm hiểu nguyên nhân của một vấn đề trước khi đưa ra kết luận."
+  },
+  {
+    "id": 6,
+    "group": "I",
+    "text": "Bạn thích giải các bài toán, câu hỏi khó hoặc tình huống cần suy luận."
+  },
+  {
+    "id": 7,
+    "group": "I",
+    "text": "Bạn thích nghiên cứu, quan sát hoặc thử nghiệm để hiểu rõ một vấn đề nào đó."
+  },
+  {
+    "id": 8,
+    "group": "I",
+    "text": "Bạn thích phân tích thông tin, dữ liệu hoặc so sánh các phương án khác nhau."
+  },
+  {
+    "id": 9,
+    "group": "A",
+    "text": "Bạn thích thiết kế hình ảnh, video, bài đăng hoặc sản phẩm có tính thẩm mỹ."
+  },
+  {
+    "id": 10,
+    "group": "A",
+    "text": "Bạn thích viết nội dung, kể chuyện, trình bày ý tưởng theo cách sáng tạo."
+  },
+  {
+    "id": 11,
+    "group": "A",
+    "text": "Bạn thích các hoạt động nghệ thuật, trang trí, thiết kế hoặc sáng tạo sản phẩm mới."
+  },
+  {
+    "id": 12,
+    "group": "A",
+    "text": "Bạn thường có nhiều ý tưởng mới khi làm bài tập, hoạt động nhóm hoặc dự án."
+  },
+  {
+    "id": 13,
+    "group": "S",
+    "text": "Bạn thích giúp đỡ, hỗ trợ hoặc hướng dẫn người khác."
+  },
+  {
+    "id": 14,
+    "group": "S",
+    "text": "Bạn thích chia sẻ kiến thức, giải thích hoặc tư vấn cho người khác."
+  },
+  {
+    "id": 15,
+    "group": "S",
+    "text": "Bạn thích làm việc nhóm và phối hợp với nhiều người."
+  },
+  {
+    "id": 16,
+    "group": "S",
+    "text": "Bạn cảm thấy thoải mái khi giao tiếp, trao đổi với người khác."
+  },
+  {
+    "id": 17,
+    "group": "E",
+    "text": "Bạn thích thuyết phục, giới thiệu hoặc trình bày ý tưởng trước người khác."
+  },
+  {
+    "id": 18,
+    "group": "E",
+    "text": "Bạn thích tổ chức hoạt động, sự kiện hoặc phân công công việc cho nhóm."
+  },
+  {
+    "id": 19,
+    "group": "E",
+    "text": "Bạn quan tâm đến kinh doanh, bán hàng, marketing hoặc khởi nghiệp."
+  },
+  {
+    "id": 20,
+    "group": "E",
+    "text": "Bạn thích dẫn dắt nhóm và đưa ra quyết định khi cần thiết."
+  },
+  {
+    "id": 21,
+    "group": "C",
+    "text": "Bạn thích làm việc theo kế hoạch rõ ràng, có trình tự."
+  },
+  {
+    "id": 22,
+    "group": "C",
+    "text": "Bạn thích sắp xếp công việc, dữ liệu hoặc thông tin một cách khoa học và gọn gàng."
+  },
+  {
+    "id": 23,
+    "group": "C",
+    "text": "Bạn thích công việc chính xác, cẩn thận và ít sai sót."
+  },
+  {
+    "id": 24,
+    "group": "C",
+    "text": "Bạn thích làm việc theo quy trình, biểu mẫu hoặc hướng dẫn cụ thể."
+  }
+]

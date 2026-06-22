@@ -14,7 +14,7 @@ body {
 }
 
 :root {
-    --brand: #2754a5;
+    --brand: #00893A;
     /* xanh thương hiệu */
     --accent: #00AE5A;
     /* xanh điểm nhấn */
@@ -325,6 +325,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    justify-content: center;
 }
 
 .suggestion-btn {
@@ -334,6 +335,7 @@ body {
     background: #fff;
     cursor: pointer;
     font-size: 14px;
+    text-align: center;
 }
 
 .suggestion-btn:hover {
@@ -689,11 +691,14 @@ body {
 
 /* Tin nhắn của người dùng */
 .msg.user {
+    background-color: #e8f1ff;
+    border: 1px solid #c7dafc;
+    color: #1e293b;
     align-self: flex-end;
     /* đẩy sang phải */
-    background-color: #a1fdda;
+    /* background-color: #a1fdda; */
     /* xanh nhạt */
-    color: #222;
+    /* color: #222; */
     max-width: 75%;
     /* hẹp hơn */
     border-radius: 14px 14px 0 14px;
@@ -702,7 +707,7 @@ body {
     /* chữ nhỏ hơn chút */
     padding: 10px 12px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-    border: 1px solid #c6dafb;
+    /* border: 1px solid #c6dafb; */
     font-weight: 400;
 }
 
@@ -1119,9 +1124,9 @@ html::-webkit-scrollbar-thumb:hover {
     width: 52px;
     height: 52px;
     border-radius: 50%;
-    background: #fff;
-    color: #e53935;
-    border: 2px solid #e53935;
+    background: #00AE5A;
+    color: #fff;
+    border: 2px solid #fff;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -1189,5 +1194,860 @@ html::-webkit-scrollbar-thumb:hover {
 
     25% {
         transform: rotate(0deg) scale(1);
+    }
+}
+
+.riasec-question {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+.riasec-q-text {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #0f172a;
+}
+
+.riasec-options {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6px;
+}
+
+.riasec-options label {
+    background: #fff;
+    border: 1px solid #dbe2f0;
+    border-radius: 8px;
+    padding: 7px 8px;
+    font-size: 13.5px;
+    text-align: center;
+}
+
+.riasec-options label:hover {
+    border-color: var(--brand);
+    background: #eef3ff;
+}
+
+.riasec-options input {
+    margin-right: 4px;
+}
+
+@media (max-width: 640px) {
+    .riasec-options {
+        grid-template-columns: 1fr;
+    }
+
+    .riasec-options label {
+        text-align: left;
+    }
+}
+
+/* ===== RIASEC giao diện mới ===== */
+
+.riasec {
+    background: #fff;
+    border: 1px solid #dbe7f5;
+    border-radius: 18px;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, .08);
+}
+
+.riasec h3 {
+    font-size: 1.45rem;
+    color: var(--brand);
+    margin: 0 0 8px;
+    line-height: 1.35;
+}
+
+.riasec>p {
+    color: #64748b;
+    font-size: 1rem;
+    margin: 0 0 20px;
+}
+
+.riasec-tabs {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.riasec-tab {
+    border: 1px solid #dbe2f0;
+    background: #fff;
+    border-radius: 12px;
+    padding: 12px 10px;
+    cursor: pointer;
+    color: #334155;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    transition: all .15s ease;
+}
+
+.riasec-tab span {
+    font-size: 20px;
+}
+
+.riasec-tab b {
+    color: var(--brand);
+    font-size: 1rem;
+}
+
+.riasec-tab small {
+    font-size: .85rem;
+}
+
+.riasec-tab.active {
+    border-color: var(--brand);
+    box-shadow: 0 0 0 2px rgba(39, 84, 165, .12);
+    background: #f8fbff;
+}
+
+.riasec-panel {
+    display: none;
+    border: 1px solid #dbe2f0;
+    border-radius: 16px;
+    padding: 16px;
+    background: #fbfdff;
+}
+
+.riasec-panel.active {
+    display: block;
+}
+
+.riasec-panel-head {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.riasec-panel-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--brand);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.riasec-panel-head h4 {
+    margin: 0;
+    color: var(--brand);
+    font-size: 1.2rem;
+}
+
+.riasec-panel-head p {
+    margin: 2px 0 0;
+    color: #64748b;
+    font-size: .95rem;
+}
+
+.riasec-question {
+    background: #fff;
+    border: 1px solid #dbe2f0;
+    border-radius: 14px;
+    padding: 14px;
+    margin: 10px 0;
+}
+
+.riasec-q-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 12px;
+    line-height: 1.45;
+}
+
+.riasec-q-number {
+    flex: 0 0 auto;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--brand);
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .9rem;
+}
+
+.riasec-options {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.riasec-options label {
+    background: #fff;
+    border: 1px solid #cfe0f5;
+    border-radius: 10px;
+    padding: 10px 8px;
+    text-align: center;
+    font-size: .92rem;
+    cursor: pointer;
+    transition: all .12s ease;
+}
+
+.riasec-options label:hover {
+    border-color: var(--brand);
+    background: #eef5ff;
+}
+
+.riasec-options input {
+    margin-right: 6px;
+    accent-color: var(--brand);
+}
+
+.riasec-tip {
+    margin-top: 14px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background: #eef5ff;
+    border: 1px solid #cfe0f5;
+    color: #2754a5;
+    font-size: .95rem;
+}
+
+#submitRiasec {
+    margin-top: 14px;
+    height: 42px;
+    padding: 0 18px;
+}
+
+#closeRiasec {
+    margin-top: 14px;
+    height: 42px;
+    padding: 0 18px;
+}
+
+@media (max-width: 768px) {
+    .riasec {
+        padding: 14px;
+        border-radius: 14px;
+    }
+
+    .riasec h3 {
+        font-size: 1.15rem;
+    }
+
+    .riasec-tabs {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
+
+    .riasec-tab {
+        padding: 10px 6px;
+    }
+
+    .riasec-options {
+        grid-template-columns: 1fr;
+    }
+
+    .riasec-options label {
+        text-align: left;
+        padding: 10px 12px;
+    }
+}
+
+.riasec-intro {
+    color: #64748b;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+/* ===== Tối ưu RIASEC gọn hơn ===== */
+
+.riasec {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    padding: 18px !important;
+}
+
+.riasec h3 {
+    font-size: 1.22rem !important;
+    margin-bottom: 6px !important;
+    line-height: 1.35 !important;
+}
+
+.riasec>p,
+.riasec-intro {
+    font-size: 14px !important;
+    line-height: 1.45 !important;
+    margin-bottom: 14px !important;
+}
+
+.riasec-tabs {
+    gap: 10px !important;
+    margin-bottom: 14px !important;
+}
+
+.riasec-tab {
+    padding: 9px 8px !important;
+    min-height: 76px;
+}
+
+.riasec-tab span {
+    font-size: 18px !important;
+}
+
+.riasec-tab b {
+    font-size: .95rem !important;
+}
+
+.riasec-tab small {
+    font-size: .8rem !important;
+}
+
+.riasec-panel {
+    padding: 14px !important;
+}
+
+.riasec-panel-head {
+    margin-bottom: 10px !important;
+}
+
+.riasec-panel-head h4 {
+    font-size: 1.08rem !important;
+}
+
+.riasec-panel-head p {
+    font-size: 13.5px !important;
+}
+
+.riasec-question {
+    padding: 10px 12px !important;
+    margin: 8px 0 !important;
+}
+
+.riasec-q-text {
+    font-size: 14.5px !important;
+    margin-bottom: 9px !important;
+}
+
+.riasec-q-number {
+    width: 24px !important;
+    height: 24px !important;
+    font-size: 13px !important;
+}
+
+.riasec-options {
+    gap: 8px !important;
+}
+
+.riasec-options label {
+    padding: 8px 6px !important;
+    font-size: 13.5px !important;
+}
+
+.riasec-tip {
+    font-size: 13.5px !important;
+    padding: 9px 10px !important;
+}
+
+.riasec-panel-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.riasec-panel-actions .riasec-tip {
+    flex: 1;
+    margin-top: 0 !important;
+}
+
+.riasec-next {
+    white-space: nowrap;
+    height: 40px;
+}
+
+@media (max-width: 640px) {
+    .riasec-panel-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .riasec-next {
+        width: 100%;
+    }
+}
+
+.riasec-question.missing {
+    border-color: #ef4444 !important;
+    background: #fff5f5 !important;
+    box-shadow: 0 0 0 2px rgba(239, 68, 68, .12);
+}
+
+.riasec-question.missing .riasec-q-text {
+    color: #b91c1c !important;
+}
+
+.riasec-notice {
+    display: none;
+    margin: 8px 0 12px;
+    padding: 9px 12px;
+    border-radius: 10px;
+    background: #fff5f5;
+    border: 1px solid #fecaca;
+    color: #b91c1c;
+    font-size: 13.5px;
+    font-weight: 600;
+}
+
+.riasec-bottom-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.riasec-bottom-actions .btn {
+    height: 38px;
+    padding: 0 16px;
+    font-size: 13.5px;
+}
+
+/* Chữ không rớt */
+.riasec-options {
+    grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+    gap: 6px !important;
+}
+
+.riasec-options label {
+    min-height: 38px !important;
+    padding: 7px 4px !important;
+    font-size: 12.8px !important;
+    white-space: nowrap !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.riasec-options input {
+    margin-right: 5px !important;
+}
+
+/* Mobile: lựa chọn RIASEC hiển thị từng dòng cho dễ bấm */
+@media (max-width: 640px) {
+    .riasec-options {
+        grid-template-columns: 1fr !important;
+        gap: 7px !important;
+    }
+
+    .riasec-options label {
+        width: 100% !important;
+        min-height: 42px !important;
+        padding: 9px 12px !important;
+        font-size: 14px !important;
+        white-space: normal !important;
+        justify-content: flex-start !important;
+        text-align: left !important;
+    }
+
+    .riasec-options input {
+        margin-right: 8px !important;
+    }
+}
+
+/* Header */
+
+.riasec-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.riasec-close {
+    border: none;
+    background: transparent;
+    font-size: 24px;
+    cursor: pointer;
+    color: #64748b;
+    padding: 4px 8px;
+}
+
+.riasec-close:hover {
+    color: #ef4444;
+}
+
+/* Dòng trạng thái */
+
+.riasec-current-group {
+    margin-top: 10px;
+    margin-bottom: 14px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #475569;
+}
+
+/* Điều hướng */
+
+.riasec-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+.riasec-nav button {
+    min-width: 140px;
+    background: var(--brand);
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid var(--brand);
+}
+
+.riasec-nav button:hover {
+    background: #006E2F;
+    border-color: #006E2F;
+}
+
+@media (max-width:640px) {
+    .riasec-nav {
+        flex-direction: row !important;
+        gap: 8px;
+    }
+
+    .riasec-nav button {
+        width: 50% !important;
+        min-width: 0 !important;
+        font-size: 13px;
+        padding: 8px 6px;
+    }
+
+    .riasec-nav span {
+        display: none;
+    }
+}
+
+.riasec {
+    position: relative;
+}
+
+.riasec-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.riasec-header h3 {
+    margin: 0 0 8px !important;
+    flex: 1;
+}
+
+.riasec-close {
+    border: none;
+    background: transparent;
+    color: #64748b;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 4px;
+}
+
+.riasec-close:hover {
+    color: #ef4444;
+}
+
+/* ===== Fix RIASEC header, trạng thái, điều hướng ===== */
+
+.riasec-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 6px;
+}
+
+.riasec-header h3 {
+    flex: 1;
+    margin: 0 !important;
+}
+
+.riasec-close {
+    width: 34px !important;
+    height: 34px !important;
+    border: none !important;
+    background: transparent !important;
+    color: #64748b !important;
+    font-size: 24px !important;
+    line-height: 1 !important;
+    cursor: pointer;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.riasec-close:hover {
+    color: #ef4444 !important;
+}
+
+.riasec-current-group {
+    margin: -4px 0 12px !important;
+    font-size: 13px;
+    font-weight: 600;
+    color: #475569;
+}
+
+.riasec-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.riasec-nav button,
+.riasec-nav span {
+    min-width: 150px;
+    height: 40px;
+}
+
+@media (max-width: 640px) {
+    .riasec-nav {
+        flex-direction: column;
+    }
+
+    .riasec-nav button,
+    .riasec-nav span {
+        width: 100%;
+        min-width: 0;
+    }
+}
+
+.riasec-status-row {
+    width: 100%;
+    display: block;
+    clear: both;
+    margin: 4px 0 12px;
+}
+
+.riasec-current-group {
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    color: #475569;
+}
+
+.riasec-status-row {
+    margin-top: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.riasec-current-group {
+    display: inline-block;
+    font-size: 13px;
+    color: #64748b;
+    font-weight: 600;
+}
+
+.riasec-tab {
+    min-height: 58px !important;
+    padding: 6px 6px !important;
+    gap: 2px !important;
+}
+
+.riasec-tab span {
+    font-size: 16px !important;
+}
+
+.riasec-tab b {
+    font-size: 14px !important;
+}
+
+/* Canh đều nội dung chatbot */
+
+.msg.assistant p,
+.msg.assistant li {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.38 !important;
+}
+
+.msg.assistant ul,
+.msg.assistant ol {
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+}
+
+.msg.assistant li {
+    margin-top: 1px !important;
+    margin-bottom: 1px !important;
+}
+
+.msg.assistant p {
+    margin-top: 2px !important;
+    margin-bottom: 3px !important;
+}
+
+.msg.assistant h1,
+.msg.assistant h2,
+.msg.assistant h3,
+.msg.assistant h4 {
+    text-align: left !important;
+}
+
+/* Fix mobile RIASEC: đáp án xuống từng dòng */
+@media (max-width: 640px) {
+    .riasec-options {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 8px !important;
+    }
+
+    .riasec-options label {
+        width: 100% !important;
+        min-height: 42px !important;
+        padding: 9px 12px !important;
+        font-size: 14px !important;
+        white-space: normal !important;
+        justify-content: flex-start !important;
+        text-align: left !important;
+    }
+
+    .riasec-options input {
+        margin-right: 8px !important;
+    }
+}
+
+/* Composer buttons: xanh lá, icon trắng */
+.composer button#send,
+.composer button#clear {
+    width: 38px;
+    height: 38px;
+    min-width: 36px;
+    padding: 0 !important;
+    border-radius: 12px;
+    border: 1px solid var(--brand);
+    background: var(--brand);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.composer button#clear {
+    font-size: 16px;
+}
+
+.composer button#send:hover,
+.composer button#clear:hover {
+    background: #006E2F;
+    border-color: #006E2F;
+    color: #fff;
+}
+
+.composer button#send.is-stop {
+    font-size: 16px;
+}
+
+/* Nút micro nhập giọng nói */
+.composer button#voiceBtn {
+    width: 38px;
+    height: 38px;
+    min-width: 38px;
+    padding: 0 !important;
+    border-radius: 12px;
+    border: 1px solid var(--brand);
+    background: var(--brand);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.composer button#voiceBtn:hover {
+    background: #006E2F;
+    border-color: #006E2F;
+    color: #fff;
+}
+
+.composer button#voiceBtn.is-listening {
+    background: #c62828;
+    border-color: #c62828;
+    color: #fff;
+}
+
+@media (max-width: 640px) {
+    .call-float {
+        left: auto !important;
+        right: 16px !important;
+        top: 14px !important;
+        bottom: auto !important;
+
+        width: 44px;
+        height: 44px;
+        font-size: 22px;
+        z-index: 10000;
+    }
+
+    #backToTop {
+        display: none !important;
+    }
+}
+
+.major-riasec {
+    display: inline;
+    font-family: inherit;
+    letter-spacing: 0;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    color: #475569;
+    font-weight: 600;
+}
+
+.catalog-header {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.catalog-header h3 {
+    margin: 0;
+    color: var(--brand);
+    font-size: 1.05rem;
+}
+
+.catalog-close {
+    width: 34px;
+    height: 34px;
+    border: none;
+    background: transparent;
+    color: #64748b;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.catalog-close:hover {
+    color: #ef4444;
+}
+
+@media (max-width: 640px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .messages {
+        max-height: none;
+        overflow-y: visible;
     }
 }

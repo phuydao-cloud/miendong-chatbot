@@ -1,0 +1,1574 @@
+{
+  "schema_version": "1.3",
+  "generated_at": "2026-06-22",
+  "project": "Chatbot Tuyển sinh Trường Cao đẳng Miền Đông - RIASEC",
+  "note": "Bản chuẩn hóa theo majors.json: đủ 120 mã RIASEC + DEFAULT; giữ lại label/advice/orientation hiện có khi có, bổ sung mã còn thiếu; chuẩn lại focus_majors để các ngành trong danh mục chính đều có mặt ở mã phù hợp, đặc biệt Hóa học, Môi trường, Trồng trọt, Bảo vệ thực vật, Kỹ thuật cây cao su và Cao su.",
+  "profiles": {
+    "RIA": {
+      "label": "Kỹ thuật – phân tích – sáng tạo",
+      "advice": "Kết quả RIA cho thấy bạn yêu thích kỹ thuật, công nghệ và thực hành, đồng thời có khả năng phân tích, tìm hiểu nguyên lý hoạt động và không ngừng sáng tạo, cải tiến. Đây là nhóm rất phù hợp với các ngành công nghệ hiện đại, tự động hóa, lập trình, kỹ thuật sản xuất và nông nghiệp công nghệ cao.",
+      "orientation": "• Nếu bạn thích lập trình, AI, dữ liệu, phần mềm → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích điện, điện tử, điều khiển, tự động hóa → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích động cơ, công nghệ xe, bảo trì kỹ thuật → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích nghiên cứu, sáng tạo trong sản xuất nông nghiệp → ưu tiên Nông nghiệp công nghệ cao.\n\n• Nếu bạn thích sản xuất công nghiệp và quy trình vật liệu → ưu tiên Công nghệ sản xuất sản phẩm từ cao su.",
+      "focus_majors": [
+        "Khoa học cây trồng",
+        "Trồng trọt",
+        "Trồng trọt và bảo vệ thực vật",
+        "Bảo vệ thực vật",
+        "Kỹ thuật cây cao su",
+        "Công nghệ ô tô"
+      ]
+    },
+    "RIS": {
+      "label": "Thực hành – phân tích – hỗ trợ",
+      "advice": "Kết quả RIS cho thấy bạn yêu thích kỹ thuật, công nghệ, thích khám phá nguyên lý hoạt động của máy móc, thiết bị và có xu hướng hỗ trợ người khác khi cần. Đây là một trong những nhóm rất phù hợp với các ngành kỹ thuật hiện nay.",
+      "orientation": "• Nếu bạn thích ô tô, động cơ, xe điện → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, điện tử, tự động hóa → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích máy tính, AI, dữ liệu → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích công nghệ ứng dụng trong nông nghiệp → ưu tiên Nông nghiệp công nghệ cao.\n\n• Nếu bạn thích hệ thống lạnh, điều hòa và kỹ thuật dân dụng → ưu tiên Kỹ thuật máy lạnh và điều hòa không khí.",
+      "focus_majors": [
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật môi trường",
+        "Trồng trọt và bảo vệ thực vật",
+        "Kỹ thuật cây cao su"
+      ]
+    },
+    "RIE": {
+      "label": "Kỹ thuật – Nghiên cứu – Kinh doanh",
+      "advice": "Kết quả RIE cho thấy bạn thích thực hành, máy móc, thiết bị và công việc cụ thể, đồng thời có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề và năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo. Bạn phù hợp với các ngành có sự kết hợp giữa kỹ thuật, thực hành, nghiên cứu, phân tích và kinh doanh, lãnh đạo.",
+      "orientation": "• Nếu bạn thích cây trồng, giống, canh tác và chuyển giao kỹ thuật nông nghiệp → ưu tiên Khoa học cây trồng.\n\n• Nếu bạn thích thực hành sản xuất cây trồng, chăm sóc và thu hoạch nông sản → ưu tiên Trồng trọt.\n\n• Nếu bạn thích cây trồng kết hợp phòng trừ sâu bệnh và bảo vệ mùa vụ → ưu tiên Trồng trọt và bảo vệ thực vật.\n\n• Nếu bạn thích tìm hiểu sâu bệnh, thuốc bảo vệ thực vật và kỹ thuật bảo vệ cây trồng → ưu tiên Bảo vệ thực vật.",
+      "focus_majors": [
+        "Khoa học cây trồng",
+        "Trồng trọt",
+        "Trồng trọt và bảo vệ thực vật",
+        "Bảo vệ thực vật",
+        "Kỹ thuật cây cao su",
+        "Công nghệ ô tô"
+      ]
+    },
+    "RIC": {
+      "label": "Thực hành – phân tích – quy trình",
+      "advice": "Kết quả RIC cho thấy bạn thích làm việc thực tế, kỹ thuật, máy móc, thiết bị, đồng thời có khả năng phân tích và tuân thủ quy trình. Đây là nhóm phù hợp mạnh với kỹ thuật, công nghệ, ô tô, điện, nông nghiệp công nghệ cao và cao su.",
+      "orientation": "• Nếu bạn thích xe, động cơ, gara, chẩn đoán và sửa chữa → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, điện tử, PLC, tự động hóa → ưu tiên Công nghệ kỹ thuật điện, điện tử hoặc Điện công nghiệp và dân dụng.\n\n• Nếu bạn thích điện lạnh, tủ lạnh, điều hòa → ưu tiên Kỹ thuật máy lạnh và điều hòa không khí.\n\n• Nếu bạn thích nông nghiệp hiện đại, cảm biến, nhà màng → ưu tiên Nông nghiệp công nghệ cao.\n\n• Nếu bạn thích quy trình sản xuất, vật liệu và nhà máy → ưu tiên Công nghệ sản xuất sản phẩm từ cao su.",
+      "focus_majors": [
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật chế biến mủ cao su",
+        "Công nghệ sản xuất sản phẩm từ cao su",
+        "Điện công nghiệp và dân dụng"
+      ]
+    },
+    "RAI": {
+      "label": "Kỹ thuật – sáng tạo – phân tích",
+      "advice": "Kết quả RAI cho thấy bạn thích thực hành, khám phá công nghệ mới và có khả năng sáng tạo trong quá trình giải quyết vấn đề. Bạn phù hợp với các ngành kỹ thuật ứng dụng, công nghệ số, tự động hóa và sản xuất hiện đại.",
+      "orientation": "• Nếu bạn thích thiết kế, sáng tạo trên nền tảng công nghệ → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích máy móc, công nghệ xe và cải tiến kỹ thuật → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, điện tử và thiết bị thông minh → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích công nghệ phục vụ sản xuất và môi trường → ưu tiên Nông nghiệp công nghệ cao hoặc Công nghệ kỹ thuật môi trường.",
+      "focus_majors": [
+        "Khoa học cây trồng",
+        "Trồng trọt",
+        "Trồng trọt và bảo vệ thực vật",
+        "Bảo vệ thực vật",
+        "Kỹ thuật cây cao su",
+        "Công nghệ ô tô"
+      ]
+    },
+    "RAS": {
+      "label": "Kỹ thuật – Sáng tạo – Xã hội",
+      "advice": "Kết quả RAS cho thấy bạn thích thực hành, máy móc, thiết bị và công việc cụ thể, đồng thời có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế và thích giao tiếp, hỗ trợ người khác và làm việc với con người. Bạn phù hợp với các ngành có sự kết hợp giữa kỹ thuật, thực hành, sáng tạo và xã hội, hỗ trợ.",
+      "orientation": "• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích xe, động cơ, sửa chữa và dịch vụ kỹ thuật → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, điện tử, tự động hóa, PLC và bảo trì thiết bị → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích lắp đặt, vận hành, sửa chữa hệ thống điện dân dụng và công nghiệp → ưu tiên Điện công nghiệp và dân dụng.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Điện công nghiệp và dân dụng",
+        "Kỹ thuật máy lạnh và điều hòa không khí",
+        "Nông nghiệp công nghệ cao"
+      ]
+    },
+    "RAE": {
+      "label": "Kỹ thuật – Sáng tạo – Kinh doanh",
+      "advice": "Kết quả RAE cho thấy bạn thích thực hành, máy móc, thiết bị và công việc cụ thể, đồng thời có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế và năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo. Bạn phù hợp với các ngành có sự kết hợp giữa kỹ thuật, thực hành, sáng tạo và kinh doanh, lãnh đạo.",
+      "orientation": "• Nếu bạn thích xe, động cơ, sửa chữa và dịch vụ kỹ thuật → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, điện tử, tự động hóa, PLC và bảo trì thiết bị → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích lắp đặt, vận hành, sửa chữa hệ thống điện dân dụng và công nghiệp → ưu tiên Điện công nghiệp và dân dụng.\n\n• Nếu bạn thích điện lạnh, điều hòa, tủ lạnh và dịch vụ sửa chữa → ưu tiên Kỹ thuật máy lạnh và điều hòa không khí.",
+      "focus_majors": [
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Điện công nghiệp và dân dụng",
+        "Kỹ thuật máy lạnh và điều hòa không khí",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật chế biến mủ cao su"
+      ]
+    },
+    "RAC": {
+      "label": "Kỹ thuật – sáng tạo – quy trình",
+      "advice": "Kết quả RAC cho thấy bạn yêu thích công việc thực hành, có khả năng sáng tạo và vẫn phù hợp với môi trường làm việc có quy trình rõ ràng. Bạn phù hợp với các ngành kỹ thuật, công nghệ, sản xuất và vận hành hệ thống.",
+      "orientation": "• Nếu bạn thích máy móc, sửa chữa, bảo dưỡng → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, điện tử, lắp đặt và điều khiển → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích công nghệ số, phần mềm và dữ liệu → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích sản xuất công nghiệp và quy trình công nghệ → ưu tiên Công nghệ sản xuất sản phẩm từ cao su.",
+      "focus_majors": [
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Điện công nghiệp và dân dụng",
+        "Kỹ thuật máy lạnh và điều hòa không khí",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật chế biến mủ cao su"
+      ]
+    },
+    "RSI": {
+      "label": "Thực hành – hỗ trợ – phân tích",
+      "advice": "Kết quả RSI cho thấy bạn thích công việc thực hành, kỹ thuật, đồng thời có khả năng hợp tác và hỗ trợ người khác. Bạn phù hợp với môi trường làm việc kỹ thuật, vận hành, bảo trì, lắp đặt hoặc hỗ trợ kỹ thuật cho khách hàng.",
+      "orientation": "• Nếu bạn thích máy móc, động cơ → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, điện tử, lắp đặt → ưu tiên Công nghệ kỹ thuật điện, điện tử hoặc Điện công nghiệp và dân dụng.\n\n• Nếu bạn thích hệ thống lạnh, điều hòa → ưu tiên Kỹ thuật máy lạnh và điều hòa không khí.\n\n• Nếu bạn thích giao tiếp với doanh nghiệp sản xuất → ưu tiên Tiếng Trung Quốc.",
+      "focus_majors": [
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Điện công nghiệp và dân dụng",
+        "Kỹ thuật máy lạnh và điều hòa không khí",
+        "Nông nghiệp công nghệ cao",
+        "Bảo vệ thực vật"
+      ]
+    },
+    "RSA": {
+      "label": "Kỹ thuật – Xã hội – Sáng tạo",
+      "advice": "Kết quả RSA cho thấy bạn thích thực hành, máy móc, thiết bị và công việc cụ thể, đồng thời thích giao tiếp, hỗ trợ người khác và làm việc với con người và có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế. Bạn phù hợp với các ngành có sự kết hợp giữa kỹ thuật, thực hành, xã hội, hỗ trợ và sáng tạo.",
+      "orientation": "• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích xe, động cơ, sửa chữa và dịch vụ kỹ thuật → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, điện tử, tự động hóa, PLC và bảo trì thiết bị → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích lắp đặt, vận hành, sửa chữa hệ thống điện dân dụng và công nghiệp → ưu tiên Điện công nghiệp và dân dụng.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Điện công nghiệp và dân dụng",
+        "Kỹ thuật máy lạnh và điều hòa không khí",
+        "Nông nghiệp công nghệ cao"
+      ]
+    },
+    "RSE": {
+      "label": "Kỹ thuật – Xã hội – Kinh doanh",
+      "advice": "Kết quả RSE cho thấy bạn thích thực hành, máy móc, thiết bị và công việc cụ thể, đồng thời thích giao tiếp, hỗ trợ người khác và làm việc với con người và năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo. Bạn phù hợp với các ngành có sự kết hợp giữa kỹ thuật, thực hành, xã hội, hỗ trợ và kinh doanh, lãnh đạo.",
+      "orientation": "• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích xe, động cơ, sửa chữa và dịch vụ kỹ thuật → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, điện tử, tự động hóa, PLC và bảo trì thiết bị → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích lắp đặt, vận hành, sửa chữa hệ thống điện dân dụng và công nghiệp → ưu tiên Điện công nghiệp và dân dụng.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Điện công nghiệp và dân dụng",
+        "Kỹ thuật máy lạnh và điều hòa không khí",
+        "Nông nghiệp công nghệ cao"
+      ]
+    },
+    "RSC": {
+      "label": "Kỹ thuật – Xã hội – Tổ chức",
+      "advice": "Kết quả RSC cho thấy bạn thích thực hành, máy móc, thiết bị và công việc cụ thể, đồng thời thích giao tiếp, hỗ trợ người khác và làm việc với con người và cẩn thận, thích sự rõ ràng, quy trình, hồ sơ và tính chính xác. Bạn phù hợp với các ngành có sự kết hợp giữa kỹ thuật, thực hành, xã hội, hỗ trợ và tổ chức, quy trình.",
+      "orientation": "• Nếu bạn thích xe, động cơ, sửa chữa và dịch vụ kỹ thuật → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, điện tử, tự động hóa, PLC và bảo trì thiết bị → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích lắp đặt, vận hành, sửa chữa hệ thống điện dân dụng và công nghiệp → ưu tiên Điện công nghiệp và dân dụng.\n\n• Nếu bạn thích điện lạnh, điều hòa, tủ lạnh và dịch vụ sửa chữa → ưu tiên Kỹ thuật máy lạnh và điều hòa không khí.",
+      "focus_majors": [
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Điện công nghiệp và dân dụng",
+        "Kỹ thuật máy lạnh và điều hòa không khí",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật chế biến mủ cao su"
+      ]
+    },
+    "REI": {
+      "label": "Kỹ thuật – kinh doanh – phân tích",
+      "advice": "Kết quả REI cho thấy bạn thích kỹ thuật, công nghệ, đồng thời có khả năng phân tích và tư duy kinh doanh. Bạn phù hợp với các ngành kỹ thuật hiện đại, công nghệ số, sản xuất thông minh hoặc dịch vụ kỹ thuật chất lượng cao.",
+      "orientation": "• Nếu bạn thích công nghệ, dữ liệu, AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích ô tô, công nghệ xe điện và dịch vụ kỹ thuật → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, điện tử, tự động hóa → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn muốn phát triển kỹ năng kinh doanh trên nền tảng kỹ thuật → tham khảo Kế toán tin học hoặc Tài chính – Ngân hàng.",
+      "focus_majors": [
+        "Khoa học cây trồng",
+        "Trồng trọt",
+        "Trồng trọt và bảo vệ thực vật",
+        "Bảo vệ thực vật",
+        "Kỹ thuật cây cao su",
+        "Công nghệ ô tô"
+      ]
+    },
+    "REA": {
+      "label": "Kỹ thuật – Kinh doanh – Sáng tạo",
+      "advice": "Kết quả REA cho thấy bạn thích thực hành, máy móc, thiết bị và công việc cụ thể, đồng thời năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo và có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế. Bạn phù hợp với các ngành có sự kết hợp giữa kỹ thuật, thực hành, kinh doanh, lãnh đạo và sáng tạo.",
+      "orientation": "• Nếu bạn thích xe, động cơ, sửa chữa và dịch vụ kỹ thuật → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, điện tử, tự động hóa, PLC và bảo trì thiết bị → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích lắp đặt, vận hành, sửa chữa hệ thống điện dân dụng và công nghiệp → ưu tiên Điện công nghiệp và dân dụng.\n\n• Nếu bạn thích điện lạnh, điều hòa, tủ lạnh và dịch vụ sửa chữa → ưu tiên Kỹ thuật máy lạnh và điều hòa không khí.",
+      "focus_majors": [
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Điện công nghiệp và dân dụng",
+        "Kỹ thuật máy lạnh và điều hòa không khí",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật chế biến mủ cao su"
+      ]
+    },
+    "RES": {
+      "label": "Kỹ thuật – Kinh doanh – Xã hội",
+      "advice": "Kết quả RES cho thấy bạn thích thực hành, máy móc, thiết bị và công việc cụ thể, đồng thời năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo và thích giao tiếp, hỗ trợ người khác và làm việc với con người. Bạn phù hợp với các ngành có sự kết hợp giữa kỹ thuật, thực hành, kinh doanh, lãnh đạo và xã hội, hỗ trợ.",
+      "orientation": "• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích xe, động cơ, sửa chữa và dịch vụ kỹ thuật → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, điện tử, tự động hóa, PLC và bảo trì thiết bị → ưu tiên Công nghệ kỹ thuật điện, điện tử.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Tài chính – Ngân hàng",
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Điện công nghiệp và dân dụng",
+        "Kỹ thuật máy lạnh và điều hòa không khí"
+      ]
+    },
+    "REC": {
+      "label": "Kỹ thuật – kinh doanh – quy trình",
+      "advice": "Kết quả REC cho thấy bạn yêu thích kỹ thuật, công nghệ nhưng cũng có tố chất kinh doanh và khả năng tổ chức công việc. Đây là nhóm phù hợp với các ngành kỹ thuật ứng dụng có cơ hội phát triển quản lý hoặc kinh doanh dịch vụ kỹ thuật.",
+      "orientation": "• Nếu bạn thích kỹ thuật ô tô và kinh doanh dịch vụ → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, điện tử, thiết bị công nghệ → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích công nghệ số và khởi nghiệp → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích kinh doanh nông nghiệp hiện đại → ưu tiên Nông nghiệp công nghệ cao.",
+      "focus_majors": [
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Điện công nghiệp và dân dụng",
+        "Kỹ thuật máy lạnh và điều hòa không khí",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật chế biến mủ cao su"
+      ]
+    },
+    "RCI": {
+      "label": "Thực hành – quy trình – phân tích",
+      "advice": "Kết quả RCI cho thấy bạn thích thực hành, có kỷ luật, cẩn thận và biết phân tích trong quá trình làm việc. Bạn phù hợp với các ngành kỹ thuật cần thao tác chính xác, an toàn, vận hành và bảo trì.",
+      "orientation": "• Nếu bạn thích ô tô, động cơ, sửa chữa, dịch vụ kỹ thuật → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, tủ điện, thiết bị, bảo trì hệ thống → ưu tiên Công nghệ kỹ thuật điện, điện tử hoặc Điện công nghiệp và dân dụng.\n\n• Nếu bạn thích điều hòa, điện lạnh và dịch vụ sửa chữa → ưu tiên Kỹ thuật máy lạnh và điều hòa không khí.\n\n• Nếu bạn thích nhà máy, quy trình sản xuất và kiểm tra chất lượng → ưu tiên các ngành cao su.",
+      "focus_majors": [
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Điện công nghiệp và dân dụng",
+        "Kỹ thuật máy lạnh và điều hòa không khí",
+        "Công nghệ kỹ thuật chế biến mủ cao su",
+        "Kỹ thuật cây cao su"
+      ]
+    },
+    "RCA": {
+      "label": "Kỹ thuật – quy trình – sáng tạo",
+      "advice": "Kết quả RCA cho thấy bạn thích kỹ thuật, làm việc có tổ chức và luôn tìm cách cải tiến công việc. Bạn phù hợp với các ngành kỹ thuật, công nghệ, sản xuất và vận hành hệ thống hiện đại.",
+      "orientation": "• Nếu bạn thích hệ thống điện, tự động hóa → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích động cơ, xe và thiết bị cơ khí → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích công nghệ số, phần mềm và AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích công nghệ trong sản xuất và nông nghiệp → ưu tiên Nông nghiệp công nghệ cao.",
+      "focus_majors": [
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Điện công nghiệp và dân dụng",
+        "Kỹ thuật máy lạnh và điều hòa không khí",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật chế biến mủ cao su"
+      ]
+    },
+    "RCS": {
+      "label": "Thực hành – quy trình – hỗ trợ",
+      "advice": "Kết quả RCS cho thấy bạn thích thực hành, làm việc có quy trình, có trách nhiệm và có khả năng hỗ trợ người khác. Bạn phù hợp với kỹ thuật ứng dụng, dịch vụ kỹ thuật, vận hành, bảo trì, điện, ô tô, nông nghiệp hoặc cao su.",
+      "orientation": "• Nếu bạn thích ô tô, máy móc, sửa chữa → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, điện tử, bảo trì, an toàn kỹ thuật → ưu tiên Công nghệ kỹ thuật điện, điện tử hoặc Điện công nghiệp và dân dụng.\n\n• Nếu bạn thích dịch vụ sửa chữa thiết bị lạnh → ưu tiên Kỹ thuật máy lạnh và điều hòa không khí.\n\n• Nếu bạn thích nông nghiệp/cao su và làm việc thực tế → ưu tiên Nông nghiệp công nghệ cao hoặc các ngành cao su.",
+      "focus_majors": [
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Điện công nghiệp và dân dụng",
+        "Kỹ thuật máy lạnh và điều hòa không khí",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật chế biến mủ cao su"
+      ]
+    },
+    "RCE": {
+      "label": "Kỹ thuật – quy trình – kinh doanh",
+      "advice": "Kết quả RCE cho thấy bạn thích công việc kỹ thuật, thực hành, làm việc có tổ chức và có khả năng phát triển theo hướng quản lý hoặc kinh doanh. Bạn phù hợp với các ngành kỹ thuật có nhu cầu nhân lực cao và nhiều cơ hội thăng tiến.",
+      "orientation": "• Nếu bạn thích kỹ thuật điện, tự động hóa → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích ô tô, công nghệ xe → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích công nghệ số, quản lý hệ thống → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn muốn phát triển theo hướng quản lý hoặc kinh doanh → tham khảo Tài chính – Ngân hàng hoặc Kế toán tin học.",
+      "focus_majors": [
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Điện công nghiệp và dân dụng",
+        "Kỹ thuật máy lạnh và điều hòa không khí",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật chế biến mủ cao su"
+      ]
+    },
+    "IRA": {
+      "label": "Phân tích – kỹ thuật – sáng tạo",
+      "advice": "Kết quả IRA cho thấy bạn có tư duy phân tích mạnh, thích khám phá công nghệ và có khả năng sáng tạo. Đây là nhóm rất phù hợp với các ngành CNTT, kỹ thuật và công nghệ ứng dụng.",
+      "orientation": "• Nếu bạn thích lập trình, AI, dữ liệu → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích kỹ thuật điều khiển, điện tử → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích môi trường và công nghệ xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích nghiên cứu công nghệ ứng dụng → ưu tiên Nông nghiệp công nghệ cao.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật hóa học",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật môi trường",
+        "Khoa học cây trồng",
+        "Trồng trọt"
+      ]
+    },
+    "IRS": {
+      "label": "Phân tích – thực hành – hỗ trợ",
+      "advice": "Kết quả IRS cho thấy bạn có tư duy phân tích tốt, thích tìm hiểu nguyên lý hoạt động của sự vật, đồng thời yêu thích thực hành và sẵn sàng hỗ trợ người khác. Bạn phù hợp với các ngành công nghệ, kỹ thuật, môi trường hoặc các lĩnh vực ứng dụng khoa học vào thực tiễn.",
+      "orientation": "• Nếu bạn thích máy tính, dữ liệu, AI, lập trình → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích điện, điện tử, tự động hóa → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích động cơ, máy móc, công nghệ xe → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích nghiên cứu, môi trường, công nghệ xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích công nghệ áp dụng trong sản xuất nông nghiệp → ưu tiên Nông nghiệp công nghệ cao.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Công nghệ kỹ thuật môi trường",
+        "Công nghệ kỹ thuật hóa học",
+        "Nông nghiệp công nghệ cao",
+        "Trồng trọt và bảo vệ thực vật",
+        "Bảo vệ thực vật"
+      ]
+    },
+    "IRE": {
+      "label": "Nghiên cứu – Kỹ thuật – Kinh doanh",
+      "advice": "Kết quả IRE cho thấy bạn có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề, đồng thời thích thực hành, máy móc, thiết bị và công việc cụ thể và năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo. Bạn phù hợp với các ngành có sự kết hợp giữa nghiên cứu, phân tích, kỹ thuật, thực hành và kinh doanh, lãnh đạo.",
+      "orientation": "• Nếu bạn thích thí nghiệm, phân tích mẫu, kiểm nghiệm và quy trình hóa học → ưu tiên Công nghệ kỹ thuật hóa học.\n\n• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn muốn học CNTT theo hướng thực hành, website, đồ họa, mạng và hỗ trợ kỹ thuật → ưu tiên Tin học ứng dụng.\n\n• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật hóa học",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật môi trường",
+        "Khoa học cây trồng",
+        "Trồng trọt"
+      ]
+    },
+    "IRC": {
+      "label": "Phân tích – thực hành – quy trình",
+      "advice": "Kết quả IRC cho thấy bạn có tư duy phân tích tốt, thích tìm hiểu công nghệ, đồng thời phù hợp với môi trường thực hành và quy trình kỹ thuật. Đây là nhóm rất phù hợp với các ngành công nghệ và kỹ thuật ứng dụng.",
+      "orientation": "• Nếu bạn thích lập trình, website, mạng, dữ liệu, AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích lắp đặt, điện, điều khiển, tự động hóa → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích xe, động cơ, chẩn đoán kỹ thuật → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích phân tích, quan trắc, xử lý môi trường hoặc hóa học → ưu tiên Công nghệ kỹ thuật môi trường hoặc Công nghệ kỹ thuật hóa học.\n\n• Nếu bạn thích sản xuất nông nghiệp hiện đại → ưu tiên Nông nghiệp công nghệ cao.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Công nghệ kỹ thuật hóa học",
+        "Công nghệ kỹ thuật môi trường",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật chế biến mủ cao su"
+      ]
+    },
+    "IAR": {
+      "label": "Phân tích – sáng tạo – kỹ thuật",
+      "advice": "Kết quả IAR cho thấy bạn có khả năng tư duy logic, thích sáng tạo và yêu thích công nghệ. Bạn phù hợp với các ngành công nghệ số, kỹ thuật hiện đại, môi trường nghiên cứu và đổi mới sáng tạo.",
+      "orientation": "• Nếu bạn thích phần mềm, dữ liệu, AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích thiết kế giải pháp kỹ thuật → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích phân tích môi trường, hóa học → ưu tiên Công nghệ kỹ thuật môi trường hoặc Công nghệ kỹ thuật hóa học.\n\n• Nếu bạn thích máy móc, công nghệ xe → ưu tiên Công nghệ ô tô.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật hóa học",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật môi trường",
+        "Khoa học cây trồng",
+        "Trồng trọt"
+      ]
+    },
+    "IAS": {
+      "label": "Nghiên cứu – Sáng tạo – Xã hội",
+      "advice": "Kết quả IAS cho thấy bạn có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề, đồng thời có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế và thích giao tiếp, hỗ trợ người khác và làm việc với con người. Bạn phù hợp với các ngành có sự kết hợp giữa nghiên cứu, phân tích, sáng tạo và xã hội, hỗ trợ.",
+      "orientation": "• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn muốn học CNTT theo hướng thực hành, website, đồ họa, mạng và hỗ trợ kỹ thuật → ưu tiên Tin học ứng dụng.\n\n• Nếu bạn thích thí nghiệm, phân tích mẫu, kiểm nghiệm và quy trình hóa học → ưu tiên Công nghệ kỹ thuật hóa học.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật hóa học",
+        "Nông nghiệp công nghệ cao",
+        "Khoa học cây trồng"
+      ]
+    },
+    "IAE": {
+      "label": "Nghiên cứu – Sáng tạo – Kinh doanh",
+      "advice": "Kết quả IAE cho thấy bạn có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề, đồng thời có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế và năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo. Bạn phù hợp với các ngành có sự kết hợp giữa nghiên cứu, phân tích, sáng tạo và kinh doanh, lãnh đạo.",
+      "orientation": "• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn muốn học CNTT theo hướng thực hành, website, đồ họa, mạng và hỗ trợ kỹ thuật → ưu tiên Tin học ứng dụng.\n\n• Nếu bạn thích thí nghiệm, phân tích mẫu, kiểm nghiệm và quy trình hóa học → ưu tiên Công nghệ kỹ thuật hóa học.\n\n• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật hóa học",
+        "Công nghệ kỹ thuật môi trường",
+        "Nông nghiệp công nghệ cao",
+        "Khoa học cây trồng"
+      ]
+    },
+    "IAC": {
+      "label": "Phân tích – sáng tạo – quy trình",
+      "advice": "Kết quả IAC cho thấy bạn thích tìm hiểu, phân tích, khám phá ý tưởng mới và có khả năng làm việc theo quy trình khi cần. Đây là nhóm phù hợp với công nghệ, thiết kế số, dữ liệu, môi trường, hóa học hoặc các ngành cần tư duy giải quyết vấn đề.",
+      "orientation": "• Nếu bạn thích lập trình, AI, dữ liệu, website, thiết kế số → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích phân tích mẫu, quan trắc, môi trường, hóa học → ưu tiên Công nghệ kỹ thuật môi trường hoặc Công nghệ kỹ thuật hóa học.\n\n• Nếu bạn thích dữ liệu kết hợp nghiệp vụ văn phòng → ưu tiên Kế toán tin học.\n\n• Nếu bạn thích ngôn ngữ, văn hóa, giao tiếp sáng tạo → ưu tiên Tiếng Trung Quốc.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật chế biến mủ cao su"
+      ]
+    },
+    "ISR": {
+      "label": "Phân tích – hỗ trợ – thực hành",
+      "advice": "Kết quả ISR cho thấy bạn thích tìm hiểu, nghiên cứu và giải quyết vấn đề, đồng thời có khả năng hỗ trợ người khác và không ngại công việc thực hành. Bạn phù hợp với các ngành công nghệ, môi trường, ngoại ngữ kỹ thuật hoặc dịch vụ kỹ thuật.",
+      "orientation": "• Nếu bạn thích công nghệ, phần mềm, dữ liệu → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích môi trường, quan trắc, phân tích → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích giao tiếp, làm việc với doanh nghiệp → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích thực hành kỹ thuật → ưu tiên Công nghệ ô tô hoặc Công nghệ kỹ thuật điện, điện tử.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Công nghệ thông tin",
+        "Công nghệ kỹ thuật hóa học",
+        "Tiếng Trung Quốc",
+        "Nông nghiệp công nghệ cao",
+        "Bảo vệ thực vật"
+      ]
+    },
+    "ISA": {
+      "label": "Nghiên cứu – Xã hội – Sáng tạo",
+      "advice": "Kết quả ISA cho thấy bạn có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề, đồng thời thích giao tiếp, hỗ trợ người khác và làm việc với con người và có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế. Bạn phù hợp với các ngành có sự kết hợp giữa nghiên cứu, phân tích, xã hội, hỗ trợ và sáng tạo.",
+      "orientation": "• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn muốn học CNTT theo hướng thực hành, website, đồ họa, mạng và hỗ trợ kỹ thuật → ưu tiên Tin học ứng dụng.\n\n• Nếu bạn thích thí nghiệm, phân tích mẫu, kiểm nghiệm và quy trình hóa học → ưu tiên Công nghệ kỹ thuật hóa học.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật hóa học",
+        "Nông nghiệp công nghệ cao",
+        "Khoa học cây trồng"
+      ]
+    },
+    "ISE": {
+      "label": "Nghiên cứu – Xã hội – Kinh doanh",
+      "advice": "Kết quả ISE cho thấy bạn có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề, đồng thời thích giao tiếp, hỗ trợ người khác và làm việc với con người và năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo. Bạn phù hợp với các ngành có sự kết hợp giữa nghiên cứu, phân tích, xã hội, hỗ trợ và kinh doanh, lãnh đạo.",
+      "orientation": "• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn muốn học CNTT theo hướng thực hành, website, đồ họa, mạng và hỗ trợ kỹ thuật → ưu tiên Tin học ứng dụng.\n\n• Nếu bạn thích thí nghiệm, phân tích mẫu, kiểm nghiệm và quy trình hóa học → ưu tiên Công nghệ kỹ thuật hóa học.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật hóa học",
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng"
+      ]
+    },
+    "ISC": {
+      "label": "Phân tích – hỗ trợ – quy trình",
+      "advice": "Kết quả ISC cho thấy bạn thích tìm hiểu, phân tích thông tin và giải quyết vấn đề, đồng thời có xu hướng hỗ trợ người khác và làm việc có trách nhiệm. Bạn phù hợp với các ngành vừa cần tư duy phân tích, vừa có yếu tố phục vụ cộng đồng, khách hàng hoặc người sử dụng.",
+      "orientation": "• Nếu bạn thích công nghệ, phần mềm, dữ liệu và hỗ trợ người dùng → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích môi trường, phân tích, quan trắc và đóng góp cho cộng đồng → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích giao tiếp, ngoại ngữ, hỗ trợ khách hàng → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích dữ liệu, tài chính và công việc có quy trình → ưu tiên Tài chính – Ngân hàng hoặc Kế toán tin học.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô"
+      ]
+    },
+    "IER": {
+      "label": "Nghiên cứu – Kinh doanh – Kỹ thuật",
+      "advice": "Kết quả IER cho thấy bạn có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề, đồng thời năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo và thích thực hành, máy móc, thiết bị và công việc cụ thể. Bạn phù hợp với các ngành có sự kết hợp giữa nghiên cứu, phân tích, kinh doanh, lãnh đạo và kỹ thuật, thực hành.",
+      "orientation": "• Nếu bạn thích thí nghiệm, phân tích mẫu, kiểm nghiệm và quy trình hóa học → ưu tiên Công nghệ kỹ thuật hóa học.\n\n• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn muốn học CNTT theo hướng thực hành, website, đồ họa, mạng và hỗ trợ kỹ thuật → ưu tiên Tin học ứng dụng.\n\n• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật hóa học",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật môi trường",
+        "Khoa học cây trồng",
+        "Trồng trọt"
+      ]
+    },
+    "IEA": {
+      "label": "Nghiên cứu – Kinh doanh – Sáng tạo",
+      "advice": "Kết quả IEA cho thấy bạn có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề, đồng thời năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo và có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế. Bạn phù hợp với các ngành có sự kết hợp giữa nghiên cứu, phân tích, kinh doanh, lãnh đạo và sáng tạo.",
+      "orientation": "• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn muốn học CNTT theo hướng thực hành, website, đồ họa, mạng và hỗ trợ kỹ thuật → ưu tiên Tin học ứng dụng.\n\n• Nếu bạn thích thí nghiệm, phân tích mẫu, kiểm nghiệm và quy trình hóa học → ưu tiên Công nghệ kỹ thuật hóa học.\n\n• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật hóa học",
+        "Công nghệ kỹ thuật môi trường",
+        "Nông nghiệp công nghệ cao",
+        "Khoa học cây trồng"
+      ]
+    },
+    "IES": {
+      "label": "Nghiên cứu – Kinh doanh – Xã hội",
+      "advice": "Kết quả IES cho thấy bạn có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề, đồng thời năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo và thích giao tiếp, hỗ trợ người khác và làm việc với con người. Bạn phù hợp với các ngành có sự kết hợp giữa nghiên cứu, phân tích, kinh doanh, lãnh đạo và xã hội, hỗ trợ.",
+      "orientation": "• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn muốn học CNTT theo hướng thực hành, website, đồ họa, mạng và hỗ trợ kỹ thuật → ưu tiên Tin học ứng dụng.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Tài chính – Ngân hàng",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật hóa học",
+        "Tiếng Trung Quốc"
+      ]
+    },
+    "IEC": {
+      "label": "Phân tích – kinh doanh – quy trình",
+      "advice": "Kết quả IEC cho thấy bạn thích phân tích, khám phá thông tin, có tư duy kinh doanh và vẫn phù hợp với công việc có quy trình. Bạn có thể phát triển tốt ở các ngành công nghệ, dữ liệu, tài chính, ngân hàng, kế toán hoặc phần mềm quản lý.",
+      "orientation": "• Nếu bạn thích phân tích dữ liệu, phần mềm, website, AI → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích tài chính, kinh doanh, giao dịch và khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích kết hợp kế toán với phần mềm, dữ liệu → ưu tiên Kế toán tin học.\n\n• Nếu bạn thích công việc ổn định, hồ sơ, chứng từ, báo cáo → ưu tiên Kế toán hoặc Kế toán doanh nghiệp.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Công nghệ kỹ thuật hóa học",
+        "Công nghệ kỹ thuật môi trường",
+        "Tin học ứng dụng",
+        "Tài chính – Ngân hàng",
+        "Kế toán tin học"
+      ]
+    },
+    "ICR": {
+      "label": "Phân tích – cẩn thận – thực hành",
+      "advice": "Kết quả ICR cho thấy bạn thích tìm hiểu, phân tích vấn đề, có tính cẩn thận và có khả năng chuyển kiến thức thành thao tác thực tế. Đây là nhóm phù hợp với công nghệ thông tin, kỹ thuật, môi trường, hóa học, nông nghiệp công nghệ cao và các ngành cần tư duy hệ thống.",
+      "orientation": "• Nếu bạn thích máy tính, phần mềm, mạng, dữ liệu và AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích thí nghiệm, kiểm nghiệm, phân tích mẫu → ưu tiên Công nghệ kỹ thuật hóa học.\n\n• Nếu bạn thích quan trắc, xử lý môi trường, báo cáo kỹ thuật → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích kỹ thuật điện, ô tô, thiết bị → ưu tiên Công nghệ kỹ thuật điện, điện tử hoặc Công nghệ ô tô.\n\n• Nếu bạn thích công nghệ ứng dụng trong nông nghiệp → ưu tiên Nông nghiệp công nghệ cao.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Công nghệ kỹ thuật hóa học",
+        "Công nghệ kỹ thuật môi trường",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô",
+        "Nông nghiệp công nghệ cao"
+      ]
+    },
+    "ICA": {
+      "label": "Phân tích – quy trình – sáng tạo",
+      "advice": "Kết quả ICA cho thấy bạn có tư duy phân tích tốt, thích công việc rõ ràng, có hệ thống và có khả năng sáng tạo trong cách tiếp cận vấn đề. Bạn phù hợp với các ngành công nghệ, dữ liệu, kỹ thuật phân tích, kế toán tin học, môi trường hoặc hóa học.",
+      "orientation": "• Nếu bạn thích công nghệ, dữ liệu, phần mềm, AI → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích quy trình, số liệu và phần mềm nghiệp vụ → ưu tiên Kế toán tin học hoặc Kế toán.\n\n• Nếu bạn thích phân tích kỹ thuật, môi trường, hóa học → ưu tiên Công nghệ kỹ thuật môi trường hoặc Công nghệ kỹ thuật hóa học.\n\n• Nếu bạn thích sáng tạo nhưng vẫn muốn công việc có cấu trúc rõ → ưu tiên các ngành công nghệ ứng dụng.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật chế biến mủ cao su"
+      ]
+    },
+    "ICS": {
+      "label": "Phân tích – quy trình – hỗ trợ",
+      "advice": "Kết quả ICS cho thấy bạn có tư duy phân tích tốt, thích tìm hiểu vấn đề, làm việc với dữ liệu, công nghệ và các quy trình rõ ràng. Đồng thời bạn cũng có khả năng hợp tác, hỗ trợ người khác và quan tâm đến các vấn đề thực tiễn.",
+      "orientation": "• Nếu bạn thích máy tính, dữ liệu, website, AI, phần mềm → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích phân tích, quan trắc, bảo vệ môi trường → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích thí nghiệm, kiểm nghiệm, quy trình sản xuất → ưu tiên Công nghệ kỹ thuật hóa học.\n\n• Nếu bạn thích thiết bị, điện, điện tử, tự động hóa → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích công nghệ áp dụng vào sản xuất nông nghiệp → ưu tiên Nông nghiệp công nghệ cao.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật môi trường",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô"
+      ]
+    },
+    "ICE": {
+      "label": "Phân tích – quy trình – kinh doanh",
+      "advice": "Kết quả ICE cho thấy bạn có tư duy phân tích tốt, thích dữ liệu, hệ thống, quy trình và có quan tâm đến môi trường kinh doanh. Bạn phù hợp với các ngành kết hợp giữa công nghệ, tài chính, kế toán, phần mềm nghiệp vụ và quản lý dữ liệu.",
+      "orientation": "• Nếu bạn thích công nghệ, dữ liệu, hệ thống, AI, phần mềm → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích phần mềm kế toán, dữ liệu doanh nghiệp, báo cáo → ưu tiên Kế toán tin học.\n\n• Nếu bạn thích tài chính, ngân hàng, giao dịch và phân tích số liệu → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích chứng từ, báo cáo, thuế, quy trình kế toán → ưu tiên Kế toán hoặc Kế toán doanh nghiệp.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật hóa học",
+        "Công nghệ kỹ thuật môi trường",
+        "Kế toán tin học",
+        "Tài chính – Ngân hàng"
+      ]
+    },
+    "ARI": {
+      "label": "Sáng tạo – Kỹ thuật – Nghiên cứu",
+      "advice": "Kết quả ARI cho thấy bạn có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế, đồng thời thích thực hành, máy móc, thiết bị và công việc cụ thể và có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề. Bạn phù hợp với các ngành có sự kết hợp giữa sáng tạo, kỹ thuật, thực hành và nghiên cứu, phân tích.",
+      "orientation": "• Nếu bạn thích thí nghiệm, phân tích mẫu, kiểm nghiệm và quy trình hóa học → ưu tiên Công nghệ kỹ thuật hóa học.\n\n• Nếu bạn thích cây trồng, giống, canh tác và chuyển giao kỹ thuật nông nghiệp → ưu tiên Khoa học cây trồng.\n\n• Nếu bạn thích thực hành sản xuất cây trồng, chăm sóc và thu hoạch nông sản → ưu tiên Trồng trọt.\n\n• Nếu bạn thích cây trồng kết hợp phòng trừ sâu bệnh và bảo vệ mùa vụ → ưu tiên Trồng trọt và bảo vệ thực vật.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật hóa học",
+        "Khoa học cây trồng",
+        "Trồng trọt",
+        "Trồng trọt và bảo vệ thực vật",
+        "Bảo vệ thực vật",
+        "Kỹ thuật cây cao su"
+      ]
+    },
+    "ARS": {
+      "label": "Sáng tạo – Kỹ thuật – Xã hội",
+      "advice": "Kết quả ARS cho thấy bạn có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế, đồng thời thích thực hành, máy móc, thiết bị và công việc cụ thể và thích giao tiếp, hỗ trợ người khác và làm việc với con người. Bạn phù hợp với các ngành có sự kết hợp giữa sáng tạo, kỹ thuật, thực hành và xã hội, hỗ trợ.",
+      "orientation": "• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn muốn học CNTT theo hướng thực hành, website, đồ họa, mạng và hỗ trợ kỹ thuật → ưu tiên Tin học ứng dụng.\n\n• Nếu bạn thích nhà màng, cảm biến, tự động hóa và sản xuất nông nghiệp hiện đại → ưu tiên Nông nghiệp công nghệ cao.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử"
+      ]
+    },
+    "ARE": {
+      "label": "Sáng tạo – Kỹ thuật – Kinh doanh",
+      "advice": "Kết quả ARE cho thấy bạn có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế, đồng thời thích thực hành, máy móc, thiết bị và công việc cụ thể và năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo. Bạn phù hợp với các ngành có sự kết hợp giữa sáng tạo, kỹ thuật, thực hành và kinh doanh, lãnh đạo.",
+      "orientation": "• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn muốn học CNTT theo hướng thực hành, website, đồ họa, mạng và hỗ trợ kỹ thuật → ưu tiên Tin học ứng dụng.\n\n• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích nhà màng, cảm biến, tự động hóa và sản xuất nông nghiệp hiện đại → ưu tiên Nông nghiệp công nghệ cao.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật môi trường",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử"
+      ]
+    },
+    "ARC": {
+      "label": "Sáng tạo – Kỹ thuật – Tổ chức",
+      "advice": "Kết quả ARC cho thấy bạn có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế, đồng thời thích thực hành, máy móc, thiết bị và công việc cụ thể và cẩn thận, thích sự rõ ràng, quy trình, hồ sơ và tính chính xác. Bạn phù hợp với các ngành có sự kết hợp giữa sáng tạo, kỹ thuật, thực hành và tổ chức, quy trình.",
+      "orientation": "• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn muốn học CNTT theo hướng thực hành, website, đồ họa, mạng và hỗ trợ kỹ thuật → ưu tiên Tin học ứng dụng.\n\n• Nếu bạn thích nhà màng, cảm biến, tự động hóa và sản xuất nông nghiệp hiện đại → ưu tiên Nông nghiệp công nghệ cao.\n\n• Nếu bạn thích xe, động cơ, sửa chữa và dịch vụ kỹ thuật → ưu tiên Công nghệ ô tô.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Điện công nghiệp và dân dụng"
+      ]
+    },
+    "AIR": {
+      "label": "Sáng tạo – Nghiên cứu – Kỹ thuật",
+      "advice": "Kết quả AIR cho thấy bạn có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế, đồng thời có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề và thích thực hành, máy móc, thiết bị và công việc cụ thể. Bạn phù hợp với các ngành có sự kết hợp giữa sáng tạo, nghiên cứu, phân tích và kỹ thuật, thực hành.",
+      "orientation": "• Nếu bạn thích cây trồng, giống, canh tác và chuyển giao kỹ thuật nông nghiệp → ưu tiên Khoa học cây trồng.\n\n• Nếu bạn thích thực hành sản xuất cây trồng, chăm sóc và thu hoạch nông sản → ưu tiên Trồng trọt.\n\n• Nếu bạn thích cây trồng kết hợp phòng trừ sâu bệnh và bảo vệ mùa vụ → ưu tiên Trồng trọt và bảo vệ thực vật.\n\n• Nếu bạn thích tìm hiểu sâu bệnh, thuốc bảo vệ thực vật và kỹ thuật bảo vệ cây trồng → ưu tiên Bảo vệ thực vật.",
+      "focus_majors": [
+        "Khoa học cây trồng",
+        "Trồng trọt",
+        "Trồng trọt và bảo vệ thực vật",
+        "Bảo vệ thực vật",
+        "Kỹ thuật cây cao su",
+        "Công nghệ kỹ thuật hóa học"
+      ]
+    },
+    "AIS": {
+      "label": "Sáng tạo – Nghiên cứu – Xã hội",
+      "advice": "Kết quả AIS cho thấy bạn có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế, đồng thời có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề và thích giao tiếp, hỗ trợ người khác và làm việc với con người. Bạn phù hợp với các ngành có sự kết hợp giữa sáng tạo, nghiên cứu, phân tích và xã hội, hỗ trợ.",
+      "orientation": "• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích nhà màng, cảm biến, tự động hóa và sản xuất nông nghiệp hiện đại → ưu tiên Nông nghiệp công nghệ cao.\n\n• Nếu bạn thích cây trồng, giống, canh tác và chuyển giao kỹ thuật nông nghiệp → ưu tiên Khoa học cây trồng.\n\n• Nếu bạn thích thực hành sản xuất cây trồng, chăm sóc và thu hoạch nông sản → ưu tiên Trồng trọt.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Nông nghiệp công nghệ cao",
+        "Khoa học cây trồng",
+        "Trồng trọt",
+        "Trồng trọt và bảo vệ thực vật",
+        "Bảo vệ thực vật"
+      ]
+    },
+    "AIE": {
+      "label": "Sáng tạo – Nghiên cứu – Kinh doanh",
+      "advice": "Kết quả AIE cho thấy bạn có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế, đồng thời có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề và năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo. Bạn phù hợp với các ngành có sự kết hợp giữa sáng tạo, nghiên cứu, phân tích và kinh doanh, lãnh đạo.",
+      "orientation": "• Nếu bạn thích nhà màng, cảm biến, tự động hóa và sản xuất nông nghiệp hiện đại → ưu tiên Nông nghiệp công nghệ cao.\n\n• Nếu bạn thích cây trồng, giống, canh tác và chuyển giao kỹ thuật nông nghiệp → ưu tiên Khoa học cây trồng.\n\n• Nếu bạn thích thực hành sản xuất cây trồng, chăm sóc và thu hoạch nông sản → ưu tiên Trồng trọt.\n\n• Nếu bạn thích cây trồng kết hợp phòng trừ sâu bệnh và bảo vệ mùa vụ → ưu tiên Trồng trọt và bảo vệ thực vật.",
+      "focus_majors": [
+        "Nông nghiệp công nghệ cao",
+        "Khoa học cây trồng",
+        "Trồng trọt",
+        "Trồng trọt và bảo vệ thực vật",
+        "Bảo vệ thực vật",
+        "Kỹ thuật cây cao su"
+      ]
+    },
+    "AIC": {
+      "label": "Sáng tạo – phân tích – quy trình",
+      "advice": "Kết quả AIC cho thấy bạn có óc sáng tạo, thích ý tưởng mới, đồng thời có tư duy phân tích và khả năng làm việc có quy trình. Bạn phù hợp với các ngành liên quan đến công nghệ, thiết kế số, dữ liệu, website, ngoại ngữ hoặc phân tích kỹ thuật.",
+      "orientation": "• Nếu bạn thích sáng tạo trên máy tính, website, UI/UX, đồ họa, AI → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích phân tích, thí nghiệm, quan trắc, báo cáo kỹ thuật → ưu tiên Công nghệ kỹ thuật môi trường hoặc Công nghệ kỹ thuật hóa học.\n\n• Nếu bạn thích ngôn ngữ, văn hóa, giao tiếp → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích dữ liệu và phần mềm nghiệp vụ → ưu tiên Kế toán tin học.",
+      "focus_majors": [
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật chế biến mủ cao su",
+        "Công nghệ sản xuất sản phẩm từ cao su",
+        "Điện công nghiệp và dân dụng"
+      ]
+    },
+    "ASR": {
+      "label": "Sáng tạo – Xã hội – Kỹ thuật",
+      "advice": "Kết quả ASR cho thấy bạn có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế, đồng thời thích giao tiếp, hỗ trợ người khác và làm việc với con người và thích thực hành, máy móc, thiết bị và công việc cụ thể. Bạn phù hợp với các ngành có sự kết hợp giữa sáng tạo, xã hội, hỗ trợ và kỹ thuật, thực hành.",
+      "orientation": "• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Nông nghiệp công nghệ cao"
+      ]
+    },
+    "ASI": {
+      "label": "Sáng tạo – Xã hội – Nghiên cứu",
+      "advice": "Kết quả ASI cho thấy bạn có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế, đồng thời thích giao tiếp, hỗ trợ người khác và làm việc với con người và có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề. Bạn phù hợp với các ngành có sự kết hợp giữa sáng tạo, xã hội, hỗ trợ và nghiên cứu, phân tích.",
+      "orientation": "• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Nông nghiệp công nghệ cao"
+      ]
+    },
+    "ASE": {
+      "label": "Sáng tạo – hỗ trợ – kinh doanh",
+      "advice": "Kết quả ASE cho thấy bạn thích sáng tạo, giao tiếp, hỗ trợ người khác và có tố chất kinh doanh. Bạn phù hợp với các ngành có nhiều tương tác, trình bày, ngoại ngữ, tư vấn khách hàng, nội dung số hoặc kinh doanh nhỏ.",
+      "orientation": "• Nếu bạn thích ngoại ngữ, giao tiếp, làm việc với người khác → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích sáng tạo số, thiết kế, website, nội dung online → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích tư vấn khách hàng, tài chính, doanh nghiệp → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích bán hàng, kinh doanh nhỏ, quản lý cửa hàng → tham khảo Quản trị doanh nghiệp nhỏ.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ kỹ thuật môi trường",
+        "Kế toán tin học",
+        "Kế toán",
+        "Kế toán doanh nghiệp"
+      ]
+    },
+    "ASC": {
+      "label": "Sáng tạo – hỗ trợ – quy trình",
+      "advice": "Kết quả ASC cho thấy bạn thích sáng tạo, giao tiếp, hỗ trợ người khác và vẫn có khả năng làm việc theo kế hoạch, quy trình. Bạn phù hợp với các ngành có yếu tố ngoại ngữ, công nghệ, nội dung số, chăm sóc khách hàng, văn phòng hoặc dịch vụ doanh nghiệp.",
+      "orientation": "• Nếu bạn thích sáng tạo trên máy tính, thiết kế, website, truyền thông số → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích giao tiếp, ngôn ngữ, văn hóa và môi trường doanh nghiệp → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích tư vấn, chăm sóc khách hàng, giao dịch → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích công việc văn phòng, hồ sơ, phần mềm → tham khảo Kế toán tin học hoặc Thư ký văn phòng.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ kỹ thuật môi trường",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Nông nghiệp công nghệ cao"
+      ]
+    },
+    "AER": {
+      "label": "Sáng tạo – Kinh doanh – Kỹ thuật",
+      "advice": "Kết quả AER cho thấy bạn có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế, đồng thời năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo và thích thực hành, máy móc, thiết bị và công việc cụ thể. Bạn phù hợp với các ngành có sự kết hợp giữa sáng tạo, kinh doanh, lãnh đạo và kỹ thuật, thực hành.",
+      "orientation": "• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích kế toán kết hợp phần mềm, dữ liệu và công nghệ → ưu tiên Kế toán tin học.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Kế toán tin học",
+        "Tài chính – Ngân hàng",
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Công nghệ thông tin"
+      ]
+    },
+    "AEI": {
+      "label": "Sáng tạo – Kinh doanh – Nghiên cứu",
+      "advice": "Kết quả AEI cho thấy bạn có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế, đồng thời năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo và có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề. Bạn phù hợp với các ngành có sự kết hợp giữa sáng tạo, kinh doanh, lãnh đạo và nghiên cứu, phân tích.",
+      "orientation": "• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích kế toán kết hợp phần mềm, dữ liệu và công nghệ → ưu tiên Kế toán tin học.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Kế toán tin học",
+        "Tài chính – Ngân hàng",
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Công nghệ thông tin"
+      ]
+    },
+    "AES": {
+      "label": "Sáng tạo – kinh doanh – hỗ trợ",
+      "advice": "Kết quả AES cho thấy bạn năng động, có khả năng sáng tạo, thích trình bày ý tưởng, quan tâm đến kinh doanh và có khả năng giao tiếp, hỗ trợ người khác. Bạn phù hợp với các ngành có môi trường doanh nghiệp, ngoại ngữ, nội dung số, tư vấn khách hàng hoặc kinh doanh dịch vụ.",
+      "orientation": "• Nếu bạn thích ngoại ngữ, giao tiếp, văn hóa, doanh nghiệp → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích sáng tạo nội dung số, website, hình ảnh, công nghệ → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích kinh doanh, tư vấn, chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích khởi nghiệp, bán hàng, điều hành nhóm nhỏ → tham khảo Quản trị doanh nghiệp nhỏ.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Kế toán tin học",
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Công nghệ kỹ thuật môi trường"
+      ]
+    },
+    "AEC": {
+      "label": "Sáng tạo – Kinh doanh – Tổ chức",
+      "advice": "Kết quả AEC cho thấy bạn có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế, đồng thời năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo và cẩn thận, thích sự rõ ràng, quy trình, hồ sơ và tính chính xác. Bạn phù hợp với các ngành có sự kết hợp giữa sáng tạo, kinh doanh, lãnh đạo và tổ chức, quy trình.",
+      "orientation": "• Nếu bạn thích kế toán kết hợp phần mềm, dữ liệu và công nghệ → ưu tiên Kế toán tin học.\n\n• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.\n\n• Nếu bạn muốn học kế toán theo hướng thực hành trong doanh nghiệp → ưu tiên Kế toán doanh nghiệp.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.",
+      "focus_majors": [
+        "Kế toán tin học",
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ thông tin"
+      ]
+    },
+    "ACR": {
+      "label": "Sáng tạo – Tổ chức – Kỹ thuật",
+      "advice": "Kết quả ACR cho thấy bạn có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế, đồng thời cẩn thận, thích sự rõ ràng, quy trình, hồ sơ và tính chính xác và thích thực hành, máy móc, thiết bị và công việc cụ thể. Bạn phù hợp với các ngành có sự kết hợp giữa sáng tạo, tổ chức, quy trình và kỹ thuật, thực hành.",
+      "orientation": "• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn muốn học CNTT theo hướng thực hành, website, đồ họa, mạng và hỗ trợ kỹ thuật → ưu tiên Tin học ứng dụng.\n\n• Nếu bạn thích nhà màng, cảm biến, tự động hóa và sản xuất nông nghiệp hiện đại → ưu tiên Nông nghiệp công nghệ cao.\n\n• Nếu bạn thích điện, điện tử, tự động hóa, PLC và bảo trì thiết bị → ưu tiên Công nghệ kỹ thuật điện, điện tử.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô",
+        "Điện công nghiệp và dân dụng"
+      ]
+    },
+    "ACI": {
+      "label": "Sáng tạo – quy trình – phân tích",
+      "advice": "Kết quả ACI cho thấy bạn có khả năng sáng tạo, nhưng vẫn thích sự rõ ràng, có tổ chức và biết phân tích vấn đề. Bạn phù hợp với các ngành kết hợp giữa công nghệ, dữ liệu, thiết kế, nội dung số hoặc công việc cẩn thận.",
+      "orientation": "• Nếu bạn thích thiết kế giao diện, website, đồ họa, nội dung số, AI → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích dữ liệu, phần mềm kế toán, công việc chính xác → ưu tiên Kế toán tin học hoặc Kế toán.\n\n• Nếu bạn thích ngôn ngữ, giao tiếp, biên phiên dịch cơ bản → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích phân tích, báo cáo, môi trường xanh → ưu tiên Công nghệ kỹ thuật môi trường.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô",
+        "Điện công nghiệp và dân dụng"
+      ]
+    },
+    "ACS": {
+      "label": "Sáng tạo – quy trình – hỗ trợ",
+      "advice": "Kết quả ACS cho thấy bạn có khả năng sáng tạo, thích tạo ý tưởng mới nhưng vẫn cần môi trường làm việc rõ ràng, có tổ chức và có yếu tố hỗ trợ người khác. Bạn phù hợp với các ngành kết hợp giữa công nghệ, nội dung số, ngoại ngữ, văn phòng, dữ liệu và dịch vụ khách hàng.",
+      "orientation": "• Nếu bạn thích thiết kế, website, nội dung số, AI, phần mềm → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích giao tiếp, ngoại ngữ, văn phòng, hỗ trợ khách hàng → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích dữ liệu, phần mềm nghiệp vụ, số liệu → ưu tiên Kế toán tin học.\n\n• Nếu bạn thích môi trường doanh nghiệp, tài chính, chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Kế toán tin học",
+        "Nông nghiệp công nghệ cao"
+      ]
+    },
+    "ACE": {
+      "label": "Sáng tạo – Tổ chức – Kinh doanh",
+      "advice": "Kết quả ACE cho thấy bạn có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế, đồng thời cẩn thận, thích sự rõ ràng, quy trình, hồ sơ và tính chính xác và năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo. Bạn phù hợp với các ngành có sự kết hợp giữa sáng tạo, tổ chức, quy trình và kinh doanh, lãnh đạo.",
+      "orientation": "• Nếu bạn thích kế toán kết hợp phần mềm, dữ liệu và công nghệ → ưu tiên Kế toán tin học.\n\n• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.\n\n• Nếu bạn muốn học kế toán theo hướng thực hành trong doanh nghiệp → ưu tiên Kế toán doanh nghiệp.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.",
+      "focus_majors": [
+        "Kế toán tin học",
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ thông tin"
+      ]
+    },
+    "SRI": {
+      "label": "Hỗ trợ – thực hành – phân tích",
+      "advice": "Kết quả SRI cho thấy bạn thích làm việc với con người, có tinh thần hỗ trợ, đồng thời yêu thích các hoạt động thực hành và khám phá cách mọi thứ vận hành. Bạn phù hợp với các ngành kỹ thuật ứng dụng, môi trường, nông nghiệp công nghệ cao hoặc ngoại ngữ phục vụ doanh nghiệp.",
+      "orientation": "• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích động cơ, sửa chữa, bảo dưỡng → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, điện tử và thiết bị công nghệ → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích sản xuất nông nghiệp hiện đại → ưu tiên Nông nghiệp công nghệ cao.\n\n• Nếu bạn thích phân tích dữ liệu và công nghệ → ưu tiên Công nghệ thông tin.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Nông nghiệp công nghệ cao",
+        "Trồng trọt và bảo vệ thực vật",
+        "Kỹ thuật cây cao su"
+      ]
+    },
+    "SRA": {
+      "label": "Xã hội – Kỹ thuật – Sáng tạo",
+      "advice": "Kết quả SRA cho thấy bạn thích giao tiếp, hỗ trợ người khác và làm việc với con người, đồng thời thích thực hành, máy móc, thiết bị và công việc cụ thể và có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế. Bạn phù hợp với các ngành có sự kết hợp giữa xã hội, hỗ trợ, kỹ thuật, thực hành và sáng tạo.",
+      "orientation": "• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ ô tô"
+      ]
+    },
+    "SRE": {
+      "label": "Xã hội – Kỹ thuật – Kinh doanh",
+      "advice": "Kết quả SRE cho thấy bạn thích giao tiếp, hỗ trợ người khác và làm việc với con người, đồng thời thích thực hành, máy móc, thiết bị và công việc cụ thể và năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo. Bạn phù hợp với các ngành có sự kết hợp giữa xã hội, hỗ trợ, kỹ thuật, thực hành và kinh doanh, lãnh đạo.",
+      "orientation": "• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ ô tô"
+      ]
+    },
+    "SRC": {
+      "label": "Hỗ trợ – thực hành – quy trình",
+      "advice": "Kết quả SRC cho thấy bạn thích hỗ trợ người khác, có xu hướng thực hành và làm việc theo quy trình. Bạn phù hợp với các ngành có môi trường thực tế, dịch vụ kỹ thuật, chăm sóc khách hàng hoặc hỗ trợ vận hành.",
+      "orientation": "• Nếu bạn thích giao tiếp, ngoại ngữ, chăm sóc khách hàng → ưu tiên Tiếng Trung Quốc hoặc Tài chính – Ngân hàng.\n\n• Nếu bạn thích máy móc, xe, thiết bị và sửa chữa → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, điện tử, lắp đặt, bảo trì → ưu tiên Công nghệ kỹ thuật điện, điện tử hoặc Điện công nghiệp và dân dụng.\n\n• Nếu bạn thích công việc ổn định, quy trình và số liệu → ưu tiên Kế toán.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Công nghệ kỹ thuật môi trường",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Tài chính – Ngân hàng",
+        "Công nghệ ô tô"
+      ]
+    },
+    "SIR": {
+      "label": "Hỗ trợ – phân tích – thực hành",
+      "advice": "Kết quả SIR cho thấy bạn có khả năng giao tiếp, hỗ trợ người khác, đồng thời có tư duy phân tích và thích trải nghiệm thực tế. Bạn phù hợp với các ngành vừa có yếu tố công nghệ, vừa cần làm việc với con người hoặc cộng đồng.",
+      "orientation": "• Nếu bạn thích giao tiếp, ngoại ngữ, môi trường doanh nghiệp → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích công nghệ, dữ liệu, phần mềm → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích môi trường và cộng đồng → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích máy móc, thiết bị và công việc thực hành → ưu tiên Công nghệ ô tô hoặc Công nghệ kỹ thuật điện, điện tử.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Công nghệ kỹ thuật môi trường",
+        "Công nghệ thông tin",
+        "Bảo vệ thực vật",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật điện, điện tử"
+      ]
+    },
+    "SIA": {
+      "label": "Xã hội – Nghiên cứu – Sáng tạo",
+      "advice": "Kết quả SIA cho thấy bạn thích giao tiếp, hỗ trợ người khác và làm việc với con người, đồng thời có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề và có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế. Bạn phù hợp với các ngành có sự kết hợp giữa xã hội, hỗ trợ, nghiên cứu, phân tích và sáng tạo.",
+      "orientation": "• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích nhà màng, cảm biến, tự động hóa và sản xuất nông nghiệp hiện đại → ưu tiên Nông nghiệp công nghệ cao.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Nông nghiệp công nghệ cao",
+        "Khoa học cây trồng",
+        "Trồng trọt"
+      ]
+    },
+    "SIE": {
+      "label": "Xã hội – Nghiên cứu – Kinh doanh",
+      "advice": "Kết quả SIE cho thấy bạn thích giao tiếp, hỗ trợ người khác và làm việc với con người, đồng thời có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề và năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo. Bạn phù hợp với các ngành có sự kết hợp giữa xã hội, hỗ trợ, nghiên cứu, phân tích và kinh doanh, lãnh đạo.",
+      "orientation": "• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích nhà màng, cảm biến, tự động hóa và sản xuất nông nghiệp hiện đại → ưu tiên Nông nghiệp công nghệ cao.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Công nghệ kỹ thuật môi trường",
+        "Tài chính – Ngân hàng",
+        "Nông nghiệp công nghệ cao",
+        "Khoa học cây trồng",
+        "Trồng trọt"
+      ]
+    },
+    "SIC": {
+      "label": "Hỗ trợ – phân tích – quy trình",
+      "advice": "Kết quả SIC cho thấy bạn thích giúp đỡ, giao tiếp, làm việc với con người, đồng thời có khả năng phân tích và thích sự rõ ràng, có tổ chức. Bạn phù hợp với các ngành kết hợp giữa giao tiếp, dữ liệu, công nghệ, ngoại ngữ hoặc hỗ trợ cộng đồng.",
+      "orientation": "• Nếu bạn thích giao tiếp, ngoại ngữ và môi trường doanh nghiệp → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích công nghệ, dữ liệu, hỗ trợ người dùng → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích phân tích, môi trường và hỗ trợ cộng đồng → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích tài chính, hồ sơ, chứng từ và quy trình → ưu tiên Tài chính – Ngân hàng hoặc Kế toán.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Công nghệ kỹ thuật môi trường",
+        "Nông nghiệp công nghệ cao",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô",
+        "Công nghệ kỹ thuật chế biến mủ cao su"
+      ]
+    },
+    "SAR": {
+      "label": "Xã hội – Sáng tạo – Kỹ thuật",
+      "advice": "Kết quả SAR cho thấy bạn thích giao tiếp, hỗ trợ người khác và làm việc với con người, đồng thời có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế và thích thực hành, máy móc, thiết bị và công việc cụ thể. Bạn phù hợp với các ngành có sự kết hợp giữa xã hội, hỗ trợ, sáng tạo và kỹ thuật, thực hành.",
+      "orientation": "• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Nông nghiệp công nghệ cao"
+      ]
+    },
+    "SAI": {
+      "label": "Xã hội – Sáng tạo – Nghiên cứu",
+      "advice": "Kết quả SAI cho thấy bạn thích giao tiếp, hỗ trợ người khác và làm việc với con người, đồng thời có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế và có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề. Bạn phù hợp với các ngành có sự kết hợp giữa xã hội, hỗ trợ, sáng tạo và nghiên cứu, phân tích.",
+      "orientation": "• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật môi trường",
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Nông nghiệp công nghệ cao"
+      ]
+    },
+    "SAE": {
+      "label": "Giao tiếp – sáng tạo – kinh doanh",
+      "advice": "Kết quả SAE cho thấy bạn năng động, thích giao tiếp, có khả năng sáng tạo và quan tâm đến kinh doanh. Bạn phù hợp với các ngành cần trình bày, ngoại ngữ, dịch vụ khách hàng, nội dung số, bán hàng hoặc môi trường doanh nghiệp.",
+      "orientation": "• Nếu bạn thích ngoại ngữ, giao tiếp, văn hóa và môi trường doanh nghiệp → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích tư vấn, kinh doanh, chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích thiết kế, nội dung số, website, công nghệ → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích bán hàng, quản lý cửa hàng, khởi nghiệp nhỏ → tham khảo Quản trị doanh nghiệp nhỏ.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ kỹ thuật môi trường",
+        "Kế toán",
+        "Kế toán tin học",
+        "Kế toán doanh nghiệp"
+      ]
+    },
+    "SAC": {
+      "label": "Hỗ trợ – sáng tạo – quy trình",
+      "advice": "Kết quả SAC cho thấy bạn thích giao tiếp, hỗ trợ người khác, có khả năng sáng tạo và vẫn phù hợp với môi trường làm việc có tổ chức.",
+      "orientation": "• Nếu bạn thích ngoại ngữ, giao tiếp, làm việc với doanh nghiệp → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích sáng tạo nội dung, website, hình ảnh, công nghệ → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích tư vấn, giao dịch, chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích công việc văn phòng, hồ sơ, phần mềm → tham khảo Kế toán tin học hoặc Thư ký văn phòng.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ kỹ thuật môi trường",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Nông nghiệp công nghệ cao"
+      ]
+    },
+    "SER": {
+      "label": "Xã hội – Kinh doanh – Kỹ thuật",
+      "advice": "Kết quả SER cho thấy bạn thích giao tiếp, hỗ trợ người khác và làm việc với con người, đồng thời năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo và thích thực hành, máy móc, thiết bị và công việc cụ thể. Bạn phù hợp với các ngành có sự kết hợp giữa xã hội, hỗ trợ, kinh doanh, lãnh đạo và kỹ thuật, thực hành.",
+      "orientation": "• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ kỹ thuật môi trường",
+        "Kế toán",
+        "Kế toán tin học",
+        "Kế toán doanh nghiệp"
+      ]
+    },
+    "SEI": {
+      "label": "Xã hội – Kinh doanh – Nghiên cứu",
+      "advice": "Kết quả SEI cho thấy bạn thích giao tiếp, hỗ trợ người khác và làm việc với con người, đồng thời năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo và có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề. Bạn phù hợp với các ngành có sự kết hợp giữa xã hội, hỗ trợ, kinh doanh, lãnh đạo và nghiên cứu, phân tích.",
+      "orientation": "• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ kỹ thuật môi trường",
+        "Kế toán",
+        "Kế toán tin học",
+        "Kế toán doanh nghiệp"
+      ]
+    },
+    "SEA": {
+      "label": "Giao tiếp – kinh doanh – sáng tạo",
+      "advice": "Kết quả SEA cho thấy bạn thích giao tiếp, thuyết phục, tổ chức hoạt động và có yếu tố sáng tạo. Bạn phù hợp với các ngành có nhiều tương tác với con người, môi trường doanh nghiệp, ngoại ngữ, dịch vụ khách hàng, kinh doanh hoặc nội dung số.",
+      "orientation": "• Nếu bạn thích ngôn ngữ, giao tiếp, làm việc với doanh nghiệp nước ngoài → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích tư vấn, giao dịch, tài chính và khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích sáng tạo trên nền tảng số, website, hình ảnh → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích kinh doanh, tổ chức, quản lý → tham khảo Quản trị doanh nghiệp nhỏ.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ kỹ thuật môi trường",
+        "Kế toán",
+        "Kế toán tin học",
+        "Kế toán doanh nghiệp"
+      ]
+    },
+    "SEC": {
+      "label": "Giao tiếp – kinh doanh – quy trình",
+      "advice": "Kết quả SEC cho thấy bạn có khả năng giao tiếp, thích làm việc với con người, có xu hướng kinh doanh, tổ chức và làm việc theo quy trình. Bạn phù hợp với các ngành có môi trường doanh nghiệp, dịch vụ khách hàng, tài chính, ngôn ngữ hoặc quản lý.",
+      "orientation": "• Nếu bạn thích giao dịch, tư vấn, chăm sóc khách hàng và tài chính → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích ngoại ngữ, doanh nghiệp Trung Quốc, giao tiếp văn phòng → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích số liệu, chứng từ, quy trình → ưu tiên Kế toán.\n\n• Nếu bạn thích kinh doanh nhỏ, quản lý cửa hàng, điều hành nhóm → tham khảo Quản trị doanh nghiệp nhỏ hoặc Giám đốc hợp tác xã.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Kế toán",
+        "Kế toán tin học",
+        "Kế toán doanh nghiệp",
+        "Công nghệ kỹ thuật môi trường"
+      ]
+    },
+    "SCR": {
+      "label": "Hỗ trợ – quy trình – thực hành",
+      "advice": "Kết quả SCR cho thấy bạn có khả năng giao tiếp, hỗ trợ người khác, thích công việc có quy trình rõ ràng và cũng không ngại thực hành. Đây là nhóm phù hợp với các ngành vừa làm việc với con người, vừa cần tính kỷ luật, thao tác thực tế hoặc môi trường doanh nghiệp.",
+      "orientation": "• Nếu bạn thích giao tiếp, ngoại ngữ, văn phòng và hỗ trợ khách hàng → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích số liệu, giao dịch, hồ sơ và môi trường doanh nghiệp → ưu tiên Tài chính – Ngân hàng hoặc Kế toán.\n\n• Nếu bạn thích thực hành, lắp đặt, sửa chữa, vận hành thiết bị → ưu tiên Công nghệ kỹ thuật điện, điện tử hoặc Công nghệ ô tô.\n\n• Nếu bạn thích làm việc thực tế với cây trồng, công nghệ, nhà màng, cảm biến → ưu tiên Nông nghiệp công nghệ cao.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ kỹ thuật môi trường",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật điện, điện tử"
+      ]
+    },
+    "SCI": {
+      "label": "Hỗ trợ – quy trình – phân tích",
+      "advice": "Kết quả SCI cho thấy bạn có khả năng giao tiếp, hỗ trợ người khác, thích làm việc có tổ chức và biết phân tích thông tin. Đây là nhóm phù hợp với các ngành có môi trường làm việc với con người, hồ sơ, dữ liệu, khách hàng hoặc cộng đồng.",
+      "orientation": "• Nếu bạn thích giao tiếp, ngoại ngữ, văn phòng và doanh nghiệp → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích chăm sóc khách hàng, giao dịch, tài chính → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích số liệu, chứng từ, quy trình ổn định → ưu tiên Kế toán hoặc Kế toán tin học.\n\n• Nếu bạn thích công nghệ, dữ liệu hoặc môi trường → ưu tiên Công nghệ thông tin hoặc Công nghệ kỹ thuật môi trường.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ kỹ thuật môi trường",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật điện, điện tử"
+      ]
+    },
+    "SCA": {
+      "label": "Hỗ trợ – quy trình – sáng tạo",
+      "advice": "Kết quả SCA cho thấy bạn có khả năng giao tiếp, thích hỗ trợ người khác, làm việc có trách nhiệm và có yếu tố sáng tạo. Bạn phù hợp với các ngành vừa cần làm việc với con người, vừa cần sự cẩn thận, tổ chức và khả năng trình bày.",
+      "orientation": "• Nếu bạn thích ngoại ngữ, giao tiếp và môi trường doanh nghiệp → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích giao dịch, tư vấn, chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích công nghệ, nội dung số, website → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích hồ sơ, số liệu, phần mềm văn phòng → ưu tiên Kế toán tin học, Kế toán hoặc Thư ký văn phòng.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ kỹ thuật môi trường",
+        "Kế toán",
+        "Kế toán tin học",
+        "Công nghệ thông tin"
+      ]
+    },
+    "SCE": {
+      "label": "Giao tiếp – quy trình – kinh doanh",
+      "advice": "Kết quả SCE cho thấy bạn thân thiện, thích hỗ trợ người khác, làm việc có tổ chức và có yếu tố kinh doanh. Bạn phù hợp với các ngành liên quan đến tài chính, dịch vụ, ngoại ngữ, chăm sóc khách hàng, văn phòng và quản lý.",
+      "orientation": "• Nếu bạn thích ngoại ngữ, giao tiếp, hỗ trợ khách hàng → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích giao dịch, tài chính, chăm sóc khách hàng doanh nghiệp → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích hồ sơ, chứng từ, công việc văn phòng → ưu tiên Kế toán hoặc Kế toán doanh nghiệp.\n\n• Nếu bạn thích tổ chức, điều hành, quản lý nhóm nhỏ → tham khảo Quản trị doanh nghiệp nhỏ.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Kế toán",
+        "Kế toán tin học",
+        "Kế toán doanh nghiệp",
+        "Công nghệ kỹ thuật môi trường"
+      ]
+    },
+    "ERI": {
+      "label": "Kinh doanh – kỹ thuật – phân tích",
+      "advice": "Kết quả ERI cho thấy bạn năng động, có tố chất kinh doanh, thích công nghệ và có khả năng phân tích vấn đề. Bạn phù hợp với các ngành kết hợp giữa kỹ thuật, công nghệ và quản lý.",
+      "orientation": "• Nếu bạn thích công nghệ, AI, phần mềm và khởi nghiệp → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích kỹ thuật ô tô hoặc xe điện → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện, điện tử, điều khiển → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích phân tích dữ liệu kinh doanh → ưu tiên Tài chính – Ngân hàng hoặc Kế toán tin học.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật hóa học",
+        "Khoa học cây trồng",
+        "Trồng trọt",
+        "Trồng trọt và bảo vệ thực vật",
+        "Bảo vệ thực vật",
+        "Kỹ thuật cây cao su"
+      ]
+    },
+    "ERA": {
+      "label": "Kinh doanh – Kỹ thuật – Sáng tạo",
+      "advice": "Kết quả ERA cho thấy bạn năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo, đồng thời thích thực hành, máy móc, thiết bị và công việc cụ thể và có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế. Bạn phù hợp với các ngành có sự kết hợp giữa kinh doanh, lãnh đạo, kỹ thuật, thực hành và sáng tạo.",
+      "orientation": "• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.\n\n• Nếu bạn muốn học kế toán theo hướng thực hành trong doanh nghiệp → ưu tiên Kế toán doanh nghiệp.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Kế toán tin học",
+        "Công nghệ thông tin"
+      ]
+    },
+    "ERS": {
+      "label": "Kinh doanh – Kỹ thuật – Xã hội",
+      "advice": "Kết quả ERS cho thấy bạn năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo, đồng thời thích thực hành, máy móc, thiết bị và công việc cụ thể và thích giao tiếp, hỗ trợ người khác và làm việc với con người. Bạn phù hợp với các ngành có sự kết hợp giữa kinh doanh, lãnh đạo, kỹ thuật, thực hành và xã hội, hỗ trợ.",
+      "orientation": "• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Công nghệ kỹ thuật môi trường",
+        "Tiếng Trung Quốc",
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Kế toán tin học"
+      ]
+    },
+    "ERC": {
+      "label": "Kinh doanh – kỹ thuật – quy trình",
+      "advice": "Kết quả ERC cho thấy bạn có tố chất kinh doanh, thích chủ động, giao tiếp và đạt kết quả, đồng thời yêu thích công nghệ, kỹ thuật và làm việc có tổ chức. Bạn phù hợp với các ngành vừa có yếu tố kỹ thuật, vừa có cơ hội phát triển quản lý, kinh doanh hoặc dịch vụ kỹ thuật.",
+      "orientation": "• Nếu bạn thích kinh doanh dịch vụ kỹ thuật ô tô → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích kỹ thuật điện, điện tử kết hợp quản lý hoặc kinh doanh thiết bị → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích công nghệ số, phần mềm, AI và khởi nghiệp → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích tài chính và vận hành doanh nghiệp → ưu tiên Tài chính – Ngân hàng hoặc Kế toán tin học.",
+      "focus_majors": [
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Kế toán tin học",
+        "Tiếng Trung Quốc",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng"
+      ]
+    },
+    "EIR": {
+      "label": "Kinh doanh – Nghiên cứu – Kỹ thuật",
+      "advice": "Kết quả EIR cho thấy bạn năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo, đồng thời có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề và thích thực hành, máy móc, thiết bị và công việc cụ thể. Bạn phù hợp với các ngành có sự kết hợp giữa kinh doanh, lãnh đạo, nghiên cứu, phân tích và kỹ thuật, thực hành.",
+      "orientation": "• Nếu bạn thích cây trồng, giống, canh tác và chuyển giao kỹ thuật nông nghiệp → ưu tiên Khoa học cây trồng.\n\n• Nếu bạn thích thực hành sản xuất cây trồng, chăm sóc và thu hoạch nông sản → ưu tiên Trồng trọt.\n\n• Nếu bạn thích cây trồng kết hợp phòng trừ sâu bệnh và bảo vệ mùa vụ → ưu tiên Trồng trọt và bảo vệ thực vật.\n\n• Nếu bạn thích tìm hiểu sâu bệnh, thuốc bảo vệ thực vật và kỹ thuật bảo vệ cây trồng → ưu tiên Bảo vệ thực vật.",
+      "focus_majors": [
+        "Khoa học cây trồng",
+        "Trồng trọt",
+        "Trồng trọt và bảo vệ thực vật",
+        "Bảo vệ thực vật",
+        "Kỹ thuật cây cao su",
+        "Công nghệ kỹ thuật hóa học"
+      ]
+    },
+    "EIA": {
+      "label": "Kinh doanh – Nghiên cứu – Sáng tạo",
+      "advice": "Kết quả EIA cho thấy bạn năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo, đồng thời có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề và có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế. Bạn phù hợp với các ngành có sự kết hợp giữa kinh doanh, lãnh đạo, nghiên cứu, phân tích và sáng tạo.",
+      "orientation": "• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.\n\n• Nếu bạn muốn học kế toán theo hướng thực hành trong doanh nghiệp → ưu tiên Kế toán doanh nghiệp.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Kế toán tin học",
+        "Công nghệ ô tô"
+      ]
+    },
+    "EIS": {
+      "label": "Kinh doanh – Nghiên cứu – Xã hội",
+      "advice": "Kết quả EIS cho thấy bạn năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo, đồng thời có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề và thích giao tiếp, hỗ trợ người khác và làm việc với con người. Bạn phù hợp với các ngành có sự kết hợp giữa kinh doanh, lãnh đạo, nghiên cứu, phân tích và xã hội, hỗ trợ.",
+      "orientation": "• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Công nghệ kỹ thuật môi trường",
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Kế toán tin học"
+      ]
+    },
+    "EIC": {
+      "label": "Kinh doanh – phân tích – quy trình",
+      "advice": "Kết quả EIC cho thấy bạn năng động, có xu hướng kinh doanh, thích phân tích vấn đề và vẫn có khả năng làm việc theo quy trình rõ ràng. Bạn phù hợp với các ngành kết hợp giữa tài chính, công nghệ, dữ liệu, kế toán và môi trường doanh nghiệp.",
+      "orientation": "• Nếu bạn thích tài chính, khách hàng, giao dịch và kinh doanh → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích dữ liệu, phần mềm, công nghệ, hệ thống → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích kế toán kết hợp công nghệ, báo cáo và phân tích số liệu → ưu tiên Kế toán tin học hoặc Kế toán.\n\n• Nếu bạn thích điều hành kinh doanh nhỏ → tham khảo Quản trị doanh nghiệp nhỏ.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Tài chính – Ngân hàng",
+        "Kế toán tin học",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật hóa học",
+        "Công nghệ kỹ thuật môi trường"
+      ]
+    },
+    "EAR": {
+      "label": "Kinh doanh – Sáng tạo – Kỹ thuật",
+      "advice": "Kết quả EAR cho thấy bạn năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo, đồng thời có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế và thích thực hành, máy móc, thiết bị và công việc cụ thể. Bạn phù hợp với các ngành có sự kết hợp giữa kinh doanh, lãnh đạo, sáng tạo và kỹ thuật, thực hành.",
+      "orientation": "• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.\n\n• Nếu bạn muốn học kế toán theo hướng thực hành trong doanh nghiệp → ưu tiên Kế toán doanh nghiệp.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Kế toán tin học",
+        "Công nghệ thông tin"
+      ]
+    },
+    "EAI": {
+      "label": "Kinh doanh – Sáng tạo – Nghiên cứu",
+      "advice": "Kết quả EAI cho thấy bạn năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo, đồng thời có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế và có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề. Bạn phù hợp với các ngành có sự kết hợp giữa kinh doanh, lãnh đạo, sáng tạo và nghiên cứu, phân tích.",
+      "orientation": "• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.\n\n• Nếu bạn muốn học kế toán theo hướng thực hành trong doanh nghiệp → ưu tiên Kế toán doanh nghiệp.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Kế toán tin học",
+        "Công nghệ thông tin"
+      ]
+    },
+    "EAS": {
+      "label": "Kinh doanh – sáng tạo – hỗ trợ",
+      "advice": "Kết quả EAS cho thấy bạn có xu hướng kinh doanh, thích thuyết phục, tổ chức hoạt động, đồng thời có khả năng sáng tạo và giao tiếp tốt. Bạn phù hợp với các ngành liên quan đến doanh nghiệp, tài chính, ngoại ngữ, nội dung số, quản lý nhỏ hoặc dịch vụ khách hàng.",
+      "orientation": "• Nếu bạn thích kinh doanh, giao dịch, tư vấn, khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp, doanh nghiệp nước ngoài → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích sáng tạo nội dung, website, công nghệ → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích điều hành, bán hàng, khởi nghiệp nhỏ → tham khảo Quản trị doanh nghiệp nhỏ.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Kế toán tin học",
+        "Công nghệ kỹ thuật môi trường"
+      ]
+    },
+    "EAC": {
+      "label": "Kinh doanh – Sáng tạo – Tổ chức",
+      "advice": "Kết quả EAC cho thấy bạn năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo, đồng thời có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế và cẩn thận, thích sự rõ ràng, quy trình, hồ sơ và tính chính xác. Bạn phù hợp với các ngành có sự kết hợp giữa kinh doanh, lãnh đạo, sáng tạo và tổ chức, quy trình.",
+      "orientation": "• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.\n\n• Nếu bạn muốn học kế toán theo hướng thực hành trong doanh nghiệp → ưu tiên Kế toán doanh nghiệp.\n\n• Nếu bạn thích kế toán kết hợp phần mềm, dữ liệu và công nghệ → ưu tiên Kế toán tin học.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.",
+      "focus_majors": [
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Kế toán tin học",
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Công nghệ thông tin"
+      ]
+    },
+    "ESR": {
+      "label": "Kinh doanh – Xã hội – Kỹ thuật",
+      "advice": "Kết quả ESR cho thấy bạn năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo, đồng thời thích giao tiếp, hỗ trợ người khác và làm việc với con người và thích thực hành, máy móc, thiết bị và công việc cụ thể. Bạn phù hợp với các ngành có sự kết hợp giữa kinh doanh, lãnh đạo, xã hội, hỗ trợ và kỹ thuật, thực hành.",
+      "orientation": "• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Công nghệ kỹ thuật môi trường",
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Kế toán tin học"
+      ]
+    },
+    "ESI": {
+      "label": "Kinh doanh – Xã hội – Nghiên cứu",
+      "advice": "Kết quả ESI cho thấy bạn năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo, đồng thời thích giao tiếp, hỗ trợ người khác và làm việc với con người và có tư duy phân tích, thích tìm hiểu nguyên lý, dữ liệu và giải quyết vấn đề. Bạn phù hợp với các ngành có sự kết hợp giữa kinh doanh, lãnh đạo, xã hội, hỗ trợ và nghiên cứu, phân tích.",
+      "orientation": "• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn quan tâm quan trắc, xử lý nước, chất thải và phát triển xanh → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Công nghệ kỹ thuật môi trường",
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Kế toán tin học"
+      ]
+    },
+    "ESA": {
+      "label": "Kinh doanh – hỗ trợ – sáng tạo",
+      "advice": "Kết quả ESA cho thấy bạn năng động, thích giao tiếp, hỗ trợ người khác, có khả năng thuyết phục và có yếu tố sáng tạo. Bạn phù hợp với các ngành có môi trường doanh nghiệp, tài chính, ngoại ngữ, dịch vụ khách hàng, truyền thông số hoặc quản lý kinh doanh nhỏ.",
+      "orientation": "• Nếu bạn thích tài chính, giao dịch, chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp, làm việc với doanh nghiệp → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích sáng tạo số, website, công cụ công nghệ → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích kinh doanh, quản lý cửa hàng, điều phối nhóm nhỏ → tham khảo Quản trị doanh nghiệp nhỏ.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Kế toán tin học",
+        "Công nghệ kỹ thuật môi trường"
+      ]
+    },
+    "ESC": {
+      "label": "Kinh doanh – hỗ trợ – quy trình",
+      "advice": "Kết quả ESC cho thấy bạn năng động, thích thuyết phục, giao tiếp, hỗ trợ người khác và làm việc có kế hoạch. Bạn phù hợp với các ngành có môi trường doanh nghiệp, dịch vụ, tài chính, ngoại ngữ, quản trị và công việc văn phòng.",
+      "orientation": "• Nếu bạn thích tư vấn, giao dịch, tài chính, chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp, văn hóa doanh nghiệp → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích số liệu, chứng từ, hồ sơ → ưu tiên Kế toán.\n\n• Nếu bạn thích quản lý, điều phối, kinh doanh nhỏ → tham khảo Quản trị doanh nghiệp nhỏ.",
+      "focus_majors": [
+        "Tiếng Trung Quốc",
+        "Tài chính – Ngân hàng",
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Kế toán tin học",
+        "Công nghệ kỹ thuật môi trường"
+      ]
+    },
+    "ECR": {
+      "label": "Kinh doanh – quy trình – kỹ thuật",
+      "advice": "Kết quả ECR cho thấy bạn thích kinh doanh, quản lý công việc, tổ chức hoạt động và vẫn có khả năng làm việc với công nghệ hoặc kỹ thuật. Bạn phù hợp với các ngành có môi trường doanh nghiệp, vận hành hệ thống, quản lý dịch vụ hoặc kinh doanh kỹ thuật.",
+      "orientation": "• Nếu bạn thích môi trường doanh nghiệp và giao dịch tài chính → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích quản lý số liệu và vận hành doanh nghiệp → ưu tiên Kế toán hoặc Kế toán tin học.\n\n• Nếu bạn thích công nghệ và hệ thống quản lý → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích kinh doanh gắn với sản phẩm kỹ thuật → ưu tiên Công nghệ ô tô hoặc Công nghệ kỹ thuật điện, điện tử.",
+      "focus_majors": [
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Kế toán tin học",
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Công nghệ thông tin"
+      ]
+    },
+    "ECI": {
+      "label": "Kinh doanh – quy trình – phân tích",
+      "advice": "Kết quả ECI cho thấy bạn có xu hướng kinh doanh, thích tổ chức công việc, quan tâm đến hiệu quả và có khả năng phân tích số liệu, dữ liệu hoặc thông tin. Bạn phù hợp với các ngành có môi trường doanh nghiệp, tài chính, ngân hàng, kế toán, công nghệ quản lý hoặc điều hành kinh doanh.",
+      "orientation": "• Nếu bạn thích kinh doanh, giao dịch, tài chính, chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích số liệu, báo cáo, quản lý tài chính → ưu tiên Kế toán hoặc Kế toán doanh nghiệp.\n\n• Nếu bạn thích phần mềm, dữ liệu và công nghệ trong doanh nghiệp → ưu tiên Kế toán tin học hoặc Công nghệ thông tin.\n\n• Nếu bạn thích điều hành, quản lý cửa hàng, kinh doanh nhỏ → tham khảo Quản trị doanh nghiệp nhỏ.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Công nghệ thông tin",
+        "Kế toán tin học",
+        "Kế toán",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật môi trường"
+      ]
+    },
+    "ECA": {
+      "label": "Kinh doanh – Tổ chức – Sáng tạo",
+      "advice": "Kết quả ECA cho thấy bạn năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo, đồng thời cẩn thận, thích sự rõ ràng, quy trình, hồ sơ và tính chính xác và có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế. Bạn phù hợp với các ngành có sự kết hợp giữa kinh doanh, lãnh đạo, tổ chức, quy trình và sáng tạo.",
+      "orientation": "• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.\n\n• Nếu bạn muốn học kế toán theo hướng thực hành trong doanh nghiệp → ưu tiên Kế toán doanh nghiệp.\n\n• Nếu bạn thích kế toán kết hợp phần mềm, dữ liệu và công nghệ → ưu tiên Kế toán tin học.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.",
+      "focus_majors": [
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Kế toán tin học",
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Công nghệ thông tin"
+      ]
+    },
+    "ECS": {
+      "label": "Kinh doanh – quy trình – hỗ trợ",
+      "advice": "Kết quả ECS cho thấy bạn có xu hướng tổ chức, kinh doanh, thích môi trường có mục tiêu rõ ràng, đồng thời có khả năng làm việc với người khác và tuân thủ quy trình. Bạn phù hợp với tài chính, ngân hàng, kế toán, quản trị doanh nghiệp nhỏ, văn phòng và dịch vụ khách hàng.",
+      "orientation": "• Nếu bạn thích kinh doanh, giao dịch, tài chính và khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích số liệu, quy trình, báo cáo → ưu tiên Kế toán hoặc Kế toán doanh nghiệp.\n\n• Nếu bạn thích điều hành, quản lý cơ sở nhỏ → tham khảo Quản trị doanh nghiệp nhỏ.\n\n• Nếu bạn thích ngoại ngữ, văn phòng, giao tiếp doanh nghiệp → ưu tiên Tiếng Trung Quốc hoặc Thư ký văn phòng.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Kế toán",
+        "Kế toán doanh nghiệp",
+        "Kế toán tin học",
+        "Công nghệ thông tin"
+      ]
+    },
+    "CRI": {
+      "label": "Cẩn thận – thực hành – phân tích",
+      "advice": "Kết quả CRI cho thấy bạn là người cẩn thận, thích làm theo quy trình, có xu hướng thực hành và biết phân tích vấn đề. Bạn phù hợp với các ngành kỹ thuật ứng dụng, công nghệ, bảo trì, vận hành, kiểm tra chất lượng hoặc dữ liệu.",
+      "orientation": "• Nếu bạn thích thực hành kỹ thuật, đấu nối, vận hành, bảo trì → ưu tiên Công nghệ kỹ thuật điện, điện tử hoặc Điện công nghiệp và dân dụng.\n\n• Nếu bạn thích xe, động cơ, sửa chữa, dịch vụ kỹ thuật → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện lạnh, điều hòa, tủ lạnh, dịch vụ sửa chữa → ưu tiên Kỹ thuật máy lạnh và điều hòa không khí.\n\n• Nếu bạn thích máy tính, dữ liệu, hệ thống → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn thích nông nghiệp hiện đại, công nghệ và quy trình sản xuất → ưu tiên Nông nghiệp công nghệ cao.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô",
+        "Điện công nghiệp và dân dụng",
+        "Kỹ thuật máy lạnh và điều hòa không khí",
+        "Công nghệ kỹ thuật chế biến mủ cao su",
+        "Nông nghiệp công nghệ cao"
+      ]
+    },
+    "CRA": {
+      "label": "Tổ chức – Kỹ thuật – Sáng tạo",
+      "advice": "Kết quả CRA cho thấy bạn cẩn thận, thích sự rõ ràng, quy trình, hồ sơ và tính chính xác, đồng thời thích thực hành, máy móc, thiết bị và công việc cụ thể và có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế. Bạn phù hợp với các ngành có sự kết hợp giữa tổ chức, quy trình, kỹ thuật, thực hành và sáng tạo.",
+      "orientation": "• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn muốn học CNTT theo hướng thực hành, website, đồ họa, mạng và hỗ trợ kỹ thuật → ưu tiên Tin học ứng dụng.\n\n• Nếu bạn thích điện, điện tử, tự động hóa, PLC và bảo trì thiết bị → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích xe, động cơ, sửa chữa và dịch vụ kỹ thuật → ưu tiên Công nghệ ô tô.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô",
+        "Điện công nghiệp và dân dụng",
+        "Công nghệ kỹ thuật chế biến mủ cao su"
+      ]
+    },
+    "CRS": {
+      "label": "Quy trình – thực hành – hỗ trợ",
+      "advice": "Kết quả CRS cho thấy bạn cẩn thận, thích công việc rõ quy trình, có khả năng thực hành và hỗ trợ người khác. Bạn phù hợp với các ngành kỹ thuật có yêu cầu an toàn, chính xác, bảo trì, vận hành hoặc dịch vụ kỹ thuật.",
+      "orientation": "• Nếu bạn thích điện, hệ thống, bảo trì, quy trình an toàn → ưu tiên Công nghệ kỹ thuật điện, điện tử hoặc Điện công nghiệp và dân dụng.\n\n• Nếu bạn thích ô tô, động cơ, dịch vụ kỹ thuật → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích điện lạnh, sửa chữa thiết bị gia dụng → ưu tiên Kỹ thuật máy lạnh và điều hòa không khí.\n\n• Nếu bạn thích sản xuất, nhà máy, quy trình cao su → ưu tiên Công nghệ sản xuất sản phẩm từ cao su.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô",
+        "Điện công nghiệp và dân dụng"
+      ]
+    },
+    "CRE": {
+      "label": "Tổ chức – Kỹ thuật – Kinh doanh",
+      "advice": "Kết quả CRE cho thấy bạn cẩn thận, thích sự rõ ràng, quy trình, hồ sơ và tính chính xác, đồng thời thích thực hành, máy móc, thiết bị và công việc cụ thể và năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo. Bạn phù hợp với các ngành có sự kết hợp giữa tổ chức, quy trình, kỹ thuật, thực hành và kinh doanh, lãnh đạo.",
+      "orientation": "• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.\n\n• Nếu bạn thích kế toán kết hợp phần mềm, dữ liệu và công nghệ → ưu tiên Kế toán tin học.\n\n• Nếu bạn muốn học kế toán theo hướng thực hành trong doanh nghiệp → ưu tiên Kế toán doanh nghiệp.\n\n• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.",
+      "focus_majors": [
+        "Kế toán",
+        "Kế toán tin học",
+        "Kế toán doanh nghiệp",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Tài chính – Ngân hàng"
+      ]
+    },
+    "CIR": {
+      "label": "Cẩn thận – phân tích – thực hành",
+      "advice": "Kết quả CIR cho thấy bạn có tính cẩn thận, thích phân tích, làm việc có quy trình và có khả năng tiếp cận công việc thực hành kỹ thuật. Đây là nhóm rất phù hợp với công nghệ, kỹ thuật, dữ liệu, hệ thống và các ngành cần độ chính xác cao.",
+      "orientation": "• Nếu bạn thích máy tính, dữ liệu, website, AI hoặc phần mềm → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích thiết bị điện, điện tử, tự động hóa, PLC → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích động cơ, xe, chẩn đoán, sửa chữa → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích công nghệ áp dụng vào sản xuất nông nghiệp, cảm biến, nhà màng → ưu tiên Nông nghiệp công nghệ cao.\n\n• Nếu bạn thích phân tích, quan trắc, xử lý nước, chất thải → ưu tiên Công nghệ kỹ thuật môi trường.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Công nghệ kỹ thuật hóa học",
+        "Công nghệ kỹ thuật môi trường",
+        "Kế toán tin học",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô"
+      ]
+    },
+    "CIA": {
+      "label": "Quy trình – phân tích – sáng tạo",
+      "advice": "Kết quả CIA cho thấy bạn có tính cẩn thận, thích sự chính xác, có khả năng phân tích và vẫn có yếu tố sáng tạo trong cách xử lý công việc. Bạn phù hợp với các ngành cần dữ liệu, công nghệ, phần mềm, chứng từ, báo cáo hoặc phân tích kỹ thuật.",
+      "orientation": "• Nếu bạn thích máy tính, dữ liệu, phần mềm, hệ thống → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích số liệu, chứng từ, phần mềm kế toán → ưu tiên Kế toán tin học hoặc Kế toán.\n\n• Nếu bạn thích phân tích, kiểm tra, môi trường, hóa học → ưu tiên Công nghệ kỹ thuật môi trường hoặc Công nghệ kỹ thuật hóa học.\n\n• Nếu bạn thích sáng tạo trên nền tảng số → ưu tiên Công nghệ thông tin theo hướng website, dữ liệu, ứng dụng.",
+      "focus_majors": [
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô",
+        "Điện công nghiệp và dân dụng",
+        "Công nghệ kỹ thuật chế biến mủ cao su",
+        "Công nghệ sản xuất sản phẩm từ cao su",
+        "Nông nghiệp công nghệ cao"
+      ]
+    },
+    "CIS": {
+      "label": "Cẩn thận – phân tích – hỗ trợ",
+      "advice": "Kết quả CIS cho thấy bạn nổi bật ở sự cẩn thận, khả năng phân tích và tinh thần hỗ trợ người khác. Bạn phù hợp với các ngành yêu cầu làm việc có quy trình, xử lý dữ liệu, hồ sơ, chứng từ hoặc thông tin khách hàng.",
+      "orientation": "• Nếu bạn thích làm việc với số liệu, chứng từ và báo cáo → ưu tiên Kế toán hoặc Kế toán doanh nghiệp.\n\n• Nếu bạn thích tài chính, giao dịch và môi trường doanh nghiệp → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích máy tính, phần mềm và dữ liệu → ưu tiên Công nghệ thông tin hoặc Kế toán tin học.\n\n• Nếu bạn thích giao tiếp, ngoại ngữ và hỗ trợ khách hàng → ưu tiên Tiếng Trung Quốc.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô",
+        "Điện công nghiệp và dân dụng",
+        "Công nghệ kỹ thuật chế biến mủ cao su",
+        "Công nghệ sản xuất sản phẩm từ cao su"
+      ]
+    },
+    "CIE": {
+      "label": "Quy trình – phân tích – kinh doanh",
+      "advice": "Kết quả CIE cho thấy bạn là người cẩn thận, thích làm việc có hệ thống, có khả năng phân tích và quan tâm đến hiệu quả công việc, kinh doanh hoặc tài chính. Bạn phù hợp với các ngành cần xử lý số liệu, dữ liệu, chứng từ, phần mềm và ra quyết định dựa trên thông tin.",
+      "orientation": "• Nếu bạn thích chứng từ, sổ sách, báo cáo, thuế → ưu tiên Kế toán hoặc Kế toán doanh nghiệp.\n\n• Nếu bạn thích kế toán kết hợp phần mềm, dữ liệu, công nghệ → ưu tiên Kế toán tin học.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích hệ thống thông tin, cơ sở dữ liệu, phần mềm quản lý → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Kế toán tin học",
+        "Công nghệ kỹ thuật hóa học",
+        "Công nghệ kỹ thuật môi trường",
+        "Tài chính – Ngân hàng",
+        "Kế toán"
+      ]
+    },
+    "CAR": {
+      "label": "Quy trình – sáng tạo – thực hành",
+      "advice": "Kết quả CAR cho thấy bạn là người cẩn thận, thích làm việc có tổ chức, đồng thời có khả năng sáng tạo và không ngại các công việc thực hành. Bạn phù hợp với các ngành kết hợp giữa quy trình, công nghệ, thiết kế, kỹ thuật ứng dụng hoặc sản xuất.",
+      "orientation": "• Nếu bạn thích máy tính, thiết kế website, dữ liệu, AI, nội dung số → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích thực hành kỹ thuật, lắp đặt, thiết bị điện, tự động hóa → ưu tiên Công nghệ kỹ thuật điện, điện tử.\n\n• Nếu bạn thích máy móc, động cơ, sửa chữa, công nghệ xe → ưu tiên Công nghệ ô tô.\n\n• Nếu bạn thích công nghệ áp dụng vào sản xuất, cây trồng, nhà màng, cảm biến → ưu tiên Nông nghiệp công nghệ cao.\n\n• Nếu bạn thích dữ liệu, phần mềm nghiệp vụ và công việc có quy trình → ưu tiên Kế toán tin học.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô",
+        "Điện công nghiệp và dân dụng",
+        "Công nghệ kỹ thuật chế biến mủ cao su"
+      ]
+    },
+    "CAI": {
+      "label": "Quy trình – sáng tạo – phân tích",
+      "advice": "Kết quả CAI cho thấy bạn là người cẩn thận, thích làm việc có tổ chức, đồng thời có khả năng sáng tạo và phân tích vấn đề. Bạn phù hợp với các ngành kết hợp giữa công nghệ, dữ liệu, thiết kế, nội dung số, kế toán hoặc môi trường.",
+      "orientation": "• Nếu bạn thích công nghệ, website, thiết kế giao diện, nội dung số → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.\n\n• Nếu bạn thích dữ liệu, phần mềm, số liệu và quy trình → ưu tiên Kế toán tin học hoặc Kế toán.\n\n• Nếu bạn thích phân tích, môi trường, báo cáo kỹ thuật → ưu tiên Công nghệ kỹ thuật môi trường.\n\n• Nếu bạn thích ngôn ngữ, giao tiếp và văn phòng → ưu tiên Tiếng Trung Quốc.",
+      "focus_majors": [
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô",
+        "Điện công nghiệp và dân dụng",
+        "Công nghệ kỹ thuật chế biến mủ cao su"
+      ]
+    },
+    "CAS": {
+      "label": "Cẩn thận – sáng tạo – giao tiếp",
+      "advice": "Kết quả CAS cho thấy bạn có tính cẩn thận, thích sự rõ ràng, đồng thời có yếu tố sáng tạo và khả năng giao tiếp. Bạn phù hợp với các ngành vừa cần sự chính xác, vừa có cơ hội trình bày, hỗ trợ, sử dụng công nghệ hoặc ngoại ngữ.",
+      "orientation": "• Nếu bạn thích môi trường doanh nghiệp, giao dịch và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích sự chính xác, chứng từ, số liệu và phần mềm kế toán → ưu tiên Kế toán hoặc Kế toán tin học.\n\n• Nếu bạn thích giao tiếp, ngôn ngữ, văn hóa và công việc văn phòng → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích thiết kế, website, nội dung số hoặc công nghệ → ưu tiên Công nghệ thông tin.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Kế toán",
+        "Kế toán tin học",
+        "Kế toán doanh nghiệp",
+        "Công nghệ thông tin"
+      ]
+    },
+    "CAE": {
+      "label": "Tổ chức – Sáng tạo – Kinh doanh",
+      "advice": "Kết quả CAE cho thấy bạn cẩn thận, thích sự rõ ràng, quy trình, hồ sơ và tính chính xác, đồng thời có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế và năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo. Bạn phù hợp với các ngành có sự kết hợp giữa tổ chức, quy trình, sáng tạo và kinh doanh, lãnh đạo.",
+      "orientation": "• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.\n\n• Nếu bạn thích kế toán kết hợp phần mềm, dữ liệu và công nghệ → ưu tiên Kế toán tin học.\n\n• Nếu bạn muốn học kế toán theo hướng thực hành trong doanh nghiệp → ưu tiên Kế toán doanh nghiệp.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.",
+      "focus_majors": [
+        "Kế toán",
+        "Kế toán tin học",
+        "Kế toán doanh nghiệp",
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Công nghệ thông tin"
+      ]
+    },
+    "CSR": {
+      "label": "Tổ chức – Xã hội – Kỹ thuật",
+      "advice": "Kết quả CSR cho thấy bạn cẩn thận, thích sự rõ ràng, quy trình, hồ sơ và tính chính xác, đồng thời thích giao tiếp, hỗ trợ người khác và làm việc với con người và thích thực hành, máy móc, thiết bị và công việc cụ thể. Bạn phù hợp với các ngành có sự kết hợp giữa tổ chức, quy trình, xã hội, hỗ trợ và kỹ thuật, thực hành.",
+      "orientation": "• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và doanh nghiệp có yếu tố Trung Quốc → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích máy tính, phần mềm, dữ liệu, website hoặc AI → ưu tiên Công nghệ thông tin.\n\n• Nếu bạn muốn học CNTT theo hướng thực hành, website, đồ họa, mạng và hỗ trợ kỹ thuật → ưu tiên Tin học ứng dụng.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô"
+      ]
+    },
+    "CSI": {
+      "label": "Cẩn thận – hỗ trợ – phân tích",
+      "advice": "Kết quả CSI cho thấy bạn là người cẩn thận, có trách nhiệm, thích làm việc với dữ liệu và quy trình rõ ràng, đồng thời có khả năng giao tiếp, hỗ trợ người khác và phân tích thông tin.",
+      "orientation": "• Nếu bạn thích số liệu, giao dịch, tài chính và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích chứng từ, sổ sách, công việc chính xác và ổn định → ưu tiên Kế toán, Kế toán doanh nghiệp hoặc Kế toán tin học.\n\n• Nếu bạn thích ngoại ngữ và làm việc trong doanh nghiệp → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích công nghệ, dữ liệu, phần mềm → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Công nghệ thông tin",
+        "Tin học ứng dụng",
+        "Công nghệ kỹ thuật điện, điện tử",
+        "Công nghệ ô tô"
+      ]
+    },
+    "CSA": {
+      "label": "Cẩn thận – hỗ trợ – sáng tạo",
+      "advice": "Kết quả CSA cho thấy bạn là người có trách nhiệm, thích làm việc có tổ chức, có khả năng giao tiếp, hỗ trợ người khác và có yếu tố sáng tạo.",
+      "orientation": "• Nếu bạn thích giao tiếp, ngoại ngữ và hỗ trợ người khác → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích tài chính, giao dịch, chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích công việc cẩn thận, số liệu, chứng từ → ưu tiên Kế toán hoặc Kế toán tin học.\n\n• Nếu bạn thích công nghệ, thiết kế website, nội dung số → ưu tiên Công nghệ thông tin.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Kế toán",
+        "Kế toán tin học",
+        "Kế toán doanh nghiệp",
+        "Công nghệ thông tin"
+      ]
+    },
+    "CSE": {
+      "label": "Quy trình – hỗ trợ – kinh doanh",
+      "advice": "Kết quả CSE cho thấy bạn có tính cẩn thận, thích làm việc theo kế hoạch, biết giao tiếp và có tố chất kinh doanh. Bạn phù hợp với các ngành có môi trường doanh nghiệp, tài chính, kế toán, dịch vụ khách hàng, hành chính văn phòng và ngoại ngữ.",
+      "orientation": "• Nếu bạn thích môi trường doanh nghiệp, giao dịch và khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích chứng từ, số liệu, kế hoạch và báo cáo → ưu tiên Kế toán hoặc Kế toán doanh nghiệp.\n\n• Nếu bạn thích ngoại ngữ, giao tiếp và văn hóa doanh nghiệp → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích công việc văn phòng, hồ sơ, lịch làm việc → tham khảo Thư ký văn phòng.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Kế toán",
+        "Kế toán tin học",
+        "Kế toán doanh nghiệp",
+        "Công nghệ thông tin"
+      ]
+    },
+    "CER": {
+      "label": "Tổ chức – Kinh doanh – Kỹ thuật",
+      "advice": "Kết quả CER cho thấy bạn cẩn thận, thích sự rõ ràng, quy trình, hồ sơ và tính chính xác, đồng thời năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo và thích thực hành, máy móc, thiết bị và công việc cụ thể. Bạn phù hợp với các ngành có sự kết hợp giữa tổ chức, quy trình, kinh doanh, lãnh đạo và kỹ thuật, thực hành.",
+      "orientation": "• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.\n\n• Nếu bạn thích kế toán kết hợp phần mềm, dữ liệu và công nghệ → ưu tiên Kế toán tin học.\n\n• Nếu bạn muốn học kế toán theo hướng thực hành trong doanh nghiệp → ưu tiên Kế toán doanh nghiệp.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.",
+      "focus_majors": [
+        "Kế toán",
+        "Kế toán tin học",
+        "Kế toán doanh nghiệp",
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Công nghệ thông tin"
+      ]
+    },
+    "CEI": {
+      "label": "Quy trình – kinh doanh – phân tích",
+      "advice": "Kết quả CEI cho thấy bạn là người cẩn thận, thích công việc có kế hoạch, có xu hướng kinh doanh và biết phân tích thông tin. Bạn phù hợp với các ngành tài chính, kế toán, ngân hàng, quản lý dữ liệu, phần mềm nghiệp vụ và công nghệ ứng dụng trong doanh nghiệp.",
+      "orientation": "• Nếu bạn thích môi trường doanh nghiệp, giao dịch, tài chính, khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích số liệu, chứng từ, báo cáo, thuế → ưu tiên Kế toán hoặc Kế toán doanh nghiệp.\n\n• Nếu bạn thích kế toán kết hợp công nghệ, phần mềm, dữ liệu → ưu tiên Kế toán tin học.\n\n• Nếu bạn thích hệ thống thông tin, phần mềm quản lý, dữ liệu doanh nghiệp → ưu tiên Công nghệ thông tin hoặc Tin học ứng dụng.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Kế toán tin học",
+        "Công nghệ thông tin",
+        "Kế toán",
+        "Công nghệ kỹ thuật hóa học",
+        "Công nghệ kỹ thuật môi trường"
+      ]
+    },
+    "CEA": {
+      "label": "Tổ chức – Kinh doanh – Sáng tạo",
+      "advice": "Kết quả CEA cho thấy bạn cẩn thận, thích sự rõ ràng, quy trình, hồ sơ và tính chính xác, đồng thời năng động, có xu hướng kinh doanh, thuyết phục, tổ chức hoặc lãnh đạo và có khả năng sáng tạo, thích ý tưởng mới, trình bày và thiết kế. Bạn phù hợp với các ngành có sự kết hợp giữa tổ chức, quy trình, kinh doanh, lãnh đạo và sáng tạo.",
+      "orientation": "• Nếu bạn thích số liệu, chứng từ, báo cáo và công việc chính xác → ưu tiên Kế toán.\n\n• Nếu bạn thích kế toán kết hợp phần mềm, dữ liệu và công nghệ → ưu tiên Kế toán tin học.\n\n• Nếu bạn muốn học kế toán theo hướng thực hành trong doanh nghiệp → ưu tiên Kế toán doanh nghiệp.\n\n• Nếu bạn thích tài chính, giao dịch, phân tích số liệu và chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.",
+      "focus_majors": [
+        "Kế toán",
+        "Kế toán tin học",
+        "Kế toán doanh nghiệp",
+        "Tài chính – Ngân hàng",
+        "Tiếng Trung Quốc",
+        "Công nghệ thông tin"
+      ]
+    },
+    "CES": {
+      "label": "Quy trình – kinh doanh – hỗ trợ",
+      "advice": "Kết quả CES cho thấy bạn cẩn thận, thích công việc có tổ chức, có yếu tố kinh doanh và khả năng giao tiếp. Bạn phù hợp với nhóm tài chính, kế toán, ngân hàng, văn phòng, dịch vụ khách hàng và quản lý doanh nghiệp nhỏ.",
+      "orientation": "• Nếu bạn thích tài chính, giao dịch, chăm sóc khách hàng → ưu tiên Tài chính – Ngân hàng.\n\n• Nếu bạn thích số liệu, chứng từ, báo cáo, thuế → ưu tiên Kế toán, Kế toán doanh nghiệp hoặc Kế toán tin học.\n\n• Nếu bạn thích ngoại ngữ và doanh nghiệp → ưu tiên Tiếng Trung Quốc.\n\n• Nếu bạn thích quản lý kinh doanh nhỏ → tham khảo Quản trị doanh nghiệp nhỏ.",
+      "focus_majors": [
+        "Tài chính – Ngân hàng",
+        "Kế toán",
+        "Kế toán tin học",
+        "Kế toán doanh nghiệp",
+        "Tiếng Trung Quốc",
+        "Công nghệ thông tin"
+      ]
+    },
+    "DEFAULT": {
+      "label": "Hồ sơ RIASEC tổng hợp",
+      "advice": "Kết quả RIASEC của bạn cho thấy có một số nhóm sở thích nổi bật. Bạn nên xem các ngành dài hạn được hệ thống gợi ý trước, sau đó tham khảo thêm các nghề sơ cấp hoặc khóa ngắn hạn nếu muốn học thêm kỹ năng phụ.",
+      "orientation": "• Hãy chọn theo hướng bạn yêu thích nhất: thích công nghệ thì xem Công nghệ thông tin; thích kỹ thuật thực hành thì xem Điện, Ô tô, Máy lạnh; thích số liệu thì xem Kế toán, Tài chính – Ngân hàng; thích giao tiếp, ngoại ngữ thì xem Tiếng Trung Quốc; thích cây trồng, nông nghiệp thì xem Nông nghiệp công nghệ cao hoặc Khoa học cây trồng.",
+      "focus_majors": []
+    }
+  }
+}

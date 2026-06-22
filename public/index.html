@@ -33,15 +33,16 @@
 
       <!-- Trắc nghiệm RIASEC mini -->
       <div id="riasecQuiz" class="riasec hidden">
-        <h3>🎯 Trắc nghiệm RIASEC – Khám phá nhóm nghề phù hợp</h3>
-        <p>Chọn những mô tả đúng với bạn nhất (mỗi nhóm 2–3 lựa chọn).</p>
-
+        <div class="riasec-header">
+          <h3>🎯 Trắc nghiệm RIASEC – Khám phá nhóm nghề phù hợp</h3>
+          <button id="closeRiasec" class="riasec-close" type="button">✕</button>
+        </div>
+        <p class="riasec-intro">
+          Hãy chọn mức độ phù hợp với sở thích của bạn.
+          Kết quả giúp định hướng ngành nghề phù hợp tại Trường Cao đẳng Miền Đông.
+        </p>
         <div id="riasecQuestions"></div>
-
-        <button id="submitRiasec" class="btn primary">Xem kết quả</button>
-        <button id="closeRiasec" class="btn">Đóng</button>
       </div>
-
 
       <!-- Danh sách tin nhắn -->
       <ul id="messages" class="messages"></ul>
@@ -55,8 +56,11 @@
       <div id="composer" class="composer">
         <!-- <textarea id="input" rows="2" placeholder="Hãy hỏi bất kỳ điều gì về tuyển sinh..."></textarea> -->
         <input id="input" type="text" placeholder="Hãy hỏi bất kỳ điều gì về tuyển sinh..." />
-        <button id="send" type="button" title="Gửi">Gửi</button>
-        <button id="clear" type="button" title="Cuộc trò chuyện mới">🔄</button>
+        <!-- <button id="send" type="button" title="Gửi">Gửi</button>
+        <button id="clear" type="button" title="Cuộc trò chuyện mới">🔄</button> -->
+        <button id="voiceBtn" type="button" title="Nhập bằng giọng nói" aria-label="Nhập bằng giọng nói">🎤</button>
+        <button id="send" type="button" title="Gửi câu hỏi" aria-label="Gửi câu hỏi">🡅</button>
+        <button id="clear" type="button" title="Cuộc trò chuyện mới" aria-label="Cuộc trò chuyện mới">⟲</button>
       </div>
 
       <!-- Nút gợi ý nhanh (sẽ được JS tự động lấp đầy nếu trống) -->
@@ -68,9 +72,10 @@
     <aside id="sidebar" class="sidebar">
       <div class="card">
         <h3>Hướng dẫn đặt câu hỏi</h3>
-        <p>Hãy nhập từ khóa, đặt câu hỏi theo cách tự nhiên như:<em>"Ngành trồng trọt học gì?", "Thích môn toán chọn
-            ngành gì", "Học phí bao nhiêu?", "Có
-            ký túc xá không?", "Học xong có dễ xin việc không?"</em>... hoặc chọn các nút gợi ý bên dưới khung chat để
+        <p>Hãy làm trắc nghiệm để tham khảo chọn nghề phù hợp hoặc nhập từ khóa, đặt câu hỏi theo cách tự nhiên
+          như:<em>"Ngành trồng trọt học gì?", "Thích môn toán chọn
+            ngành gì", "Học phí bao nhiêu?", "Có ký túc xá không?", "Học xong có dễ xin việc không?"</em>... hoặc chọn
+          các nút gợi ý bên dưới khung chat để
           được tư vấn nhanh.
         </p>
       </div>
@@ -92,10 +97,9 @@
         </ul>
 
         <a class="register-btn" href="https://tuyensinh.cdmd.edu.vn/" target="_blank" rel="noopener">
-          📝Đăng ký ngay
+          📝 Đăng ký ngay
         </a>
       </div>
-
     </aside>
   </main>
 
