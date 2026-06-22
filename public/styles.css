@@ -347,8 +347,10 @@ body {
     max-width: 1100px;
     margin: 8px auto 24px;
     text-align: center;
-    opacity: .75;
-    color: #2754a5;
+    /* opacity: .75; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #00843D;
 }
 
 /* Utilities */
@@ -1095,8 +1097,9 @@ html::-webkit-scrollbar-thumb:hover {
         content: "Nâng tầm kỹ năng, kiến tạo giá trị";
         font-size: 14px;
         font-weight: 700;
-        font-style: italic;
-        color: #5b7fb8;
+        color: #00843D;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
     }
 }
 
@@ -1982,21 +1985,21 @@ html::-webkit-scrollbar-thumb:hover {
 }
 
 @media (max-width: 640px) {
+
     .call-float {
         left: auto !important;
-        right: 16px !important;
-        top: 14px !important;
-        bottom: auto !important;
-
-        width: 44px;
-        height: 44px;
-        font-size: 22px;
+        right: 12px !important;
+        top: 6px !important;
+        width: 42px;
+        height: 42px;
+        font-size: 20px;
         z-index: 10000;
     }
 
     #backToTop {
         display: none !important;
     }
+
 }
 
 .major-riasec {
@@ -2050,4 +2053,52 @@ html::-webkit-scrollbar-thumb:hover {
         max-height: none;
         overflow-y: visible;
     }
+}
+
+@media (max-width: 640px) {
+
+    .brand-bar {
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+        margin-top: 0;
+        border-radius: 0 0 10px 10px;
+    }
+
+}
+
+.composer button#send {
+    font-size: 17px !important;
+    font-weight: 900 !important;
+}
+
+.composer button#clear {
+    font-size: 20px !important;
+    font-weight: 900 !important;
+}
+
+/* Giảm khoảng trắng cuối trang */
+@media (max-width:640px) {
+
+    .messages {
+        min-height: auto !important;
+        max-height: none !important;
+        overflow-y: visible !important;
+    }
+
+    .chat {
+        min-height: auto !important;
+        padding-bottom: 0 !important;
+    }
+
+    .footer {
+        margin-bottom: 15px !important;
+    }
+
+}
+
+.welcome-message {
+    color: #00843D !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
 }

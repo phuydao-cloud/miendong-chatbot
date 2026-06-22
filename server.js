@@ -582,7 +582,7 @@ app.post('/api/message', requireSecret, async (req, res) => {
       'holland',
       'riasec',
       'mã của tôi',
-      'mã của em'
+      'mã của bạn'
     ];
 
     const useRiasec =

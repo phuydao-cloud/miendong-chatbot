@@ -60,9 +60,9 @@
     '💰Học phí',
     '🏠Ký túc xá',
     '💼Việc làm',
+    '📝Hồ sơ đăng ký',
     '🛠️Ngắn hạn',
     '🚗Học lái xe',
-    '📝Hồ sơ đăng ký',
     '📞Liên hệ'
   ];
   function ensureSuggestions() {
@@ -544,14 +544,14 @@ Tôi sẽ tư vấn ngành phù hợp nhất với kết quả ${data.code || ''
 
     if (sendBtn) {
       sendBtn.disabled = false;
-      sendBtn.textContent = sending ? '⏹' : '🡅';
+      sendBtn.textContent = sending ? '■' : '▲';
       sendBtn.title = sending ? 'Dừng phản hồi' : 'Gửi câu hỏi';
       sendBtn.setAttribute('aria-label', sending ? 'Dừng phản hồi' : 'Gửi câu hỏi');
       sendBtn.classList.toggle('is-stop', sending);
     }
 
     if (clearBtn) {
-      clearBtn.textContent = '⟲';
+      clearBtn.textContent = '↻';
       clearBtn.title = 'Cuộc trò chuyện mới';
       clearBtn.setAttribute('aria-label', 'Cuộc trò chuyện mới');
     }
@@ -704,7 +704,8 @@ Tôi sẽ tư vấn ngành phù hợp nhất với kết quả ${data.code || ''
   if (clearBtn) {
     clearBtn.addEventListener('click', () => {
       clearHistory(); if (suggestionsEl) suggestionsEl.classList.remove('hidden'); if (catalogEl) catalogEl.classList.add('hidden');
-      addMessage('assistant', 'Xin chào! Tôi là **Tư vấn viên AI, Trường Cao đẳng Miền Đông**. Bạn cần tư vấn về *ngành học*, *học phí*, *ký túc xá*, *điều kiện học tập*, *cơ hội việc làm* hay *trắc nghiệm chọn ngành phù hợp?*', true);
+      addMessage('assistant', '<div class="welcome-message">Xin chào! Tôi là <b>Tư vấn viên AI của Trường Cao đẳng Miền Đông</b>. Bạn cần tư vấn về <i>ngành học</i>, <i>học phí</i>, <i>ký túc xá</i>, <i>điều kiện học tập</i>, <i>cơ hội việc làm</i> hay <i>trắc nghiệm chọn ngành phù hợp?</i></div>',
+        true);
     });
   }
 
@@ -750,15 +751,15 @@ Tôi sẽ tư vấn ngành phù hợp nhất với kết quả ${data.code || ''
   });
 
   // Ẩn/hiện thanh brand-bar khi cuộn trên mobile
-  const brandBar = document.querySelector('.brand-bar');
+  // const brandBar = document.querySelector('.brand-bar');
 
-  if (brandBar) {
-    window.addEventListener('scroll', () => {
-      if (window.innerWidth <= 640 && window.scrollY > 80) {
-        brandBar.classList.add('brand-hide');
-      } else {
-        brandBar.classList.remove('brand-hide');
-      }
-    });
-  }
+  // if (brandBar) {
+  //   window.addEventListener('scroll', () => {
+  //     if (window.innerWidth <= 640 && window.scrollY > 80) {
+  //       brandBar.classList.add('brand-hide');
+  //     } else {
+  //       brandBar.classList.remove('brand-hide');
+  //     }
+  //   });
+  // }
 })();
